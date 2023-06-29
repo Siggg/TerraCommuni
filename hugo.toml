@@ -1,4 +1,4 @@
-baseurl = "https://siggg.github.io/"
+baseurl = "https://siggg.github.io/TerraCommuni"
 languageCode = "en-us"
 title = "Welcome to TerraCommuni"
 theme = "hugo-split-gallery"
