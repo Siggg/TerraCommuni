@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to TerraCommuni</title>
+    <link>https://siggg.github.io/</link>
+    <description>Recent content on Welcome to TerraCommuni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Jean Millerat, Agence Française de Développement</copyright><atom:link href="https://siggg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://siggg.github.io/about/</link>
+      <pubDate>Wed, 28 Jun 2023 16:33:11 +0200</pubDate>
+      
+      <guid>https://siggg.github.io/about/</guid>
+      <description>This is a test page 001</description>
+    </item>
+    
+  </channel>
+</rss>
