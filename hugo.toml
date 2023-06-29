@@ -5,7 +5,7 @@ theme = "hugo-theme-jane"
 # theme = "hugo-split-gallery"
 paginate = 3
 Copyright = "© Jean Millerat, Agence Française de Développement"
-canonifyurls = true
+# canonifyurls = true
 # enableGitInfo = true
 
 languageCode = "en-us"
@@ -21,45 +21,24 @@ defaultContentLanguage = "en"
     languageCode = "fr"
     languageName = "Français"
     weight = 2
-  [[languages.fr.menu.main]]
-    url    = "https://siggg.github.io/TerraCommuni/fr/guide/"
-    name   = "Règles du jeu"
-    weight = 0
-  [[languages.fr.menu.main]]
-    url    = "https://siggg.github.io/TerraCommuni/fr/about/"
-    name   = "A propos (en anglais)"
-    weight = 1
-  [[languages.fr.menu.main]]
-    url    = "https://siggg.github.io/TerraCommuni/fr/contribute/"
-    name   = "Contribuer (en anglais)"
-    weight = 2
+#  [[languages.fr.menu.main]]
+#    url    = "https://siggg.github.io/TerraCommuni/fr/guide/"
+#    name   = "Règles du jeu"
+#    weight = 0
+#  [[languages.fr.menu.main]]
+#    url    = "https://siggg.github.io/TerraCommuni/fr/about/"
+#    name   = "A propos (en anglais)"
+#    weight = 1
+#  [[languages.fr.menu.main]]
+#    url    = "https://siggg.github.io/TerraCommuni/fr/contribute/"
+#    name   = "Contribuer (en anglais)"
+#    weight = 2
 
 [author]                  # essential
   name = "Jean Millerat"
 
-[[menu.main]]  # here are the buttons on the menu
-  name = "Home" # Button will display as "Home"
-  weight = 100 # the weight decides the position of the button (higher or lower)
-  identifier = "home"
-  pre = "<br />"
-  url = "/"
-
-[[menu.main]]
-  name = "Contact"
-  weight = 0
-  identifier = "contact" # this button will refer to a markdown file named "contact" in the content folder
-  pre = "<br />"
-  url = "/contact"
-
-[[menu.main]]
-  name = "Blog"
-  identifier = "blog" # this page will refer to a markdown file named "blog" in the content folder
-  pre = "<br />"
-  url = "/post"
-  weight = 40
-
 [permalinks]
-# post = "/:slug/"​
+  post = "/:slug/"
 
 [sitemap]                 # essential     
   changefreq = "weekly"
@@ -77,7 +56,7 @@ defaultContentLanguage = "en"
   email = "your email"
   # instagramName = "your ins name"
   hideHUGOSupport = false
-  since = "2018"            # Site creation time     
+  since = "2023"            # Site creation time     
   homeFullContent = true   # if false, show post summaries on home page. Othewise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
   showMenuLanguageChooser = true
