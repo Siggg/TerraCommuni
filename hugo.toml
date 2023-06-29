@@ -1,11 +1,11 @@
-baseurl = "https://siggg.github.io/TerraCommuni"
+baseURL = "https://siggg.github.io/TerraCommuni/"
+canonifyurls = true
 publishDir = "docs"
 title = "Welcome to TerraCommuni"
 theme = "hugo-theme-jane"
 # theme = "hugo-split-gallery"
 paginate = 3
 Copyright = "© Jean Millerat, Agence Française de Développement"
-# canonifyurls = true
 # enableGitInfo = true
 
 languageCode = "en-us"
