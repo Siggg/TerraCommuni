@@ -24,24 +24,24 @@ name = "Home" # Button will display as "Home"
 weight = 100 # the weight decides the position of the button (higher or lower)
 identifier = "home"
 pre = "<br />"
-url = "/TerraCommuni/"
+url = "/"
 
 [[menu.main]]
 name = "Contact"
 weight = 0
 identifier = "contact" # this button will refer to a markdown file named "contact" in the content folder
 pre = "<br />"
-url = "/TerraCommuni/contact"
+url = "/contact"
 
 [[menu.main]]
 name = "Blog"
 identifier = "blog" # this page will refer to a markdown file named "blog" in the content folder
 pre = "<br />"
-url = "/TerraCommuni/post"
+url = "/post"
 weight = 40
 
 [permalinks]
-# post = "/TerraCommuni/:slug/"​
+# post = "/:slug/"​
 
 [sitemap]
 ChangeFreq = ""
