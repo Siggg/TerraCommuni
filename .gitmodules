@@ -1,3 +1,6 @@
-[submodule "themes/hugo-split-gallery"]
-	path = themes/hugo-split-gallery
-	url = https://gitlab.com/tmuguet/hugo-split-gallery.git
+[submodule "theme/hugo-theme-jane"]
+	path = theme/hugo-theme-jane
+	url = https://github.com/Siggg/terracommuni-hugo-theme-jane.git
+[submodule "themes/hugo-theme-jane"]
+	path = themes/hugo-theme-jane
+	url = https://github.com/Siggg/terracommuni-hugo-theme-jane.git
