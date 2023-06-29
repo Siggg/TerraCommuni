@@ -1,0 +1,3 @@
+[submodule "themes/hugo-split-gallery"]
+	path = themes/hugo-split-gallery
+	url = https://gitlab.com/tmuguet/hugo-split-gallery.git
