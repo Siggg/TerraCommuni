@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://siggg.github.io/TerraCommuni/fr/guide-du-protocole/</loc>
+    <lastmod>2023-06-29T22:37:55+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://siggg.github.io/TerraCommuni/fr/post/</loc>
+    <lastmod>2023-06-29T22:37:55+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://siggg.github.io/TerraCommuni/fr/</loc>
+    <lastmod>2023-06-29T22:37:55+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://siggg.github.io/TerraCommuni/fr/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -9,12 +30,6 @@
   
   <url>
     <loc>https://siggg.github.io/TerraCommuni/fr/tags/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://siggg.github.io/TerraCommuni/fr/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

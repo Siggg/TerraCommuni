@@ -1,10 +1,10 @@
 ---
-title: "Guide"
+title: "Protocol guide"
 date: 2023-06-29T22:37:52+02:00
 lastmod: 2023-06-29T22:37:52+02:00
 # draft: true
 keywords: []
-description: ""
+description: "version 0.3 EN"
 tags: []
 categories: []
 author: ""
@@ -28,13 +28,7 @@ menu:
     weight: 1
 ---
 
-TerraCommuni protocol guide
-
-version 0.3 EN
-
-
-Introduction
-============
+## Introduction
 
 The aim of the TerraCommuni protocol is to enable anyone on the planet, even without an Internet connection, to prove that they wished, at a specific time and place, to be sent digital messages to the messaging ID of their choice. Put another way, the TerraCommuni protocol allows anyone to say "I'm present here and now, and I can be contacted at this phone number or e-mail address".
 
@@ -42,8 +36,7 @@ The aim of the TerraCommuni project is to be able to contact people located anyw
 
 In this way, TerraCommuni can be used to distribute 100 euros in crypto-currency to each pre-registered person in any area of the planet. This could be useful, for example, to pay out individual financial aid if the area has been hit by a disaster caused by climate drift caused by over-consumption in wealthier countries, by an earthquake or by conflict.
 
-Individual roles
-================
+## Individual roles
 
 The protocol assumes that its contributors play one of three roles:
 
@@ -53,8 +46,7 @@ The protocol assumes that its contributors play one of three roles:
 
 3.  The partner subsequently designates the geographical area of its choice, selects the most recent ceremonies that comply with the protocol in this area, and gives the participants thus selected access to a digital asset; for example, cryptocurrency, voting rights in a remote consultation, rights to respond to a survey, or access rights to a computer application.
 
-Ceremony compliance criteria
-============================
+## Ceremony compliance criteria
 
 To comply with protocol, a ceremony must meet all the following conditions to the best of its ability:
 
@@ -118,13 +110,11 @@ To comply with protocol, a ceremony must meet all the following conditions to th
 
 -   Criteria #24, data subsequently added by the organizer: Certain data can be filled in by the organizer within a reasonable time (a few hours to a few days) after publication; this data includes the version of the TerraCommuni protocol to which this ceremony claims to conform, the organizer's identifier, the longitude, latitude, date, local time, block number, the hash of this block, the identifiers of all participants and the number of participants identified by each identifier; only the organizer can complete this data; once completed, it can no longer be modified.
 
-How to organize a ceremony?
-===========================
+## How to organize a ceremony?
 
 In order to organize a ceremony that meets all the criteria, here is a suggested method that you can follow step by step. You can do with any other method as long as your ceremonies complies with the above criteria.
 
-Choosing the ceremony venue
----------------------------
+### Choosing the ceremony venue
 
 Participants can be welcomed in a first location (e.g. a meeting room) to explain the ceremony and allow them to prepare their paper. But the ceremony itself (video and photos) must take place in a single and outdoor location (cf. criterion 2, unity of location). It must not be changed during the ceremony.
 
@@ -138,8 +128,7 @@ The ceremony location must be :
 
 -   away from any other ceremonies taking place on the same day (cf. criterion 8, ceremonies that are simultaneous in time but distant in space), to avoid, as far as possible, a person taking part in two ceremonies held shortly apart (otherwise the person could be counted twice).
 
-Choosing the date and time of the ceremony
-------------------------------------------
+### Choosing the date and time of the ceremony
 
 You need to plan a date and time
 
@@ -147,8 +136,7 @@ You need to plan a date and time
 
 -   at the same time as other ceremonies taking place in the vicinity (cf. criterion 8, ceremonies simultaneous in time but distant in space), to avoid some participants having time to run to another ceremony to be counted twice; try to coordinate with other organizers nearby so that your ceremonies are simultaneously held.
 
-Inviting participants
----------------------
+### Inviting participants
 
 You need to :
 
@@ -158,8 +146,7 @@ You need to :
 
 -   arrange to meet participants at the time and place of the ceremony.
 
-Identifying an assistant from among the participants
-----------------------------------------------------
+### Identifying an assistant from among the participants
 
 Agree with this assistant that, during the ceremony, he/she will hold :
 
@@ -171,8 +158,7 @@ Agree with this assistant that, during the ceremony, he/she will hold :
 
 -   he'll have to turn so that the sun is neither in front of him nor behind him, but on an imaginary rainbow that goes from his left to his right, passing over his head.
 
-Preparing the ceremony
-----------------------
+### Preparing the ceremony
 
 Handwrite with large and clearly legible words (see Criterion 17, the ceremony sheet):
 
@@ -188,8 +174,7 @@ Handwrite with large and clearly legible words (see Criterion 17, the ceremony s
 
 Leave space on the sheet for other information to be entered at the last moment (see below).
 
-Welcoming participants
-----------------------
+### Welcoming participants
 
 You'll need to :
 
@@ -207,8 +192,7 @@ When all the sheets have been filled in, you still need to :
 
 -   check that the sheet is clearly legible (cf. criterion 16, clearly legible identifiers and numbers), don't hesitate to start again if it's badly written or too small or not black enough on a white background, for example.
 
-Completing the ceremony sheet
------------------------------
+### Completing the ceremony sheet
 
 Everything's ready, and the ceremony is about to begin. You need to complete the ceremony sheet (see criterion 17, the ceremony sheet):
 
@@ -222,8 +206,7 @@ Everything's ready, and the ceremony is about to begin. You need to complete the
 
 If the ceremony organizer doesn't have access to the Internet, he can phone a friend with whom he has agreed in advance to provide this information at the last moment (to make sure he has the number and hash of the latest block added to the Ethereum blockchain).
 
-Setting up participants
------------------------
+### Setting up participants
 
 You need to explain to the participants that:
 
@@ -237,8 +220,7 @@ You need to explain to the participants that:
 
 The whole group should be set up in the ceremony area, close to the large vertical object, but without hiding its shadow on the ground (cf. criterion 18, the shadow on the ground of a vertical object, criterion 19, an azimuth that can be located by satellite). Ideally, the shadow should be in front of the group.
 
-Filming the shadow on the ground and the entire group answering
----------------------------------------------------------------
+### Filming the shadow on the ground and the entire group answering
 
 In a single video:
 
@@ -252,8 +234,7 @@ In a single video:
 
 -   finally, show the entire group and ask them the question aloud: "We are together in Paris, France, on Wednesday, May 24, 2023 at 1:53 p.m. for a TerraCommuni ceremony. If you agree, repeat after me "YES, WE ARE TOGETHER! " and the participants repeat "YES, WE ARE TOGETHER!" (see criteria 4, unity of action and 7, visibly real and alive).
 
-Taking 3 photos of the whole group
-----------------------------------
+### Taking 3 photos of the whole group
 
 Take photos of the entire group from 3 different angles, so as to :
 
@@ -263,8 +244,7 @@ Take photos of the entire group from 3 different angles, so as to :
 
 -   have at least one photo of the group where the sun is to the left, above or to the right of the organizer (on an imaginary rainbow running from his left to his right, i.e. neither in front of nor behind him) and where his assistant, his hand holding the thread and the shadow of his thumb and forefinger on the ceremony sheet can be clearly seen (cf. criterion 22, at the same distance from the thread and the shadow of the thread, and criterion 17, the ceremony sheet).
 
-Filming or photographing the sheets more closely
-------------------------------------------------
+### Filming or photographing the sheets more closely
 
 -   Ask each group to stand close to its sheet.
 
@@ -274,8 +254,7 @@ Filming or photographing the sheets more closely
 
 -   The organizer then systematically passes from group to group to film or photograph the sheet and the participants in each group up close. It must be possible to count the number of participants in each group without error (if necessary, ask the smallest to move to the front and the biggest to the back, for example). It should be easy to read the inscriptions on all their sheets of paper (cf. criterion 16, clearly legible identifiers and numbers).
 
-Publishing the ceremony
------------------------
+### Publishing the ceremony
 
 You'll need to :
 
@@ -285,27 +264,23 @@ You'll need to :
 
 -   As soon as the organizer is able to do so (or immediately if possible), he/she also provides all the ceremony data in the form (cf. criterion 24, data completed later by the organizer).
 
-Ongoing considerations
-======================
+## Ongoing considerations
 
 The following are additions or modifications to the protocol that are under consideration for a future version.
 
-Data in JSON format
--------------------
+### Data in JSON format
 
 A future version of the protocol could include the following condition:
 
 -   Data in JSON format: ceremony data is accessible in JSON format with the following fields: version, organizer, latitude, longitude, date, time, block_number, block_hash, identifiers; identifiers is a list of key-value pairs (a JavaScript object) whose key designates a participant identifier and whose value represents the number of participants identified by this identifier.
 
-Notices
--------
+### Notices
 
 A later version of the protocol could include the following condition:
 
 -   Notices: each ceremony can receive notices published by any Internet user about its compliance with the protocol; a notice includes a general compliance score (0 if the ceremony is considered completely non-compliant, 1, 2, 3 or 4 for intermediate levels of compliance, 5 if the ceremony is considered compliant with all the conditions of the protocol), a supporting text and a list of the conditions of the protocol to which this ceremony would not be compliant.
 
-Alternative for shadows
------------------------
+### Alternative for shadows
 
 All the conditions relating to shadows aim to make the azimuth and elevation of the sun measurable during the ceremony. Perhaps there's a simpler way of estimating the sun's azimuth and elevation than photographing the shadow cast on the ground and the shadow cast on the sheet. Perhaps a simpler solution could be found by placing the sun in the camera's field of view with a number of judiciously positioned markers, to create a sort of navigational sextant. In this case, however, we need to be able to :
 
@@ -319,8 +294,7 @@ For example, in the photo below, if the sun were at palm level, then it would be
 
 ![](https://lh6.googleusercontent.com/iEvNXdvZOd9pIVfmYZwiKO-CJE7NOfLeE9pyUiZ4MB6s1VszuPCxUu1AXxhhkH5F4QED-cBoxS0Udhd0doFCt-C0Nk_X0VHexHt949Y22y0_QMpv8IT2R3BnuQuBxY9fe34JWpmYU2uAGpGRkSpV0ic)
 
-Frequently asked questions
-==========================
+## Frequently asked questions
 
 (to be completed)
 
@@ -332,8 +306,7 @@ Frequently asked questions
 
 -   answer
 
-Video and photo examples
-========================
+## Video and photo examples
 
 The photographs below are taken from tests of earlier versions of the protocol, in which ceremonies were performed individually rather than with group videos and photos. They continue to be useful, however, to illustrate some of the requirements of the current version of the protocol, and to give practical advice to ceremony organizers on how to ensure that their ceremony complies as closely as possible with the protocol, thereby earning the trust of donors.
 

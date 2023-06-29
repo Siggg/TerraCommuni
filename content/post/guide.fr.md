@@ -1,10 +1,10 @@
 ---
-title: "Guide"
+title: "Guide du protocole"
 date: 2023-06-29T22:37:55+02:00
 lastmod: 2023-06-29T22:37:55+02:00
 # draft: true
 keywords: []
-description: ""
+description: "version 0.3"
 tags: []
 categories: []
 author: ""
@@ -28,13 +28,7 @@ menu:
     weight: 1
 ---
 
-Guide du protocole TerraCommuni
-
-version 0.3
-
-
-Introduction
-============
+## Introduction
 
 L'objectif du protocole TerraCommuni est de permettre à toute personne sur la planète, même sans connexion à l'Internet, de prouver qu'elle souhaitait, à un moment et à un endroit précis, qu'on lui adresse des messages numériques à l'identifiant de messagerie de son choix. Dit autrement, le protocole TerraCommuni permet à chacun de dire " je suis présent ici et maintenant et je peux être contacté à ce numéro de téléphone ou à cette adresse mail ".
 
@@ -42,8 +36,7 @@ La finalité du projet TerraCommuni est de pouvoir contacter des personnes situ�
 
 Ainsi, TerraCommuni peut être utilisé pour distribuer 100 euros en crypto-monnaie à chaque personne pré-enregistrée dans n'importe quelle zone de la planète. Cela peut par exemple être utile pour leur verser une aide financière individuelle si cette zone a été touchée par une catastrophe causée par la dérive climatique causée par la surconsommation dans les pays plus riches, par un séisme ou par un conflit.
 
-Les rôles des personnes
-=======================
+## Les rôles des personnes
 
 Le protocole suppose que ses contributeurs jouent l'un des trois rôles suivants :
 
@@ -53,8 +46,7 @@ Le protocole suppose que ses contributeurs jouent l'un des trois rôles suivants
 
 3.  Le partenaire désigne ultérieurement la zone géographique de son choix, sélectionne les cérémonies les plus récentes et les plus conformes au protocole dans cette zone, et donne aux participants ainsi sélectionnés un accès à un actif numérique ; par exemple de la cryptomonnaie, des droits de vote dans une consultation à distance, des droits de réponse à un sondage, ou des droits d'accès à une application informatique.
 
-Les critères de conformité d'une cérémonie
-==========================================
+##Les critères de conformité d'une cérémonie
 
 Pour être conforme au protocole, une cérémonie doit remplir du mieux possible toutes les conditions suivantes :
 
@@ -118,13 +110,11 @@ Pour être conforme au protocole, une cérémonie doit remplir du mieux possible
 
 -   Critère 24, des données complétées ultérieurement par l'organisateur : Certaines données de la peuvent être renseignées par l'organisateur dans un délai raisonnable (quelques heures à quelques jours) après la publication ; ces données incluent la version du protocole TerraCommuni à laquelle cette cérémonie prétend se conformer, l'identifiant de l'organisateur, la longitude, la latitude, la date, l'heure locale, le numéro de bloc, le hash de ce bloc, les identifiants de tous les participants et le nombre de participants identifié par chaque identifiant ; seul l'organisateur peut compléter ces données ; une fois complétées, elles ne peuvent plus être modifiées.
 
-Comment organiser une cérémonie ?
-=================================
+## Comment organiser une cérémonie ?
 
 Afin d'organiser une cérémonie qui soit conforme à tous les critères, voici une suggestion de méthode que vous pouvez suivre pas à pas. Vous pouvez faire autrement, du moment que votre cérémonie est conforme aux critères ci-dessus.
 
-Choisir le lieu de la cérémonie
--------------------------------
+### Choisir le lieu de la cérémonie
 
 Les participants peuvent être accueillis dans un premier lieu (par exemple une salle de réunion) afin de leur expliquer le déroulement de la cérémonie et de leur permettre de préparer leur feuille de papier. Mais la cérémonie elle-même (vidéo et photos) doit se dérouler dans un seul et même lieu (cf. critère 2, l'unité de lieu). Il ne faut pas en changer pendant la cérémonie.
 
@@ -138,8 +128,7 @@ Le lieu de la cérémonie doit être :
 
 -   éloigné de toutes les autres cérémonies qui auraient lieu le même jour (cf. critère 8, des cérémonies simultanées dans le temps mais éloignées dans l'espace) afin d'éviter le plus possible qu'une personne puisse participer à deux cérémonies qui auraient lieu à peu de temps d'intervalle (sinon la personne pourrait se faire compter deux fois) ; essayez de vous coordonner avec d'autres organisateurs aux alentours afin que vos cérémonies soient simultanées.
 
-Choisir la date et l'heure de la cérémonie
-------------------------------------------
+### Choisir la date et l'heure de la cérémonie
 
 Il faut prévoir une date et une heure:
 
@@ -147,8 +136,7 @@ Il faut prévoir une date et une heure:
 
 -   en même temps que les autres cérémonies qui sont organisées dans les environs (cf.  critère 8, des cérémonies simultanées dans le temps mais éloignées dans l'espace) afin d'éviter que certains participants n'aient le temps de courir jusqu'à une autre cérémonie pour se faire compter deux fois ;
 
-Inviter les participants
-------------------------
+### Inviter les participants
 
 Il faut :
 
@@ -158,8 +146,7 @@ Il faut :
 
 -   donner rendez-vous aux participants au lieu et à l'heure de la cérémonie.
 
-Identifier un assistant parmi les participants
-----------------------------------------------
+### Identifier un assistant parmi les participants
 
 Convenir avec cet assistant que, pendant la cérémonie, il tiendra :
 
@@ -171,8 +158,7 @@ Convenir avec cet assistant que, pendant la cérémonie, il tiendra :
 
 -   il devra se tourner de manière à ce que le soleil ne soit ni devant lui ni derrière lui mais, au contraire, sur un arc-en-ciel imaginaire qui va de sa gauche à sa droite en passant au-dessus de sa tête.
 
-Préparer la cérémonie
----------------------
+### Préparer la cérémonie
 
 Il faut inscrire à la main, en gros et de manière très clairement lisible (cf. critère 17, la feuille de cérémonie): 
 
@@ -188,8 +174,7 @@ Il faut inscrire à la main, en gros et de manière très clairement lisible (cf
 
 Il faut laisser de la place sur la feuille pour écrire, au dernier moment, les autres informations.
 
-Accueillir les participants
----------------------------
+### Accueillir les participants
 
 Il faut :
 
@@ -207,8 +192,7 @@ Quand toutes les feuilles sont remplies, il faut encore :
 
 -   vérifier que la feuille est clairement lisible (cf. critère 16, des identifiants et nombres bien lisibles), ne pas hésiter à la recommencer si c'est mal écrit ou bien trop petit ou bien pas assez noir sur fond blanc par exemple.
 
-Installer les participants
---------------------------
+### Installer les participants
 
 Il faut expliquer aux participants que:
 
@@ -222,8 +206,7 @@ Il faut expliquer aux participants que:
 
 Il faut installer le groupe complet dans le lieu de la cérémonie, à proximité du grand objet vertical mais sans cacher son ombre au sol (cf. critère 18, l'ombre au sol d'un objet vertical, critère 19, un azimut repérable par satellite). Idéalement, l'ombre au sol se situe devant le groupe.
 
-Compléter la feuille de la cérémonie
-------------------------------------
+### Compléter la feuille de la cérémonie
 
 Tout est prêt, la cérémonie va bientôt pouvoir commencer. Il faut compléter la feuille de cérémonie (cf. critère 17, la feuille de la cérémonie) :
 
@@ -237,8 +220,7 @@ Tout est prêt, la cérémonie va bientôt pouvoir commencer. Il faut compléter
 
 Si l'organisateur de cérémonie n'a pas accès à Internet, il peut téléphoner à un ami avec qui il a convenu à l'avance de lui fournir ces informations au dernier moment (pour être sûr d'avoir le numéro et le hachage du tout dernier bloc ajouté à la blockchain Ethereum).
 
-Filmer l'ombre au sol et le groupe complet qui répond
------------------------------------------------------
+### Filmer l'ombre au sol et le groupe complet qui répond
 
 Il faut, dans une seule vidéo, :
 
@@ -252,8 +234,7 @@ Il faut, dans une seule vidéo, :
 
 -   Enfin montrer le groupe complet et lui poser la question à haute voix : « Nous sommes ensemble à Paris, en France, le mercredi 24 mai 2023 à 13 heures 53 pour une cérémonie TerraCommuni. Si vous êtes d'accord, répétez après-moi " OUI, NOUS SOMMES ENSEMBLE ! " » et les participants répètent «  OUI, NOUS SOMMES ENSEMBLE ! » (cf. critère 4, l'unité d'action et critère 7, visiblement réels et vivants).
 
-Prendre 3 photos du groupe complet
-----------------------------------
+### Prendre 3 photos du groupe complet
 
 Prendre le groupe complet en photo sous 3 angles différents de manière à :
 
@@ -263,8 +244,7 @@ Prendre le groupe complet en photo sous 3 angles différents de manière à :
 
 -   avoir au moins une photo du groupe où le soleil se situe à gauche, au-dessus ou à droite de l'organisateur (sur un arc-en-ciel imaginaire allant de sa gauche à sa droite donc ni en avant ni en arrière de lui) et où l'on voit bien son assistant, sa main qui tient le fil, l'ombre du pouce et de l'index sur la feuille de cérémonie (cf. critère 22, à même distance du fil et de l'ombre du fil et critère 17, la feuille de cérémonie)
 
-Filmer ou photographier les feuilles de plus près 
---------------------------------------------------
+### Filmer ou photographier les feuilles de plus près 
 
 -   Demander à chaque groupe de se tenir près de sa feuille.
 
@@ -274,8 +254,7 @@ Filmer ou photographier les feuilles de plus près
 
 -   L'organisateur passe ensuite systématiquement de groupe en groupe pour filmer ou photographier de près la feuille et les participants de chaque groupe. On doit pouvoir compter sans se tromper le nombre de participants de chaque groupe (si besoin, demander aux plus petits de se mettre devant et aux plus grands derrière, par exemple). On doit pouvoir lire facilement les inscriptions de toutes leurs feuilles de papier (cf. critère 16, des identifiants et nombres bien lisibles).
 
-Publier la cérémonie
---------------------
+### Publier la cérémonie
 
 Il faut :
 
@@ -285,27 +264,23 @@ Il faut :
 
 -   Dès que l'organisateur le peut (voir immédiatement si c'est possible), il fournit également, dans le formulaire, toutes les données de la cérémonie (cf. critère 24, des données complétées ultérieurement par l'organisateur).
 
-Réflexions en cours
-===================
+## Réflexions en cours
 
 Ci-après figurent des ajouts ou modifications du protocole qui sont à l'étude pour une version ultérieure.
 
-Des données au format JSON
---------------------------
+### Des données au format JSON
 
 Une version ultérieure du protocole pourrait inclure la condition suivante :
 
 -   Des données au format JSON : les données de la cérémonie sont accessibles sous un format JSON avec les champs suivants : version, organizer, latitude, longitude, date, time, block_number, block_hash, identifiers ; identifiers est une liste de paires clef-valeur (un objet JavaScript) dont la clef désigne un identifiant de participants et la valeur représente le nombre de participants identifiés par cet identifiant.
 
-Des avis
---------
+### Des avis
 
 Une version ultérieure du protocole pourrait inclure la condition suivante :
 
 -   Des avis : chaque cérémonie peut recevoir des avis publiés par n'importe quel internaute au sujet de sa conformité au protocole ; un avis comporte une note générale de conformité (0 si la cérémonie est considérée tout à fait non conforme, 1, 2, 3 ou 4 pour des niveaux intermédiaires de conformité, 5 si la cérémonie est considérée comme conforme à toutes les conditions du protocole), un texte justificatif et une liste des conditions du protocole auxquelles cette cérémonie ne serait pas conforme.
 
-Alternative pour les ombres
----------------------------
+### Alternative pour les ombres
 
 Toutes les conditions relatives aux ombres visent à rendre mesurables l'azimut et l'élévation du soleil lors de la cérémonie. Peut-être qu'il existe une solution plus simple, pour estimer l'azimut et l'élévation du soleil, que de photographier l'ombre projetée au sol et l'ombre projetée sur la feuille. Peut-être qu'une solution plus simple pourrait être trouvée en faisant figurer le soleil dans le champ de la caméra avec un certain nombre de repères judicieusement positionnés, pour créer une sorte de sextant de navigation. Mais, dans ce cas, il faut que :
 
@@ -319,8 +294,7 @@ Par exemple, sur la photo ci-dessous, si le soleil était au niveau de la paume 
 
 ![](https://lh4.googleusercontent.com/M2iVRNjKeeGRI3epuOCJHX6m1l3wxOTcVPSrkFmjrnB7u3qxfWIhwzNdeQgh7zmmwoJeAbMRp-Y5fywb9_nTHpz6olZPNPhRvMgcNo6Ao7TWo-J8byB17ZO4HWOcCZ539yHggl1DTGvlzi7DFaSes68)
 
-Questions fréquemment posées
-============================
+## Questions fréquemment posées
 
 (à compléter)
 
@@ -332,8 +306,7 @@ Questions fréquemment posées
 
 -   réponse
 
-Exemples de vidéos et de photographies
-======================================
+## Exemples de vidéos et de photographies
 
 Les photographies ci-dessous sont issues de tests de versions antérieures du protocole, dans lesquelles les cérémonies étaient individuelles plutôt qu'avec des vidéos et photos de groupe. Elles continuent cependant à être utiles pour illustrer certaines des conditions de la version actuelle du protocole et donner des conseils pratiques aux organisateurs de cérémonie pour que leur cérémonie soit le plus conforme possible au protocole et mériter ainsi la confiance des donateurs.
 

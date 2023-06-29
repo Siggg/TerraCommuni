@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Welcome to TerraCommuni</title>
+    <link>https://siggg.github.io/TerraCommuni/fr/post/</link>
+    <description>Recent content in Posts on Welcome to TerraCommuni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Jean Millerat, Agence Française de Développement</copyright>
+    <lastBuildDate>Thu, 29 Jun 2023 22:37:55 +0200</lastBuildDate><atom:link href="https://siggg.github.io/TerraCommuni/fr/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide du protocole</title>
+      <link>https://siggg.github.io/TerraCommuni/fr/guide-du-protocole/</link>
+      <pubDate>Thu, 29 Jun 2023 22:37:55 +0200</pubDate>
+      
+      <guid>https://siggg.github.io/TerraCommuni/fr/guide-du-protocole/</guid>
+      <description>Introduction L&amp;rsquo;objectif du protocole TerraCommuni est de permettre à toute personne sur la planète, même sans connexion à l&amp;rsquo;Internet, de prouver qu&amp;rsquo;elle souhaitait, à un moment et à un endroit précis, qu&amp;rsquo;on lui adresse des messages numériques à l&amp;rsquo;identifiant de messagerie de son choix. Dit autrement, le protocole TerraCommuni permet à chacun de dire &amp;quot; je suis présent ici et maintenant et je peux être contacté à ce numéro de téléphone ou à cette adresse mail &amp;ldquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
