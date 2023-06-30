@@ -73,3 +73,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      - name: Deploy to IPFS
+        uses: jonasdn/ipfs-action@master
+        with:
+          path: 'docs'
+          pinata_api_key: ${{ secrets.PINATA_API_KEY }}
+          pinata_secret_api_key: ${{ secrets.PINATA_SECRET_API_KEY }}
