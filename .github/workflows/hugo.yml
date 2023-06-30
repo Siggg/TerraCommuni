@@ -61,14 +61,6 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./docs
-      - name: Deploy to IPFS
-        id: pinata
-        uses: aquiladev/ipfs-action@master
-        with:
-          path: ./docs
-          service: pinata
-          pinataKey: ${{ secrets.PINATA_API_KEY }}
-          pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
 
   # Deployment job
   deploy:
@@ -81,3 +73,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
+  ipfs:
+    environment:
+      name: ipfs
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to IPFS
+        id: pinata
+        uses: aquiladev/ipfs-action@master
+        with:
+          path: ./docs
+          service: pinata
+          pinataKey: ${{ secrets.PINATA_API_KEY }}
+          pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
