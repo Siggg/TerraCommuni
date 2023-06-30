@@ -106,7 +106,7 @@ jobs:
         uses: aave/pinata-action@v1.1
         with:
           PINATA_API_KEY: ${{ secrets.PINATA_API_KEY }}
-          PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_KEY }}
+          PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_API_KEY }}
           PIN_ALIAS: staging
           BUILD_LOCATION: './docs'
           CID_VERSION: 1
