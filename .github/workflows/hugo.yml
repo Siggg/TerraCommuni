@@ -85,7 +85,7 @@ jobs:
         id: pinata
         uses: aquiladev/ipfs-action@master
         with:
-          path: ./docs
+          path: ../..
           service: pinata
           pinataKey: ${{ secrets.PINATA_API_KEY }}
           pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
