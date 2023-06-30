@@ -78,5 +78,5 @@ jobs:
         with:
           path: 'docs'
           service: 'pinata'
-          pinata_api_key: ${{ secrets.PINATA_API_KEY }}
-          pinata_secret_api_key: ${{ secrets.PINATA_SECRET_API_KEY }}
+          pinataKey: ${{ secrets.PINATA_API_KEY }}
+          pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
