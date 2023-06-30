@@ -76,7 +76,7 @@ jobs:
       - name: Deploy to IPFS
         uses: aquiladev/ipfs-action@master
         with:
-          path: 'docs'
+          path: './docs'
           service: 'pinata'
           pinataKey: ${{ secrets.PINATA_API_KEY }}
           pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}
