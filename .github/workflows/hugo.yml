@@ -70,10 +70,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      # - name: Deploy to GitHub Pages
+      #  id: deployment
+      #  uses: actions/deploy-pages@v2
       - name: Deploy to IPFS
+        id: pinata
         uses: aquiladev/ipfs-action@master
         with:
           path: './docs'
