@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://siggg.github.io/TerraCommuni/fr/guide-du-protocole/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/fr/post/guide/</loc>
     <lastmod>2023-06-29T22:37:55+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://siggg.github.io/TerraCommuni/fr/comment-organiser-une-c%C3%A9r%C3%A9monie/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/fr/post/howto/</loc>
     <lastmod>2023-06-29T22:37:55+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
