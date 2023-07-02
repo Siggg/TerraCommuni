@@ -1,30 +1,24 @@
+<div><h2>Local date and time = {{ .date }}, {{ .local_time }}</h2></div>
+<div>Latitude, longitude = {{ .latitude }}, {{ .longitude }}</div>
 <div>
 <ul>
+  <lh>Videos:</lh>
+{{ range .videos }}
+  <li><video height="240" controls><source src="{{ . }}"> Your browser does not support the video tag</video></li>
+{{ end }}
+</ul>
+<ul>
+  <lh>Pictures:</lh>
+{{ range .pictures }}
+  <li><img src="{{ . }}" /></li>
+{{ end }}
+</ul>
+<ul>
+  <lh>Identifiers and associatied number of participants:</lh>
 {{ range $key, $value := .identifiers }}
   <li>{{ $key }} => {{ $value }} person(s)</li>
 {{ end }}
 </ul>
-<ul>
-{{ range .pictures }}
-  <li>{{ . }}</li>
-{{ end }}
-</ul>
-<ul>
-{{ range .videos }}
-  <li>{{ . }}</li>
-{{ end }}
-</ul>
 </div>
-<div>Latitude = {{ .latitude }}</div>
-<div>Longitude = {{ .longitude }}</div>
-<div>Date = {{ .date }}</div>
-<div>Local time = {{ .local_time }}</div>
-<div>Ethereum block height = {{ .block_height }}</div>
-<div>Ethereum block hash = {{ .block_hash }}</div>
+<div>Ethereum block height and hash = {{ .block_height }}, {{ .block_hash }}</div>
 <div>Organizer's identifier = {{ .organizer_identifer }}</div>
-  "identifiers": {
-    "+33000000001": "1",
-    "+33000000002": "12",
-    "+33000000003": "3",
-    "+33000000004": "1"
-  }

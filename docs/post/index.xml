@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Welcome to TerraCommuni</title>
-    <link>https://terracommuni.org/post/</link>
+    <link>https://siggg.github.io/TerraCommuni/post/</link>
     <description>Recent content in Posts on Welcome to TerraCommuni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Jean Millerat, Agence Française de Développement</copyright>
-    <lastBuildDate>Thu, 29 Jun 2023 22:37:52 +0200</lastBuildDate><atom:link href="https://terracommuni.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jun 2023 22:37:52 +0200</lastBuildDate><atom:link href="https://siggg.github.io/TerraCommuni/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Protocol guide</title>
-      <link>https://terracommuni.org/2023/06/protocol-guide/</link>
+      <link>https://siggg.github.io/TerraCommuni/post/guide/</link>
       <pubDate>Thu, 29 Jun 2023 22:37:52 +0200</pubDate>
       
-      <guid>https://terracommuni.org/2023/06/protocol-guide/</guid>
+      <guid>https://siggg.github.io/TerraCommuni/post/guide/</guid>
       <description>version 0.3, English translation Introduction The aim of the TerraCommuni protocol is to enable anyone on the planet, even without an Internet connection, to prove that they wished, at a specific time and place, to be sent digital messages to the messaging ID of their choice. Put another way, the TerraCommuni protocol allows anyone to say &amp;ldquo;I&amp;rsquo;m present here and now, and I can be contacted at this phone number or e-mail address&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>HOWTO organize a ceremony</title>
-      <link>https://terracommuni.org/2023/06/howto-organize-a-ceremony/</link>
+      <link>https://siggg.github.io/TerraCommuni/post/howto/</link>
       <pubDate>Thu, 29 Jun 2023 22:37:52 +0200</pubDate>
       
-      <guid>https://terracommuni.org/2023/06/howto-organize-a-ceremony/</guid>
+      <guid>https://siggg.github.io/TerraCommuni/post/howto/</guid>
       <description>How to organize a ceremony? In order to organize a ceremony that meets all the criteria, here is a suggested method that you can follow step by step. You can do with any other method as long as your ceremonies complies with the above criteria.
 Choosing the ceremony venue Participants can be welcomed in a first location (e.g. a meeting room) to explain the ceremony and allow them to prepare their paper.</description>
     </item>

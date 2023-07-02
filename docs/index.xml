@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to TerraCommuni</title>
-    <link>https://terracommuni.org/</link>
+    <link>https://siggg.github.io/TerraCommuni/</link>
     <description>Recent content on Welcome to TerraCommuni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© Jean Millerat, Agence Française de Développement</copyright>
     <lastBuildDate>Thu, 29 Jun 2023 22:37:52 +0200</lastBuildDate>
     
-        <atom:link href="https://terracommuni.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://siggg.github.io/TerraCommuni/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Protocol guide</title>
-      <link>https://terracommuni.org/2023/06/protocol-guide/</link>
+      <link>https://siggg.github.io/TerraCommuni/post/guide/</link>
       <pubDate>Thu, 29 Jun 2023 22:37:52 +0200</pubDate>
       
-      <guid>https://terracommuni.org/2023/06/protocol-guide/</guid>
+      <guid>https://siggg.github.io/TerraCommuni/post/guide/</guid>
       
         <description>&lt;h1 id=&#34;version-03-english-translation&#34;&gt;version 0.3, English translation&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -202,10 +202,10 @@
     
     <item>
       <title>HOWTO organize a ceremony</title>
-      <link>https://terracommuni.org/2023/06/howto-organize-a-ceremony/</link>
+      <link>https://siggg.github.io/TerraCommuni/post/howto/</link>
       <pubDate>Thu, 29 Jun 2023 22:37:52 +0200</pubDate>
       
-      <guid>https://terracommuni.org/2023/06/howto-organize-a-ceremony/</guid>
+      <guid>https://siggg.github.io/TerraCommuni/post/howto/</guid>
       
         <description>&lt;h2 id=&#34;how-to-organize-a-ceremony&#34;&gt;How to organize a ceremony?&lt;/h2&gt;
 &lt;p&gt;In order to organize a ceremony that meets all the criteria, here is a suggested method that you can follow step by step. You can do with any other method as long as your ceremonies complies with the above criteria.&lt;/p&gt;
@@ -410,10 +410,10 @@
     
     <item>
       <title>Ceremonies</title>
-      <link>https://terracommuni.org/about/</link>
+      <link>https://siggg.github.io/TerraCommuni/about/</link>
       <pubDate>Wed, 28 Jun 2023 16:33:11 +0200</pubDate>
       
-      <guid>https://terracommuni.org/about/</guid>
+      <guid>https://siggg.github.io/TerraCommuni/about/</guid>
       
         <description>&lt;div id=&#34;map&#34;&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&#34; crossorigin=&#34;&#34;/&gt;
@@ -421,9 +421,9 @@
 &lt;script&gt;
   let markers = [];
   
-    markers.push( {&#34;block_hash&#34;:&#34;0x000-000&#34;,&#34;block_height&#34;:999,&#34;date&#34;:&#34;01/01/1900&#34;,&#34;identifiers&#34;:{&#34;+33000000001&#34;:&#34;1&#34;,&#34;+33000000002&#34;:&#34;12&#34;,&#34;+33000000003&#34;:&#34;3&#34;,&#34;+33000000004&#34;:&#34;1&#34;},&#34;latitude&#34;:-1.484751,&#34;local_time&#34;:&#34;00:01&#34;,&#34;longitude&#34;:35.101904,&#34;name&#34;:&#34;name 001&#34;,&#34;organizer_identifer&#34;:&#34;+33000000005&#34;,&#34;pictures&#34;:[&#34;https://terracommuni/file001.png&#34;,&#34;https://terracommuni/file002.png&#34;,&#34;https://terracommuni/file003.png&#34;],&#34;videos&#34;:[&#34;https://terracommuni/file001.mp4&#34;,&#34;https://terracommuni/file002.mp4&#34;]} );
+    markers.push( {&#34;block_hash&#34;:&#34;0x000-000&#34;,&#34;block_height&#34;:999,&#34;date&#34;:&#34;01/01/1900&#34;,&#34;identifiers&#34;:{&#34;+33000000001&#34;:&#34;1&#34;,&#34;+33000000002&#34;:&#34;12&#34;,&#34;+33000000003&#34;:&#34;3&#34;,&#34;+33000000004&#34;:&#34;1&#34;},&#34;latitude&#34;:-1.484751,&#34;local_time&#34;:&#34;00:01&#34;,&#34;longitude&#34;:35.101904,&#34;organizer_identifer&#34;:&#34;+33000000005&#34;,&#34;pictures&#34;:[&#34;https://terracommuni/file001.png&#34;,&#34;https://terracommuni/file002.png&#34;,&#34;https://terracommuni/file003.png&#34;],&#34;videos&#34;:[&#34;https://terracommuni/file001.mp4&#34;,&#34;https://terracommuni/file002.mp4&#34;]} );
   
-    markers.push( {&#34;block_hash&#34;:&#34;0x000-000&#34;,&#34;block_height&#34;:999,&#34;date&#34;:&#34;01/01/2000&#34;,&#34;identifiers&#34;:{&#34;+33111000001&#34;:&#34;1&#34;,&#34;+33111000002&#34;:&#34;12&#34;,&#34;+33111000003&#34;:&#34;3&#34;,&#34;+33111000004&#34;:&#34;1&#34;},&#34;latitude&#34;:-2.333333,&#34;local_time&#34;:&#34;11:11&#34;,&#34;longitude&#34;:34.833332,&#34;name&#34;:&#34;name 001&#34;,&#34;organizer_identifer&#34;:&#34;+33111000005&#34;,&#34;pictures&#34;:[&#34;https://terracommuni/file004.png&#34;,&#34;https://terracommuni/file005.png&#34;,&#34;https://terracommuni/file006.png&#34;],&#34;videos&#34;:[&#34;https://terracommuni/file003.mp4&#34;,&#34;https://terracommuni/file004.mp4&#34;]} );
+    markers.push( {&#34;block_hash&#34;:&#34;0x000-000&#34;,&#34;block_height&#34;:999,&#34;date&#34;:&#34;01/01/2000&#34;,&#34;identifiers&#34;:{&#34;+33111000001&#34;:&#34;1&#34;,&#34;+33111000002&#34;:&#34;12&#34;,&#34;+33111000003&#34;:&#34;3&#34;,&#34;+33111000004&#34;:&#34;1&#34;},&#34;latitude&#34;:-2.333333,&#34;local_time&#34;:&#34;11:11&#34;,&#34;longitude&#34;:34.833332,&#34;organizer_identifer&#34;:&#34;+33111000005&#34;,&#34;pictures&#34;:[&#34;https://terracommuni/file004.png&#34;,&#34;https://terracommuni/file005.png&#34;,&#34;https://terracommuni/file006.png&#34;],&#34;videos&#34;:[&#34;https://terracommuni/file003.mp4&#34;,&#34;https://terracommuni/file004.mp4&#34;]} );
   
 &lt;/script&gt;
 &lt;style type=&#34;text/css&#34;&gt;
@@ -431,14 +431,34 @@
     height:400px;
   }
 &lt;/style&gt;
-&lt;script src=&#34;https://terracommuni.org/map.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://siggg.github.io/TerraCommuni/map.js&#34;&gt;&lt;/script&gt;
 &lt;/div&gt;
 
 &lt;h3 id=&#34;latest-ceremonies&#34;&gt;Latest ceremonies&lt;/h3&gt;
 
-
-   &lt;div&gt;
+   &lt;div&gt;&lt;h2&gt;Local date and time = 01/01/1900, 00:01&lt;/h2&gt;&lt;/div&gt;
+&lt;div&gt;Latitude, longitude = -1.484751, 35.101904&lt;/div&gt;
+&lt;div&gt;
 &lt;ul&gt;
+  &lt;lh&gt;Videos:&lt;/lh&gt;
+
+  &lt;li&gt;&lt;video height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://terracommuni/file001.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;&lt;/li&gt;
+
+  &lt;li&gt;&lt;video height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://terracommuni/file002.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;lh&gt;Pictures:&lt;/lh&gt;
+
+  &lt;li&gt;&lt;img src=&#34;https://terracommuni/file001.png&#34; /&gt;&lt;/li&gt;
+
+  &lt;li&gt;&lt;img src=&#34;https://terracommuni/file002.png&#34; /&gt;&lt;/li&gt;
+
+  &lt;li&gt;&lt;img src=&#34;https://terracommuni/file003.png&#34; /&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;lh&gt;Identifiers and associatied number of participants:&lt;/lh&gt;
 
   &lt;li&gt;&amp;#43;33000000001 =&gt; 1 person(s)&lt;/li&gt;
 
@@ -449,39 +469,33 @@
   &lt;li&gt;&amp;#43;33000000004 =&gt; 1 person(s)&lt;/li&gt;
 
 &lt;/ul&gt;
-&lt;ul&gt;
-
-  &lt;li&gt;https://terracommuni/file001.png&lt;/li&gt;
-
-  &lt;li&gt;https://terracommuni/file002.png&lt;/li&gt;
-
-  &lt;li&gt;https://terracommuni/file003.png&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;ul&gt;
-
-  &lt;li&gt;https://terracommuni/file001.mp4&lt;/li&gt;
-
-  &lt;li&gt;https://terracommuni/file002.mp4&lt;/li&gt;
-
-&lt;/ul&gt;
 &lt;/div&gt;
-&lt;div&gt;Latitude = -1.484751&lt;/div&gt;
-&lt;div&gt;Longitude = 35.101904&lt;/div&gt;
-&lt;div&gt;Date = 01/01/1900&lt;/div&gt;
-&lt;div&gt;Local time = 00:01&lt;/div&gt;
-&lt;div&gt;Ethereum block height = 999&lt;/div&gt;
-&lt;div&gt;Ethereum block hash = 0x000-000&lt;/div&gt;
+&lt;div&gt;Ethereum block height and hash = 999, 0x000-000&lt;/div&gt;
 &lt;div&gt;Organizer&#39;s identifier = &amp;#43;33000000005&lt;/div&gt;
-  &#34;identifiers&#34;: {
-    &#34;+33000000001&#34;: &#34;1&#34;,
-    &#34;+33000000002&#34;: &#34;12&#34;,
-    &#34;+33000000003&#34;: &#34;3&#34;,
-    &#34;+33000000004&#34;: &#34;1&#34;
-  }
 
-   &lt;div&gt;
+   &lt;div&gt;&lt;h2&gt;Local date and time = 01/01/2000, 11:11&lt;/h2&gt;&lt;/div&gt;
+&lt;div&gt;Latitude, longitude = -2.333333, 34.833332&lt;/div&gt;
+&lt;div&gt;
 &lt;ul&gt;
+  &lt;lh&gt;Videos:&lt;/lh&gt;
+
+  &lt;li&gt;&lt;video height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://terracommuni/file003.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;&lt;/li&gt;
+
+  &lt;li&gt;&lt;video height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://terracommuni/file004.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;lh&gt;Pictures:&lt;/lh&gt;
+
+  &lt;li&gt;&lt;img src=&#34;https://terracommuni/file004.png&#34; /&gt;&lt;/li&gt;
+
+  &lt;li&gt;&lt;img src=&#34;https://terracommuni/file005.png&#34; /&gt;&lt;/li&gt;
+
+  &lt;li&gt;&lt;img src=&#34;https://terracommuni/file006.png&#34; /&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;lh&gt;Identifiers and associatied number of participants:&lt;/lh&gt;
 
   &lt;li&gt;&amp;#43;33111000001 =&gt; 1 person(s)&lt;/li&gt;
 
@@ -492,36 +506,9 @@
   &lt;li&gt;&amp;#43;33111000004 =&gt; 1 person(s)&lt;/li&gt;
 
 &lt;/ul&gt;
-&lt;ul&gt;
-
-  &lt;li&gt;https://terracommuni/file004.png&lt;/li&gt;
-
-  &lt;li&gt;https://terracommuni/file005.png&lt;/li&gt;
-
-  &lt;li&gt;https://terracommuni/file006.png&lt;/li&gt;
-
-&lt;/ul&gt;
-&lt;ul&gt;
-
-  &lt;li&gt;https://terracommuni/file003.mp4&lt;/li&gt;
-
-  &lt;li&gt;https://terracommuni/file004.mp4&lt;/li&gt;
-
-&lt;/ul&gt;
 &lt;/div&gt;
-&lt;div&gt;Latitude = -2.333333&lt;/div&gt;
-&lt;div&gt;Longitude = 34.833332&lt;/div&gt;
-&lt;div&gt;Date = 01/01/2000&lt;/div&gt;
-&lt;div&gt;Local time = 11:11&lt;/div&gt;
-&lt;div&gt;Ethereum block height = 999&lt;/div&gt;
-&lt;div&gt;Ethereum block hash = 0x000-000&lt;/div&gt;
+&lt;div&gt;Ethereum block height and hash = 999, 0x000-000&lt;/div&gt;
 &lt;div&gt;Organizer&#39;s identifier = &amp;#43;33111000005&lt;/div&gt;
-  &#34;identifiers&#34;: {
-    &#34;+33000000001&#34;: &#34;1&#34;,
-    &#34;+33000000002&#34;: &#34;12&#34;,
-    &#34;+33000000003&#34;: &#34;3&#34;,
-    &#34;+33000000004&#34;: &#34;1&#34;
-  }
 
 
 </description>

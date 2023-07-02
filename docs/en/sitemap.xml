@@ -1,49 +1,49 @@
-<?xml-stylesheet type="text/xsl" href="https://terracommuni.org/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://siggg.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://terracommuni.org/2023/06/protocol-guide/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/post/guide/</loc>
     <lastmod>2023-06-29T22:37:52+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://terracommuni.org/2023/06/howto-organize-a-ceremony/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/post/howto/</loc>
     <lastmod>2023-06-29T22:37:52+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://terracommuni.org/post/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/post/</loc>
     <lastmod>2023-06-29T22:37:52+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://terracommuni.org/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/</loc>
     <lastmod>2023-06-29T22:37:52+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://terracommuni.org/about/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/about/</loc>
     <lastmod>2023-06-28T16:33:11+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://terracommuni.org/categories/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://terracommuni.org/tags/</loc>
+    <loc>https://siggg.github.io/TerraCommuni/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

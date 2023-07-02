@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 let bounds = [];
 for (let i = 0; i < markers.length; i++ ) {
     const marker = L.marker([markers[i].latitude, markers[i].longitude]).addTo(map);
-    marker.bindPopup(markers[i].name);
+    marker.bindPopup(markers[i].date);
     bounds.push([markers[i].latitude, markers[i].longitude]);
 }
 

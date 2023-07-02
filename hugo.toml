@@ -1,5 +1,6 @@
-baseURL = "https://terracommuni.org/" #"https://siggg.github.io/TerraCommuni/"
-canonifyURLs = true
+# baseURL = "https://terracommuni.org/"
+baseURL = "https://siggg.github.io/TerraCommuni/"
+# canonifyURLs = true
 publishDir = "docs"
 title = "Welcome to TerraCommuni"
 theme = "hugo-theme-jane"
@@ -36,8 +37,8 @@ defaultContentLanguage = "en"
 [author]                  # essential
   name = "Jean Millerat"
 
-[permalinks]
-  post = ":year/:month/:slug/"
+#[permalinks]
+#  post = ":year/:month/:slug/"
 
 [sitemap]                 # essential     
   changefreq = "weekly"
