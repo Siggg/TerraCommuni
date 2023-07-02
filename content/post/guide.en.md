@@ -28,6 +28,8 @@ menu:
     weight: 1
 ---
 
+# version 0.3, English translation
+
 ## Introduction
 
 The aim of the TerraCommuni protocol is to enable anyone on the planet, even without an Internet connection, to prove that they wished, at a specific time and place, to be sent digital messages to the messaging ID of their choice. Put another way, the TerraCommuni protocol allows anyone to say "I'm present here and now, and I can be contacted at this phone number or e-mail address".

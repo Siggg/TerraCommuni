@@ -19,7 +19,8 @@
       
       <guid>https://siggg.github.io/TerraCommuni/fr/guide-du-protocole/</guid>
       
-        <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <description>&lt;h1 id=&#34;version-03&#34;&gt;version 0.3&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;L&amp;rsquo;objectif du protocole TerraCommuni est de permettre à toute personne sur la planète, même sans connexion à l&amp;rsquo;Internet, de prouver qu&amp;rsquo;elle souhaitait, à un moment et à un endroit précis, qu&amp;rsquo;on lui adresse des messages numériques à l&amp;rsquo;identifiant de messagerie de son choix. Dit autrement, le protocole TerraCommuni permet à chacun de dire &amp;quot; je suis présent ici et maintenant et je peux être contacté à ce numéro de téléphone ou à cette adresse mail &amp;ldquo;.&lt;/p&gt;
 &lt;p&gt;La finalité du projet TerraCommuni est de pouvoir contacter des personnes situées à n&amp;rsquo;importe quel endroit de la planète, pour entrer en relation avec elles, les consulter (sondages, votes, discussions, &amp;hellip; ) ou leur envoyer des ressources numériques (cryptomonnaie, contenus, &amp;hellip;) tout en sachant le nombre de personnes joignables à chaque numéro ou adresse enregistrée.&lt;/p&gt;
 &lt;p&gt;Ainsi, TerraCommuni peut être utilisé pour distribuer 100 euros en crypto-monnaie à chaque personne pré-enregistrée dans n&amp;rsquo;importe quelle zone de la planète. Cela peut par exemple être utile pour leur verser une aide financière individuelle si cette zone a été touchée par une catastrophe causée par la dérive climatique causée par la surconsommation dans les pays plus riches, par un séisme ou par un conflit.&lt;/p&gt;
@@ -36,7 +37,7 @@
 &lt;p&gt;Le partenaire désigne ultérieurement la zone géographique de son choix, sélectionne les cérémonies les plus récentes et les plus conformes au protocole dans cette zone, et donne aux participants ainsi sélectionnés un accès à un actif numérique ; par exemple de la cryptomonnaie, des droits de vote dans une consultation à distance, des droits de réponse à un sondage, ou des droits d&amp;rsquo;accès à une application informatique.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;##Les critères de conformité d&amp;rsquo;une cérémonie&lt;/p&gt;
+&lt;h2 id=&#34;les-critères-de-conformité-dune-cérémonie&#34;&gt;Les critères de conformité d&amp;rsquo;une cérémonie&lt;/h2&gt;
 &lt;p&gt;Pour être conforme au protocole, une cérémonie doit remplir du mieux possible toutes les conditions suivantes :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

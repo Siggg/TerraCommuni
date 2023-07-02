@@ -7,7 +7,7 @@ keywords: []
 description: "version 0.3"
 tags: []
 categories: []
-author: ""
+# author: ""
 
 # Uncomment to pin article to front page
 weight: 1
@@ -28,6 +28,8 @@ menu:
     weight: 1
 ---
 
+# version 0.3
+
 ## Introduction
 
 L'objectif du protocole TerraCommuni est de permettre à toute personne sur la planète, même sans connexion à l'Internet, de prouver qu'elle souhaitait, à un moment et à un endroit précis, qu'on lui adresse des messages numériques à l'identifiant de messagerie de son choix. Dit autrement, le protocole TerraCommuni permet à chacun de dire " je suis présent ici et maintenant et je peux être contacté à ce numéro de téléphone ou à cette adresse mail ".
@@ -46,7 +48,7 @@ Le protocole suppose que ses contributeurs jouent l'un des trois rôles suivants
 
 3.  Le partenaire désigne ultérieurement la zone géographique de son choix, sélectionne les cérémonies les plus récentes et les plus conformes au protocole dans cette zone, et donne aux participants ainsi sélectionnés un accès à un actif numérique ; par exemple de la cryptomonnaie, des droits de vote dans une consultation à distance, des droits de réponse à un sondage, ou des droits d'accès à une application informatique.
 
-##Les critères de conformité d'une cérémonie
+## Les critères de conformité d'une cérémonie
 
 Pour être conforme au protocole, une cérémonie doit remplir du mieux possible toutes les conditions suivantes :
 
