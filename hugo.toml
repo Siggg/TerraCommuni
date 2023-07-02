@@ -1,5 +1,5 @@
-# baseURL = "https://terracommuni.org/"
-baseURL = "https://siggg.github.io/TerraCommuni/"
+baseURL = "https://terracommuni.org/"
+# baseURL = "https://siggg.github.io/TerraCommuni/"
 # canonifyURLs = true
 publishDir = "docs"
 title = "Welcome to TerraCommuni"
