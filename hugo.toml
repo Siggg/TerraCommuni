@@ -37,7 +37,7 @@ defaultContentLanguage = "en"
   name = "Jean Millerat"
 
 [permalinks]
-#  post = "/:slug/"
+  post = ":year/:month/:slug/"
 
 [sitemap]                 # essential     
   changefreq = "weekly"
@@ -52,7 +52,7 @@ defaultContentLanguage = "en"
   logo = "images/logo.png"
   githubName = "siggg"
   linkedinName = "Jean Millerat"
-  email = "your email"
+  # email = "your email"
   # instagramName = "your ins name"
   hideHUGOSupport = false
   since = "2023"            # Site creation time     
@@ -73,7 +73,7 @@ defaultContentLanguage = "en"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = ['ribbon.css', 'culottes.css', 'print.css']            # if ['custom.css'], load '/static/css/custom.css' file
+  customCSS = [] # 'ribbon.css', 'culottes.css', 'print.css']            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]              
@@ -96,6 +96,6 @@ defaultContentLanguage = "en"
 #    q-bilibili = "http://localhost:1313"
 
   [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
-    enable = true
+    enable = false
     repo = "siggg/comments-for-terracommuni"    # The repo to store comments
     issueTerm = "pathname"
