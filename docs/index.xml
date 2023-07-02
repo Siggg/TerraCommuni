@@ -409,22 +409,121 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>Ceremonies</title>
       <link>https://terracommuni.org/about/</link>
       <pubDate>Wed, 28 Jun 2023 16:33:11 +0200</pubDate>
       
       <guid>https://terracommuni.org/about/</guid>
       
-        <description>&lt;p&gt;This is a test page 001&lt;/p&gt;
-&lt;h3 id=&#34;latest-ceremonies&#34;&gt;Latest ceremonies&lt;/h3&gt;
-&lt;div id=&#34;map&#34;&gt;
+        <description>&lt;div id=&#34;map&#34;&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&#34; crossorigin=&#34;&#34;/&gt;
 &lt;script src=&#34;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&#34; crossorigin=&#34;&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
- let markers = [{&#34;latitude&#34;:-1.484751,&#34;longitude&#34;:35.101904,&#34;name&#34;:&#34;Ceremony 001&#34;},{&#34;latitude&#34;:-2.333333,&#34;longitude&#34;:34.833332,&#34;name&#34;:&#34;Ceremony 002&#34;},{&#34;latitude&#34;:-19.304543,&#34;longitude&#34;:22.643703,&#34;name&#34;:&#34;Ceremony 003&#34;},{&#34;latitude&#34;:-18.855591,&#34;longitude&#34;:16.32932,&#34;name&#34;:&#34;Ceremony 004&#34;},{&#34;latitude&#34;:3.882778,&#34;longitude&#34;:33.874444,&#34;name&#34;:&#34;Ceremony 005&#34;}];
+  let markers = [];
+  
+    markers.push( {&#34;block_hash&#34;:&#34;0x000-000&#34;,&#34;block_height&#34;:999,&#34;date&#34;:&#34;01/01/1900&#34;,&#34;identifiers&#34;:{&#34;+33000000001&#34;:&#34;1&#34;,&#34;+33000000002&#34;:&#34;12&#34;,&#34;+33000000003&#34;:&#34;3&#34;,&#34;+33000000004&#34;:&#34;1&#34;},&#34;latitude&#34;:-1.484751,&#34;local_time&#34;:&#34;00:01&#34;,&#34;longitude&#34;:35.101904,&#34;name&#34;:&#34;name 001&#34;,&#34;organizer_identifer&#34;:&#34;+33000000005&#34;,&#34;pictures&#34;:[&#34;https://terracommuni/file001.png&#34;,&#34;https://terracommuni/file002.png&#34;,&#34;https://terracommuni/file003.png&#34;],&#34;videos&#34;:[&#34;https://terracommuni/file001.mp4&#34;,&#34;https://terracommuni/file002.mp4&#34;]} );
+  
+    markers.push( {&#34;block_hash&#34;:&#34;0x000-000&#34;,&#34;block_height&#34;:999,&#34;date&#34;:&#34;01/01/2000&#34;,&#34;identifiers&#34;:{&#34;+33111000001&#34;:&#34;1&#34;,&#34;+33111000002&#34;:&#34;12&#34;,&#34;+33111000003&#34;:&#34;3&#34;,&#34;+33111000004&#34;:&#34;1&#34;},&#34;latitude&#34;:-2.333333,&#34;local_time&#34;:&#34;11:11&#34;,&#34;longitude&#34;:34.833332,&#34;name&#34;:&#34;name 001&#34;,&#34;organizer_identifer&#34;:&#34;+33111000005&#34;,&#34;pictures&#34;:[&#34;https://terracommuni/file004.png&#34;,&#34;https://terracommuni/file005.png&#34;,&#34;https://terracommuni/file006.png&#34;],&#34;videos&#34;:[&#34;https://terracommuni/file003.mp4&#34;,&#34;https://terracommuni/file004.mp4&#34;]} );
+  
 &lt;/script&gt;
+&lt;style type=&#34;text/css&#34;&gt;
+  #map{  
+    height:400px;
+  }
+&lt;/style&gt;
 &lt;script src=&#34;https://terracommuni.org/map.js&#34;&gt;&lt;/script&gt;
 &lt;/div&gt;
+
+&lt;h3 id=&#34;latest-ceremonies&#34;&gt;Latest ceremonies&lt;/h3&gt;
+
+
+   &lt;div&gt;
+&lt;ul&gt;
+
+  &lt;li&gt;&amp;#43;33000000001 =&gt; 1 person(s)&lt;/li&gt;
+
+  &lt;li&gt;&amp;#43;33000000002 =&gt; 12 person(s)&lt;/li&gt;
+
+  &lt;li&gt;&amp;#43;33000000003 =&gt; 3 person(s)&lt;/li&gt;
+
+  &lt;li&gt;&amp;#43;33000000004 =&gt; 1 person(s)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+
+  &lt;li&gt;https://terracommuni/file001.png&lt;/li&gt;
+
+  &lt;li&gt;https://terracommuni/file002.png&lt;/li&gt;
+
+  &lt;li&gt;https://terracommuni/file003.png&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+
+  &lt;li&gt;https://terracommuni/file001.mp4&lt;/li&gt;
+
+  &lt;li&gt;https://terracommuni/file002.mp4&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;Latitude = -1.484751&lt;/div&gt;
+&lt;div&gt;Longitude = 35.101904&lt;/div&gt;
+&lt;div&gt;Date = 01/01/1900&lt;/div&gt;
+&lt;div&gt;Local time = 00:01&lt;/div&gt;
+&lt;div&gt;Ethereum block height = 999&lt;/div&gt;
+&lt;div&gt;Ethereum block hash = 0x000-000&lt;/div&gt;
+&lt;div&gt;Organizer&#39;s identifier = &amp;#43;33000000005&lt;/div&gt;
+  &#34;identifiers&#34;: {
+    &#34;+33000000001&#34;: &#34;1&#34;,
+    &#34;+33000000002&#34;: &#34;12&#34;,
+    &#34;+33000000003&#34;: &#34;3&#34;,
+    &#34;+33000000004&#34;: &#34;1&#34;
+  }
+
+   &lt;div&gt;
+&lt;ul&gt;
+
+  &lt;li&gt;&amp;#43;33111000001 =&gt; 1 person(s)&lt;/li&gt;
+
+  &lt;li&gt;&amp;#43;33111000002 =&gt; 12 person(s)&lt;/li&gt;
+
+  &lt;li&gt;&amp;#43;33111000003 =&gt; 3 person(s)&lt;/li&gt;
+
+  &lt;li&gt;&amp;#43;33111000004 =&gt; 1 person(s)&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+
+  &lt;li&gt;https://terracommuni/file004.png&lt;/li&gt;
+
+  &lt;li&gt;https://terracommuni/file005.png&lt;/li&gt;
+
+  &lt;li&gt;https://terracommuni/file006.png&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;ul&gt;
+
+  &lt;li&gt;https://terracommuni/file003.mp4&lt;/li&gt;
+
+  &lt;li&gt;https://terracommuni/file004.mp4&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div&gt;Latitude = -2.333333&lt;/div&gt;
+&lt;div&gt;Longitude = 34.833332&lt;/div&gt;
+&lt;div&gt;Date = 01/01/2000&lt;/div&gt;
+&lt;div&gt;Local time = 11:11&lt;/div&gt;
+&lt;div&gt;Ethereum block height = 999&lt;/div&gt;
+&lt;div&gt;Ethereum block hash = 0x000-000&lt;/div&gt;
+&lt;div&gt;Organizer&#39;s identifier = &amp;#43;33111000005&lt;/div&gt;
+  &#34;identifiers&#34;: {
+    &#34;+33000000001&#34;: &#34;1&#34;,
+    &#34;+33000000002&#34;: &#34;12&#34;,
+    &#34;+33000000003&#34;: &#34;3&#34;,
+    &#34;+33000000004&#34;: &#34;1&#34;
+  }
+
+
 </description>
       
     </item>
