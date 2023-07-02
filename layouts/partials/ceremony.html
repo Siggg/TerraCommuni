@@ -1,0 +1,30 @@
+<div>
+<ul>
+{{ range $key, $value := .identifiers }}
+  <li>{{ $key }} => {{ $value }} person(s)</li>
+{{ end }}
+</ul>
+<ul>
+{{ range .pictures }}
+  <li>{{ . }}</li>
+{{ end }}
+</ul>
+<ul>
+{{ range .videos }}
+  <li>{{ . }}</li>
+{{ end }}
+</ul>
+</div>
+<div>Latitude = {{ .latitude }}</div>
+<div>Longitude = {{ .longitude }}</div>
+<div>Date = {{ .date }}</div>
+<div>Local time = {{ .local_time }}</div>
+<div>Ethereum block height = {{ .block_height }}</div>
+<div>Ethereum block hash = {{ .block_hash }}</div>
+<div>Organizer's identifier = {{ .organizer_identifer }}</div>
+  "identifiers": {
+    "+33000000001": "1",
+    "+33000000002": "12",
+    "+33000000003": "3",
+    "+33000000004": "1"
+  }

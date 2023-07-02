@@ -1,0 +1,16 @@
+<div id="map">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
+<script>
+  let markers = [];
+  {{ range $key, $value := .Site.Data.ceremonies }}
+    markers.push( {{ $value }} );
+  {{ end }}
+</script>
+<style type="text/css">
+  #map{ /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+    height:400px;
+  }
+</style>
+<script src="/map.js"></script>
+</div>

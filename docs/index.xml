@@ -416,6 +416,15 @@
       <guid>https://terracommuni.org/about/</guid>
       
         <description>&lt;p&gt;This is a test page 001&lt;/p&gt;
+&lt;h3 id=&#34;latest-ceremonies&#34;&gt;Latest ceremonies&lt;/h3&gt;
+&lt;div id=&#34;map&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&#34; crossorigin=&#34;&#34;/&gt;
+&lt;script src=&#34;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&#34; crossorigin=&#34;&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+ let markers = [{&#34;latitude&#34;:-1.484751,&#34;longitude&#34;:35.101904,&#34;name&#34;:&#34;Ceremony 001&#34;},{&#34;latitude&#34;:-2.333333,&#34;longitude&#34;:34.833332,&#34;name&#34;:&#34;Ceremony 002&#34;},{&#34;latitude&#34;:-19.304543,&#34;longitude&#34;:22.643703,&#34;name&#34;:&#34;Ceremony 003&#34;},{&#34;latitude&#34;:-18.855591,&#34;longitude&#34;:16.32932,&#34;name&#34;:&#34;Ceremony 004&#34;},{&#34;latitude&#34;:3.882778,&#34;longitude&#34;:33.874444,&#34;name&#34;:&#34;Ceremony 005&#34;}];
+&lt;/script&gt;
+&lt;script src=&#34;https://terracommuni.org/map.js&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
 </description>
       
     </item>

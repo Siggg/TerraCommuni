@@ -1,0 +1,25 @@
+{
+  "pictures": [
+    "https://terracommuni/file001.png",
+    "https://terracommuni/file002.png",
+    "https://terracommuni/file003.png"
+  ],
+  "videos": [
+    "https://terracommuni/file001.mp4",
+    "https://terracommuni/file002.mp4"
+  ],
+  "latitude": -1.484751,
+  "longitude": 35.101904,
+  "date": "01/01/1900",
+  "local_time": "00:01",
+  "block_height": 999,
+  "block_hash": "0x000-000",
+  "organizer_identifer": "+33000000005",
+  "identifiers": {
+    "+33000000001": "1",
+    "+33000000002": "12",
+    "+33000000003": "3",
+    "+33000000004": "1"
+  },
+  "name": "name 001"
+}
