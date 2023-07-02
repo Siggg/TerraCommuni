@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to TerraCommuni</title>
-    <link>https://siggg.github.io/TerraCommuni/fr/</link>
+    <link>https://terracommuni.org/fr/</link>
     <description>Recent content on Welcome to TerraCommuni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <copyright>© Jean Millerat, Agence Française de Développement</copyright>
     <lastBuildDate>Thu, 29 Jun 2023 22:37:55 +0200</lastBuildDate>
     
-        <atom:link href="https://siggg.github.io/TerraCommuni/fr/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://terracommuni.org/fr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Guide du protocole</title>
-      <link>https://siggg.github.io/TerraCommuni/fr/post/guide/</link>
+      <link>https://terracommuni.org/fr/2023/06/guide-du-protocole/</link>
       <pubDate>Thu, 29 Jun 2023 22:37:55 +0200</pubDate>
       
-      <guid>https://siggg.github.io/TerraCommuni/fr/post/guide/</guid>
+      <guid>https://terracommuni.org/fr/2023/06/guide-du-protocole/</guid>
       
         <description>&lt;h1 id=&#34;version-03&#34;&gt;version 0.3&lt;/h1&gt;
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -203,10 +203,10 @@
     
     <item>
       <title>COMMENT organiser une cérémonie</title>
-      <link>https://siggg.github.io/TerraCommuni/fr/post/howto/</link>
+      <link>https://terracommuni.org/fr/2023/06/comment-organiser-une-c%C3%A9r%C3%A9monie/</link>
       <pubDate>Thu, 29 Jun 2023 22:37:55 +0200</pubDate>
       
-      <guid>https://siggg.github.io/TerraCommuni/fr/post/howto/</guid>
+      <guid>https://terracommuni.org/fr/2023/06/comment-organiser-une-c%C3%A9r%C3%A9monie/</guid>
       
         <description>&lt;h2 id=&#34;comment-organiser-une-cérémonie-&#34;&gt;Comment organiser une cérémonie ?&lt;/h2&gt;
 &lt;p&gt;Afin d&amp;rsquo;organiser une cérémonie qui soit conforme à tous les critères, voici une suggestion de méthode que vous pouvez suivre pas à pas. Vous pouvez faire autrement, du moment que votre cérémonie est conforme aux critères ci-dessus.&lt;/p&gt;

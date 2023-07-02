@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Welcome to TerraCommuni</title>
-    <link>https://siggg.github.io/TerraCommuni/fr/categories/</link>
+    <link>https://terracommuni.org/fr/categories/</link>
     <description>Recent content in Categories on Welcome to TerraCommuni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>© Jean Millerat, Agence Française de Développement</copyright><atom:link href="https://siggg.github.io/TerraCommuni/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Jean Millerat, Agence Française de Développement</copyright><atom:link href="https://terracommuni.org/fr/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
