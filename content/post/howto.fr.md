@@ -30,7 +30,7 @@ menu:
 
 ## Comment organiser une cérémonie ?
 
-Afin d'organiser une cérémonie qui soit conforme à tous les critères, voici une suggestion de méthode que vous pouvez suivre pas à pas. Vous pouvez faire autrement, du moment que votre cérémonie est conforme aux critères ci-dessus.
+Afin d'organiser une cérémonie qui soit conforme à tous les critères, voici une suggestion de méthode que vous pouvez suivre pas à pas. Vous pouvez faire autrement, du moment que votre cérémonie est conforme aux critères [du guide]({{< ref « guide » >}} « le guide du protocole »)..
 
 ### Choisir le lieu de la cérémonie
 
