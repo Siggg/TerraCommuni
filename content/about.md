@@ -23,7 +23,7 @@ mathjax: false
 # Uncomment to add to the homepage’s dropdown menu; weight = order of article
 # menu:
 #  main:
-%    weight: 1
+#    weight: 1
 ---
 
 {{< map_of_ceremonies >}}
