@@ -30,7 +30,7 @@ menu:
 
 ## How to organize a ceremony?
 
-In order to organize a ceremony that meets all the criteria, here is a suggested method that you can follow step by step. You can do with any other method as long as your ceremonies complies with the criteria of [the guide]({{< ref « guide » >}} « the protocol guide »).
+In order to organize a ceremony that meets all the criteria, here is a suggested method that you can follow step by step. You can do with any other method as long as your ceremonies complies with the criteria of [the guide]({{< ref "guide" >}} "the protocol guide").
 
 ### Choosing the ceremony venue
 
