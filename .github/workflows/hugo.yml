@@ -106,25 +106,30 @@ jobs:
         uses: aquiladev/ipfs-action@master
         with:
           path: ./docs
-          service: pinata
-          pinataKey: ${{ secrets.PINATA_API_KEY }}
-          pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}      
+          service: filebase
+          filebaseBucket: ${{ secrets.FILEBASE_BUCKET }}
+          filebaseKey: ${{ secrets.FILEBASE_KEY }}
+          filebaseSecret: ${{ secrets.FILEBASE_SECRET }}
+          # pinata free does not allow HTML
+      #    pinataKey: ${{ secrets.PINATA_API_KEY }}
+      #    pinataSecret: ${{ secrets.PINATA_SECRET_API_KEY }}      
       # upload to ipfs with aave
-      - name: aave
-        id: aave
-        uses: aave/pinata-action@v1.1
-        with:
-          PINATA_API_KEY: ${{ secrets.PINATA_API_KEY }}
-          PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_API_KEY }}
-          PIN_ALIAS: staging
-          BUILD_LOCATION: './docs'
-          CID_VERSION: 1
+      # pinata free does not allow HTML
+      #- name: aave
+      #  id: aave
+      #  uses: aave/pinata-action@v1.1
+      #  with:
+      #    PINATA_API_KEY: ${{ secrets.PINATA_API_KEY }}
+      #    PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_API_KEY }}
+      #    PIN_ALIAS: staging
+      #    BUILD_LOCATION: './docs'
+      #    CID_VERSION: 1
       # upload to ipfs with alexanderschau
       - name: alexanderschau
         id: alexanderschau
         uses: alexanderschau/ipfs-pinning-action@v1.0.0
         with:
           path_to_add: './docs' #Required
-          endpoint: ${{ secrets.ENDPOINT }} #Required
+          endpoint: ${{ secrets.IPFS_ENDPOINT }} #Required
           access_token: ${{ secrets.ACCESS_TOKEN }} #Required
           pin_name: 'github-actions-test' #Optional
