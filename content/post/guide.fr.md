@@ -22,10 +22,8 @@ reward: false
 mathjax: false
 
 # Uncomment to add to the homepage's dropdown menu; weight = order of article
-menu:
-  main:
-#    parent: "docs"
-    weight: 1
+menu: main
+weight: 2
 ---
 
 # version 0.3
