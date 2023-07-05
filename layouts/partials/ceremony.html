@@ -1,30 +1,45 @@
 <div>
 {{ $ceremony_CID := . }}
-{{ $ceremony := getJSON "https://ipns.co/" . "/ceremony.json" }}
+{{ $ceremony := getJSON "https://ipfs.io/ipfs/" . "/ceremony.json" }}
+{{ $ceremony2 := getJSON "https://ipns.co/" . "/ceremony.json" }}
 {{ with $ceremony }}
-<h4>Local date and time = {{ .datetime }}</h4></div>
-<div>Latitude, longitude = {{ .latitude }}, {{ .longitude }}</div>
 <div>
-<ul>
-  <lh>Videos:</lh>
+<div><h4 id="{{ .datetime }}@{{ float .latitude }},{{ float .longitude }}">Local date and time = {{ .datetime }}</h4></div>
+<div>Latitude, longitude = <a href="#popup_{{ .datetime }}@{{ float .latitude }},{{ float .longitude }}">{{ float .latitude }}, {{ float .longitude }}</a></div>
+<div>Videos<br />
 {{ range .videos }}
-  <li><video height="240" controls><source src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video></li>
+  <video height="240" controls><source src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video>
+  <video hidden height="240" controls><source src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video>
 {{ end }}
-</ul>
-<ul>
-  <lh>Pictures:</lh>
+</div>
+<div>Pictures<br />
 {{ range .pictures }}
-  <li><img src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}" /></li>
+  <img height="240" src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"  style="max-height:240px; max-width:240px; height:auto; width:auto;" />
+  <img hidden loading="lazy" src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}" />
 {{ end }}
-</ul>
-<ul>
-  <lh>Identifiers and associatied number of participants:</lh>
-{{ range $key, $value := .identifiers }}
-  <li>{{ $key }} => {{ $value }} person(s)</li>
+</div>
+<div>
+ <table>
+  <thead>
+   <tr>
+    <th>Identifier</th>
+    <th>Participant(s)</th>
+   </tr>
+  </thead>
+  <tbody>
+{{ range $identifier, $participants := .identifiers }}
+   <tr>
+    <td><code>{{ $identifier }}</code></td>
+	<td>{{ $participants }}</td>
+   </tr>
 {{ end }}
-</ul>
+  </tbody>
+ </table>
 </div>
 <div>Ethereum block height and hash = {{ .block_height }}, {{ .block_hash }}</div>
-<div>Organizer's identifier = {{ .organizer_identifer }}</div>
+<div>Organizer's identifier = {{ .organizer_identifier }}</div>
 <div><a href="https://ipns.co/{{ $ceremony_CID }}">Full IPFS directory</a></div>
+<hr>
+</div>
 {{ end }}
+</div>

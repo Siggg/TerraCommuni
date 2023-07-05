@@ -2,35 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://terracommuni.org/post/guide/</loc>
-    <lastmod>2023-06-29T22:37:52+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://terracommuni.org/post/howto/</loc>
-    <lastmod>2023-06-29T22:37:52+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://terracommuni.org/post/</loc>
-    <lastmod>2023-06-29T22:37:52+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://terracommuni.org/</loc>
-    <lastmod>2023-06-29T22:37:52+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://terracommuni.org/about/</loc>
     <lastmod>2023-06-28T16:33:11+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,6 +16,12 @@
   
   <url>
     <loc>https://terracommuni.org/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://terracommuni.org/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,5 +1,5 @@
 ---
-title: "Ceremonies"
+title: "Cérémonies"
 date: 2023-06-28T16:33:11+02:00
 # draft: true
 keywords: []
@@ -9,7 +9,7 @@ categories: []
 # author: ""
 
 # Uncomment to pin article to front page
-# weight: 1
+weight: 1
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 comment: false
@@ -28,10 +28,10 @@ mathjax: false
 
 {{< map_of_ceremonies >}}
 
-### Latest ceremonies
+### Dernières cérémonies
 
 {{< latest_ceremonies >}}
 
-### Add a ceremony
+### Ajouter une cérémonie
 
 {{< new_ceremony >}}
