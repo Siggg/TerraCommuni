@@ -1,3 +1,9 @@
-{{ range $.Site.Data.ceremonies }}
-   {{ partial "ceremony.html" . }}
+<div>
+{{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
+  {{ range $ceremony_CIDs }}
+     {{ partial "ceremony.html" . }}
+  {{ end }}
 {{ end }}
+Test
+  <script type="module" src="/latest_ceremonies.js"></script>
+</div>

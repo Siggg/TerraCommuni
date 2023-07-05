@@ -3,8 +3,13 @@
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
 <script>
   let markers = [];
-  {{ range $key, $value := .Site.Data.ceremonies }}
-    markers.push( {{ $value }} );
+  {{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
+    {{ range $ceremony_CIDs }}
+      {{ $ceremony := getJSON "https://ipns.co/" . "/ceremony.json" }} 
+	  {{ with $ceremony }}
+        markers.push( [ {{ .latitude }}, {{ .longitude }} ]);
+      {{ end }}
+    {{ end }}
   {{ end }}
 </script>
 <style type="text/css">

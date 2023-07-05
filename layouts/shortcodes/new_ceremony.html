@@ -1,0 +1,126 @@
+<div>
+    <!--style>
+      form {
+        width: 500px;
+        padding: 16px;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        color:#333;
+      }
+      label {
+        display: block;
+        padding: 32px 0 8px;
+        font-weight: 700;
+      }
+      #token {
+        width: 100%;
+        padding: 4px;
+        font-size: 1.2rem;
+      }
+      #output {
+        display: block;
+        padding: 16px;
+        margin: 0;
+        color: lime;
+        background:#222;
+        font-family: Courier New, ui-monospace, monospace;
+        font-weight: 500;
+        line-height: 1.6;
+        height: 33.3%;
+        width: 100%;
+      }
+      #output a {
+        color: aqua
+      }
+      input[type=submit] {
+        display: block;
+        padding: 4px 16px;
+        font-weight: 700;
+        font-size: 16px;
+        margin-top: 32px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 24px;
+      }
+      h1 span {
+        display: block;
+      }
+    </style-->
+    <strong>Copy the exact handwritten information from the ceremony papersheet</strong>
+    <form id="ceremony-form">
+
+	  <fieldset>
+        <legend>Date and local time of the ceremony</legend>
+        <input type="datetime-local" id="datetime" name="datetime" required>
+	  </fieldset>
+
+	  <fieldset>
+        <legend>Identifier of the organizer of the ceremony</legend>
+        <input type="text" id="organizer_identifer" name="organizer_identifer" required>
+	  </fieldset>
+
+	  <fieldset>
+        <legend>Location of the ceremony</legend>
+	    <label>Latitude:
+          <input type="number" step="0.0001" id="latitude" name="latitude" required>
+		</label>
+	    <label>Longitude:
+          <input type="number" step="0.0001" id="longitude" name="longitude" required>
+		</label>
+	  </fieldset>
+
+	  <fieldset>
+	    <legend>Ethereum block of the ceremony</legend>
+	    <label>Block number:
+          <input type="number" id="block_height" name="block_height" required>
+		</label>
+	    <label>Block hash:
+          <input type="text" id="block_hash" name="block_hash" value="0x" required>
+		</label>
+	  </fieldset>
+
+	  <fieldset>
+	    <legend>Pictures and videos from the ceremony</legend>
+	    <label>Pictures:
+          <input type="file" id="pictures" name="pictures" accept="image/*" multiple required />
+		</label>
+        <br />
+	    <label>Videos:
+          <input type="file" id="videos" name="videos" accept="video/*" multiple required />
+		</label>
+	  </fieldset>
+
+	  <fieldset>
+	    <legend>Identifiers and number of visible persons they identify</legend>
+	    <table>
+		 <thead>
+		  <tr>
+		   <th>Phone number<br /> or email address</th>
+		   <th>Number of visible persons</th>
+		   <th></th>
+		  </tr>
+		 </thead>
+		 <tbody id="identifiers">
+		  <tr>
+		   <td><input type="text" name="identifier" required /></td>
+		   <td><input type="number" name="persons" value="1" required /></td>
+		   <td><input type="button" id="del-row" value="Remove" hidden></td>
+		  </tr>
+		 </tbody>
+		 <tfoot>
+		  <tr>
+		   <td colspan="3"><input type="button" id="add-row" name="add-row" value="Add an identifier" /></td>
+          </tr>
+		 </tfoot>
+		</table>
+	  </fieldset>
+
+      <input type="hidden" id="token" required value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGI5OTViOTI1MjI2NmY5ZjZkOUJmQzk2MjEwMkQ1ODg1MjdkOTMyOUIiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODg0ODc2NzQwMTIsIm5hbWUiOiIyMDIzLTA3LTA0X3B1dC1maWxlcyJ9.QLpvshXTB7HHF6CeZPivkUToPd7H1pMRrVNIYCXW1Q0"/>
+
+	  <input type="submit" value="Upload">
+    </form>
+    <div id="output"></div>
+  <script type="module" src="/new_ceremony.js"></script>
+</div>

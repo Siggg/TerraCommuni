@@ -1,16 +1,20 @@
-<div><h2>Local date and time = {{ .date }}, {{ .local_time }}</h2></div>
+<div>
+{{ $ceremony_CID := . }}
+{{ $ceremony := getJSON "https://ipns.co/" . "/ceremony.json" }}
+{{ with $ceremony }}
+<h4>Local date and time = {{ .datetime }}</h4></div>
 <div>Latitude, longitude = {{ .latitude }}, {{ .longitude }}</div>
 <div>
 <ul>
   <lh>Videos:</lh>
 {{ range .videos }}
-  <li><video height="240" controls><source src="{{ . }}"> Your browser does not support the video tag</video></li>
+  <li><video height="240" controls><source src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video></li>
 {{ end }}
 </ul>
 <ul>
   <lh>Pictures:</lh>
 {{ range .pictures }}
-  <li><img src="{{ . }}" /></li>
+  <li><img src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}" /></li>
 {{ end }}
 </ul>
 <ul>
@@ -22,3 +26,5 @@
 </div>
 <div>Ethereum block height and hash = {{ .block_height }}, {{ .block_hash }}</div>
 <div>Organizer's identifier = {{ .organizer_identifer }}</div>
+<div><a href="https://ipns.co/{{ $ceremony_CID }}">Full IPFS directory</a></div>
+{{ end }}
