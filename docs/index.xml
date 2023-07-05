@@ -439,6 +439,8 @@
     height:400px;
   }
 &lt;/style&gt;
+&lt;script src=&#34;https://maps.googleapis.com/maps/api/js?key=AIzaSyDX-At78f8sWF9CMSnQGr06TKlpXXobkPo&#34; async defer&gt;&lt;/script&gt;
+&lt;script src=&#34;https://unpkg.com/leaflet.gridlayer.googlemutant@latest/dist/Leaflet.GoogleMutant.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://terracommuni.org/map.js&#34;&gt;&lt;/script&gt;
 &lt;/div&gt;
 
