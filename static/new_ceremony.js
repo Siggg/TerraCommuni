@@ -36,7 +36,7 @@
         const ceremonyName = datetimeInput.value + "@" + latitudeInput.value + "@" + longitudeInput.value
         const ceremony = {
           datetime: datetimeInput.value,
-		  organizer_identifer: organizerInput.value,
+          organizer_identifier: organizerInput.value,
           latitude: latitudeInput.value,
           longitude: longitudeInput.value,
           block_height: block_heightInput.value,
