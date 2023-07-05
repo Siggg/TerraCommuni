@@ -7,7 +7,13 @@
     {{ range $ceremony_CIDs }}
       {{ $ceremony := getJSON "https://ipns.co/" . "/ceremony.json" }} 
 	  {{ with $ceremony }}
-        markers.push( { "latitude": parseFloat({{ .latitude }}), "longitude": parseFloat({{ .longitude }}) });
+        markers.push( {
+		  "latitude": parseFloat({{ .latitude }}),
+		  "longitude": parseFloat({{ .longitude }}),
+		  "datetime": {{ .datetime }},
+		  "organizer_identifier": {{ .organizer_identifier }}
+		});
+		console.log({{ .organizer_identifier }});
       {{ end }}
     {{ end }}
   {{ end }}

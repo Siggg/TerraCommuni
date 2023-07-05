@@ -424,12 +424,24 @@
     
        
 	  
-        markers.push( { &#34;latitude&#34;: parseFloat(&#34;-12.2574&#34;), &#34;longitude&#34;: parseFloat(&#34;27.970&#34;) });
+        markers.push( {
+		  &#34;latitude&#34;: parseFloat(&#34;-12.2574&#34;),
+		  &#34;longitude&#34;: parseFloat(&#34;27.970&#34;),
+		  &#34;datetime&#34;: &#34;1901-01-01T00:01&#34;,
+		  &#34;organizer_identifier&#34;:  null 
+		});
+		console.log( null );
       
     
        
 	  
-        markers.push( { &#34;latitude&#34;: parseFloat(&#34;-12.2599&#34;), &#34;longitude&#34;: parseFloat(&#34;27.9686&#34;) });
+        markers.push( {
+		  &#34;latitude&#34;: parseFloat(&#34;-12.2599&#34;),
+		  &#34;longitude&#34;: parseFloat(&#34;27.9686&#34;),
+		  &#34;datetime&#34;: &#34;2022-02-02T02:02&#34;,
+		  &#34;organizer_identifier&#34;:  null 
+		});
+		console.log( null );
       
     
   
@@ -527,7 +539,7 @@ Test
 
 	  &lt;fieldset&gt;
         &lt;legend&gt;Identifier of the organizer of the ceremony&lt;/legend&gt;
-        &lt;input type=&#34;text&#34; id=&#34;organizer_identifer&#34; name=&#34;organizer_identifer&#34; required&gt;
+        &lt;input type=&#34;text&#34; id=&#34;organizer_identifier&#34; name=&#34;organizer_identifier&#34; required&gt;
 	  &lt;/fieldset&gt;
 
 	  &lt;fieldset&gt;

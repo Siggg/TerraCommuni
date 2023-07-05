@@ -349,12 +349,24 @@
     
        
 	  
-        markers.push( { "latitude": parseFloat("-12.2574"), "longitude": parseFloat("27.970") });
+        markers.push( {
+		  "latitude": parseFloat("-12.2574"),
+		  "longitude": parseFloat("27.970"),
+		  "datetime": "1901-01-01T00:01",
+		  "organizer_identifier":  null 
+		});
+		console.log( null );
       
     
        
 	  
-        markers.push( { "latitude": parseFloat("-12.2599"), "longitude": parseFloat("27.9686") });
+        markers.push( {
+		  "latitude": parseFloat("-12.2599"),
+		  "longitude": parseFloat("27.9686"),
+		  "datetime": "2022-02-02T02:02",
+		  "organizer_identifier":  null 
+		});
+		console.log( null );
       
     
   
@@ -452,7 +464,7 @@ Test
 
 	  <fieldset>
         <legend>Identifier of the organizer of the ceremony</legend>
-        <input type="text" id="organizer_identifer" name="organizer_identifer" required>
+        <input type="text" id="organizer_identifier" name="organizer_identifier" required>
 	  </fieldset>
 
 	  <fieldset>
