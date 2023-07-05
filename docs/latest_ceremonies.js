@@ -5,13 +5,11 @@ function makeStorageClient () {
 }
 
 async function listUploads () {
-  console.log("listing...")
   const client = makeStorageClient()
   for await (const upload of client.list()) {
-    console.log(`${upload.name} - cid: ${upload.cid} - size: ${upload.dagSize}`);
+    // console.log(`${upload.name} - cid: ${upload.cid} - size: ${upload.dagSize}`);
     console.log(`https://ipns.co/${upload.cid}/ceremony.json`)
   }
 }
 
-console.log("logging")
 listUploads()

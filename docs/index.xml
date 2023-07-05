@@ -424,12 +424,12 @@
     
        
 	  
-        markers.push( [ &#34;-12.2574&#34;, &#34;27.970&#34; ]);
+        markers.push( { &#34;latitude&#34;: parseFloat(&#34;-12.2574&#34;), &#34;longitude&#34;: parseFloat(&#34;27.970&#34;) });
       
     
        
 	  
-        markers.push( [ &#34;-12.2599&#34;, &#34;27.9686&#34; ]);
+        markers.push( { &#34;latitude&#34;: parseFloat(&#34;-12.2599&#34;), &#34;longitude&#34;: parseFloat(&#34;27.9686&#34;) });
       
     
   
