@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on TerraCommuni</title>
+    <link>https://terracommuni.org/page/</link>
+    <description>Recent content in Pages on TerraCommuni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>jean.terracommuni@wecena.com (Jean Millerat)</managingEditor>
+    <webMaster>jean.terracommuni@wecena.com (Jean Millerat)</webMaster>
+    <copyright>© 2023 Jean Millerat, Agence Française de Développement</copyright><atom:link href="https://terracommuni.org/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About us</title>
+      <link>https://terracommuni.org/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/page/about/</guid>
+      <description>TerraCommuni is a free and open source data initiative by the Agence Francaise de Developpement (AFD). It is lead and maintained by Jean Millerat on behalf of the AFD.</description>
+    </item>
+    
+  </channel>
+</rss>

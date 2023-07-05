@@ -1,29 +1,118 @@
-<?xml-stylesheet type="text/xsl" href="https://terracommuni.org/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://terracommuni.org/fr/</loc>
+    <lastmod>2023-06-29T22:37:55+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/"
+                />
+  </url><url>
+    <loc>https://terracommuni.org/fr/post/howto/</loc>
+    <lastmod>2023-06-29T22:37:55+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/post/howto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/post/howto/"
+                />
+  </url><url>
+    <loc>https://terracommuni.org/fr/post/guide/</loc>
+    <lastmod>2023-06-29T22:37:55+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/post/guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/post/guide/"
+                />
+  </url><url>
+    <loc>https://terracommuni.org/fr/post/</loc>
+    <lastmod>2023-06-29T22:37:55+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/post/"
+                />
+  </url><url>
+    <loc>https://terracommuni.org/fr/post/ceremonies/</loc>
     <lastmod>2023-06-28T16:33:11+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/post/ceremonies/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/post/ceremonies/"
+                />
+  </url><url>
+    <loc>https://terracommuni.org/fr/page/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/page/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/page/about/"
+                />
+  </url><url>
     <loc>https://terracommuni.org/fr/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/categories/"
+                />
+  </url><url>
+    <loc>https://terracommuni.org/fr/page/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/page/"
+                />
+  </url><url>
     <loc>https://terracommuni.org/fr/tags/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/tags/"
+                />
   </url>
-  
-  <url>
-    <loc>https://terracommuni.org/fr/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
 </urlset>

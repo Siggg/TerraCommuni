@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Welcome to TerraCommuni</title>
+    <title>Posts on TerraCommuni</title>
     <link>https://terracommuni.org/post/</link>
-    <description>Recent content in Posts on Welcome to TerraCommuni</description>
+    <description>Recent content in Posts on TerraCommuni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© Jean Millerat, Agence Française de Développement</copyright>
+    <managingEditor>jean.terracommuni@wecena.com (Jean Millerat)</managingEditor>
+    <webMaster>jean.terracommuni@wecena.com (Jean Millerat)</webMaster>
+    <copyright>© 2023 Jean Millerat, Agence Française de Développement</copyright>
     <lastBuildDate>Thu, 29 Jun 2023 22:37:52 +0200</lastBuildDate><atom:link href="https://terracommuni.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to organize a ceremony</title>
+      <link>https://terracommuni.org/post/howto/</link>
+      <pubDate>Thu, 29 Jun 2023 22:37:52 +0200</pubDate>
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/post/howto/</guid>
+      <description>How to organize a ceremony? In order to organize a ceremony that meets all the criteria, here is a suggested method that you can follow step by step. You can do with any other method as long as your ceremonies complies with the criteria of the guide.
+Choosing the ceremony venue Participants can be welcomed in a first location (e.g. a meeting room) to explain the ceremony and allow them to prepare their paper.</description>
+    </item>
+    
     <item>
       <title>Protocol guide</title>
       <link>https://terracommuni.org/post/guide/</link>
       <pubDate>Thu, 29 Jun 2023 22:37:52 +0200</pubDate>
-      
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
       <guid>https://terracommuni.org/post/guide/</guid>
       <description>version 0.3, English translation Introduction The aim of the TerraCommuni protocol is to enable anyone on the planet, even without an Internet connection, to prove that they wished, at a specific time and place, to be sent digital messages to the messaging ID of their choice. Put another way, the TerraCommuni protocol allows anyone to say &amp;ldquo;I&amp;rsquo;m present here and now, and I can be contacted at this phone number or e-mail address&amp;rdquo;.</description>
     </item>
     
     <item>
-      <title>HOWTO organize a ceremony</title>
-      <link>https://terracommuni.org/post/howto/</link>
-      <pubDate>Thu, 29 Jun 2023 22:37:52 +0200</pubDate>
-      
-      <guid>https://terracommuni.org/post/howto/</guid>
-      <description>How to organize a ceremony? In order to organize a ceremony that meets all the criteria, here is a suggested method that you can follow step by step. You can do with any other method as long as your ceremonies complies with the criteria of the guide.
-Choosing the ceremony venue Participants can be welcomed in a first location (e.g. a meeting room) to explain the ceremony and allow them to prepare their paper.</description>
+      <title>Ceremonies</title>
+      <link>https://terracommuni.org/post/ceremonies/</link>
+      <pubDate>Wed, 28 Jun 2023 16:33:11 +0200</pubDate>
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/post/ceremonies/</guid>
+      <description>Latest ceremonies Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Videos
+Your browser does not support the video tagYour browser does not support the video tagPictures
+IdentifierParticipant(s)test1Ethereum block height and hash = 1, 0xOrganizer&#39;s identifier = Full IPFS directoryLocal date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Videos
+Your browser does not support the video tagYour browser does not support the video tagPictures</description>
     </item>
     
   </channel>

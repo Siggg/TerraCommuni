@@ -1,102 +1,113 @@
 baseURL = "https://terracommuni.org/"
 # baseURL = "https://siggg.github.io/TerraCommuni/"
+defaultContentLanguage = "en"
+title = "TerraCommuni"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+copyright = '© 2023 Jean Millerat, Agence Française de Développement'
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
 # canonifyURLs = true
 publishDir = "docs"
-title = "Welcome to TerraCommuni"
-theme = "hugo-theme-jane"
-paginate = 3
-Copyright = "© Jean Millerat, Agence Française de Développement"
-# enableGitInfo = true
 
-languageCode = "en-us"
-hasCJKLanguage = false
-defaultContentLanguage = "en"
+[Params]
+  # subtitle = "Build a beautiful and simple website in minutes"
+  mainSections = ["post","posts"]
+  logo = "img/logo.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "2006-01-02"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+  selfhosted = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+#  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Jean Millerat"
+  website = "akasig.org"
+  email = "jean.terracommuni@wecena.com"
+  # facebook = "jean.millerat"
+  github = "siggg"
+  gitlab = "siggg"
+  # bitbucket = "username"
+  # twitter = "siggg"
+  # reddit = "username"
+  linkedin = "https://www.linkedin.com/in/jean-millerat-8b1414/"
+  # xing = "username"
+  # stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # youtube = "user/sig007007" # or channel/channelname
+  # instagram = "username"
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+  # 500px = "username"
+  # codepen = "username"
+  # mastodon = "url"
+  # kaggle = "username"
+  # weibo = "username"
+  # slack = "username"
+  # medium = "username"
+  # discord = "invite code (https://discord.gg/XXXXXXX)"
+  # strava = "userid"
+
+[[menu.main]]
+    name = "Contribute"
+    url = "post/howto"
+    weight = 10
+
+[[menu.main]]
+    name = "Protocol"
+    url = "post/guide"
+    weight = 20
+	
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 30
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 40
 
 [languages]
   [languages.en]
     languageCode = "en"
     languageName = "English"
-    weight =1
+	weight = 1
   [languages.fr]
     languageCode = "fr"
     languageName = "Français"
-    weight = 2
-#  [[languages.fr.menu.main]]
-#    url    = "https://siggg.github.io/TerraCommuni/fr/guide/"
-#    name   = "Règles du jeu"
-#    weight = 0
-#  [[languages.fr.menu.main]]
-#    url    = "https://siggg.github.io/TerraCommuni/fr/about/"
-#    name   = "A propos (en anglais)"
-#    weight = 1
-#  [[languages.fr.menu.main]]
-#    url    = "https://siggg.github.io/TerraCommuni/fr/contribute/"
-#    name   = "Contribuer (en anglais)"
-#    weight = 2
-
-[author]                  # essential
-  name = "Jean Millerat"
-
-#[permalinks]
-#  post = ":year/:month/:slug/"
-
-[sitemap]                 # essential     
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
-[params]
-  description = "The TerraCommuni protocol"
-  authorlocation = "Paris, France"
-  cover = "images/cover.png"
-  author = "Jean Millerat"
-  logo = "images/logo.png"
-  githubName = "siggg"
-  linkedinName = "Jean Millerat"
-  # email = "your email"
-  # instagramName = "your ins name"
-  hideHUGOSupport = false
-  since = "2023"            # Site creation time     
-  homeFullContent = true   # if false, show post summaries on home page. Othewise show full content.
-  rssFullContent = true     # if false, Rss feed instead of the summary
-  showMenuLanguageChooser = true
-
-  logoTitle = "TerraCommuni"        # default: the title value
-  keywords = ["TerraCommuni", "Terra Communi", "ReFi", "blockchain"]
-
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
-
-  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  toc = true                                                            
-  photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>'
-
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = [] # 'ribbon.css', 'culottes.css', 'print.css']            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
-
-  [params.social]              
-    a-email = "mailto:jean.terracommuni@wecena.com"
-#    b-stack-overflow = "http://localhost:1313"
-#    c-twitter = "http://localhost:1313"
-#    d-facebook = "http://localhost:1313"
-    e-linkedin = "https://www.linkedin.com/in/jean-millerat-8b1414"
-#    f-google = "http://localhost:1313"
-    g-github = "https://github.com/siggg/TerraCommuni"
-#    h-weibo = "http://localhost:1313"
-#    i-zhihu = "http://localhost:1313"
-#    j-douban = "http://localhost:1313"
-#    k-pocket = "http://localhost:1313"
-#    l-tumblr = "http://localhost:1313"
-#    m-instagram = "http://localhost:1313"
-#    n-gitlab = "https://gitlab.com/siggg/culottes"
-#    o-goodreads = "http://localhost:1313"
-#    p-coding = "http://localhost:1313"
-#    q-bilibili = "http://localhost:1313"
-
-  [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
-    enable = false
-    repo = "siggg/comments-for-terracommuni"    # The repo to store comments
-    issueTerm = "pathname"
+	weight = 2

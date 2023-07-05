@@ -1,245 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to TerraCommuni</title>
+    <title>Bienvenue on TerraCommuni</title>
     <link>https://terracommuni.org/fr/</link>
-    <description>Recent content on Welcome to TerraCommuni</description>
+    <description>Recent content in Bienvenue on TerraCommuni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>© Jean Millerat, Agence Française de Développement</copyright>
+    <managingEditor>jean.terracommuni@wecena.com (Jean Millerat)</managingEditor>
+    <webMaster>jean.terracommuni@wecena.com (Jean Millerat)</webMaster>
+    <copyright>© 2023 Jean Millerat, Agence Française de Développement</copyright>
+    <lastBuildDate>Thu, 29 Jun 2023 22:37:55 +0200</lastBuildDate><atom:link href="https://terracommuni.org/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comment organiser une cérémonie</title>
+      <link>https://terracommuni.org/fr/post/howto/</link>
+      <pubDate>Thu, 29 Jun 2023 22:37:55 +0200</pubDate>
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/fr/post/howto/</guid>
+      <description>Comment organiser une cérémonie ? Afin d&amp;rsquo;organiser une cérémonie qui soit conforme à tous les critères, voici une suggestion de méthode que vous pouvez suivre pas à pas. Vous pouvez faire autrement, du moment que votre cérémonie est conforme aux critères du guide..
+Choisir le lieu de la cérémonie Les participants peuvent être accueillis dans un premier lieu (par exemple une salle de réunion) afin de leur expliquer le déroulement de la cérémonie et de leur permettre de préparer leur feuille de papier.</description>
+    </item>
     
-        <atom:link href="https://terracommuni.org/fr/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Guide du protocole</title>
+      <link>https://terracommuni.org/fr/post/guide/</link>
+      <pubDate>Thu, 29 Jun 2023 22:37:55 +0200</pubDate>
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/fr/post/guide/</guid>
+      <description>version 0.3 Introduction L&amp;rsquo;objectif du protocole TerraCommuni est de permettre à toute personne sur la planète, même sans connexion à l&amp;rsquo;Internet, de prouver qu&amp;rsquo;elle souhaitait, à un moment et à un endroit précis, qu&amp;rsquo;on lui adresse des messages numériques à l&amp;rsquo;identifiant de messagerie de son choix. Dit autrement, le protocole TerraCommuni permet à chacun de dire &amp;quot; je suis présent ici et maintenant et je peux être contacté à ce numéro de téléphone ou à cette adresse mail &amp;ldquo;.</description>
+    </item>
     
     <item>
       <title>Cérémonies</title>
-      <link>https://terracommuni.org/fr/</link>
+      <link>https://terracommuni.org/fr/post/ceremonies/</link>
       <pubDate>Wed, 28 Jun 2023 16:33:11 +0200</pubDate>
-      
-      <guid>https://terracommuni.org/fr/</guid>
-      
-        <description>&lt;div id=&#34;map&#34;&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&#34; crossorigin=&#34;&#34;/&gt;
-&lt;script src=&#34;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&#34; crossorigin=&#34;&#34;&gt;&lt;/script&gt;
-&lt;script&gt;
-  let markers = [];
-  
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/fr/post/ceremonies/</guid>
+      <description>Dernières cérémonies Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Videos
+Your browser does not support the video tagYour browser does not support the video tagPictures
+IdentifierParticipant(s)test1Ethereum block height and hash = 1, 0xOrganizer&#39;s identifier = Full IPFS directoryLocal date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Videos
+Your browser does not support the video tagYour browser does not support the video tagPictures</description>
+    </item>
     
-       
-	  
-        markers.push( {
-		  &#34;latitude&#34;: parseFloat(&#34;-12.2574&#34;),
-		  &#34;longitude&#34;: parseFloat(&#34;27.970&#34;),
-		  &#34;datetime&#34;: &#34;1901-01-01T00:01&#34;,
-		  &#34;organizer_identifier&#34;:  null 
-		});
-		console.log( null );
-      
-    
-       
-	  
-        markers.push( {
-		  &#34;latitude&#34;: parseFloat(&#34;-12.2599&#34;),
-		  &#34;longitude&#34;: parseFloat(&#34;27.9686&#34;),
-		  &#34;datetime&#34;: &#34;2022-02-02T02:02&#34;,
-		  &#34;organizer_identifier&#34;:  null 
-		});
-		console.log( null );
-      
-    
-  
-&lt;/script&gt;
-&lt;style type=&#34;text/css&#34;&gt;
-  #map{  
-    height:400px;
-  }
-&lt;/style&gt;
-&lt;script src=&#34;https://maps.googleapis.com/maps/api/js?key=AIzaSyDX-At78f8sWF9CMSnQGr06TKlpXXobkPo&#34; async defer&gt;&lt;/script&gt;
-&lt;script src=&#34;https://unpkg.com/leaflet.gridlayer.googlemutant@latest/dist/Leaflet.GoogleMutant.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://terracommuni.org/map.js&#34;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;dernières-cérémonies&#34;&gt;Dernières cérémonies&lt;/h3&gt;
-&lt;div&gt;
-
-  
-     &lt;div&gt;
-
-
-
-
-&lt;div&gt;
-&lt;div&gt;&lt;h4 id=&#34;1901-01-01T00:01@-12.2574,27.97&#34;&gt;Local date and time = 1901-01-01T00:01&lt;/h4&gt;&lt;/div&gt;
-&lt;div&gt;Latitude, longitude = &lt;a href=&#34;#popup_1901-01-01T00%3a01@-12.2574,27.97&#34;&gt;-12.2574, 27.97&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;Videos&lt;br /&gt;
-
-  &lt;video height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://ipfs.io/ipfs/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-16%20Terra%20zawadi_360p.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;
-  &lt;video hidden height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-16%20Terra%20zawadi_360p.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;
-
-&lt;/div&gt;
-&lt;div&gt;Pictures&lt;br /&gt;
-
-  &lt;img height=&#34;240&#34; src=&#34;https://ipfs.io/ipfs/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-06_355479255_1899560887095793_5103100342700944130_n.jpg&#34;  style=&#34;max-height:240px; max-width:240px; height:auto; width:auto;&#34; /&gt;
-  &lt;img hidden loading=&#34;lazy&#34; src=&#34;https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-06_355479255_1899560887095793_5103100342700944130_n.jpg&#34; /&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
- &lt;table&gt;
-  &lt;thead&gt;
-   &lt;tr&gt;
-    &lt;th&gt;Identifier&lt;/th&gt;
-    &lt;th&gt;Participant(s)&lt;/th&gt;
-   &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-
-   &lt;tr&gt;
-    &lt;td&gt;&lt;code&gt;test&lt;/code&gt;&lt;/td&gt;
-	&lt;td&gt;1&lt;/td&gt;
-   &lt;/tr&gt;
-
-  &lt;/tbody&gt;
- &lt;/table&gt;
-&lt;/div&gt;
-&lt;div&gt;Ethereum block height and hash = 1, 0x&lt;/div&gt;
-&lt;div&gt;Organizer&#39;s identifier = &lt;/div&gt;
-&lt;div&gt;&lt;a href=&#34;https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla&#34;&gt;Full IPFS directory&lt;/a&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-  
-     &lt;div&gt;
-
-
-
-
-&lt;div&gt;
-&lt;div&gt;&lt;h4 id=&#34;2022-02-02T02:02@-12.2599,27.9686&#34;&gt;Local date and time = 2022-02-02T02:02&lt;/h4&gt;&lt;/div&gt;
-&lt;div&gt;Latitude, longitude = &lt;a href=&#34;#popup_2022-02-02T02%3a02@-12.2599,27.9686&#34;&gt;-12.2599, 27.9686&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;Videos&lt;br /&gt;
-
-  &lt;video height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://ipfs.io/ipfs/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/mira%20Terra%20communi_360p.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;
-  &lt;video hidden height=&#34;240&#34; controls&gt;&lt;source src=&#34;https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/mira%20Terra%20communi_360p.mp4&#34;&gt; Your browser does not support the video tag&lt;/video&gt;
-
-&lt;/div&gt;
-&lt;div&gt;Pictures&lt;br /&gt;
-
-  &lt;img height=&#34;240&#34; src=&#34;https://ipfs.io/ipfs/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/2023-06-20_15-44_355863566_1899543787097503_5657048151014444017_n.jpg&#34;  style=&#34;max-height:240px; max-width:240px; height:auto; width:auto;&#34; /&gt;
-  &lt;img hidden loading=&#34;lazy&#34; src=&#34;https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/2023-06-20_15-44_355863566_1899543787097503_5657048151014444017_n.jpg&#34; /&gt;
-
-&lt;/div&gt;
-&lt;div&gt;
- &lt;table&gt;
-  &lt;thead&gt;
-   &lt;tr&gt;
-    &lt;th&gt;Identifier&lt;/th&gt;
-    &lt;th&gt;Participant(s)&lt;/th&gt;
-   &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-
-   &lt;tr&gt;
-    &lt;td&gt;&lt;code&gt;test&lt;/code&gt;&lt;/td&gt;
-	&lt;td&gt;1&lt;/td&gt;
-   &lt;/tr&gt;
-
-  &lt;/tbody&gt;
- &lt;/table&gt;
-&lt;/div&gt;
-&lt;div&gt;Ethereum block height and hash = 1, 0x&lt;/div&gt;
-&lt;div&gt;Organizer&#39;s identifier = &lt;/div&gt;
-&lt;div&gt;&lt;a href=&#34;https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry&#34;&gt;Full IPFS directory&lt;/a&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-  
-
-  &lt;script type=&#34;module&#34; src=&#34;https://terracommuni.org/latest_ceremonies.js&#34;&gt;&lt;/script&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;ajouter-une-cérémonie&#34;&gt;Ajouter une cérémonie&lt;/h3&gt;
-&lt;div&gt;
-    
-    &lt;strong&gt;Copy the exact handwritten information from the ceremony papersheet&lt;/strong&gt;
-    &lt;form id=&#34;ceremony-form&#34;&gt;
-
-	  &lt;fieldset&gt;
-        &lt;legend&gt;Date and local time of the ceremony&lt;/legend&gt;
-        &lt;input type=&#34;datetime-local&#34; id=&#34;datetime&#34; name=&#34;datetime&#34; required&gt;
-	  &lt;/fieldset&gt;
-
-	  &lt;fieldset&gt;
-        &lt;legend&gt;Identifier of the organizer of the ceremony&lt;/legend&gt;
-        &lt;input type=&#34;text&#34; id=&#34;organizer_identifier&#34; name=&#34;organizer_identifier&#34; required&gt;
-	  &lt;/fieldset&gt;
-
-	  &lt;fieldset&gt;
-        &lt;legend&gt;Location of the ceremony&lt;/legend&gt;
-	    &lt;label&gt;Latitude:
-          &lt;input type=&#34;number&#34; step=&#34;0.0001&#34; id=&#34;latitude&#34; name=&#34;latitude&#34; required&gt;
-		&lt;/label&gt;
-	    &lt;label&gt;Longitude:
-          &lt;input type=&#34;number&#34; step=&#34;0.0001&#34; id=&#34;longitude&#34; name=&#34;longitude&#34; required&gt;
-		&lt;/label&gt;
-	  &lt;/fieldset&gt;
-
-	  &lt;fieldset&gt;
-	    &lt;legend&gt;Ethereum block of the ceremony&lt;/legend&gt;
-	    &lt;label&gt;Block number:
-          &lt;input type=&#34;number&#34; id=&#34;block_height&#34; name=&#34;block_height&#34; required&gt;
-		&lt;/label&gt;
-	    &lt;label&gt;Block hash:
-          &lt;input type=&#34;text&#34; id=&#34;block_hash&#34; name=&#34;block_hash&#34; value=&#34;0x&#34; required&gt;
-		&lt;/label&gt;
-	  &lt;/fieldset&gt;
-
-	  &lt;fieldset&gt;
-	    &lt;legend&gt;Pictures and videos from the ceremony&lt;/legend&gt;
-	    &lt;label&gt;Pictures:
-          &lt;input type=&#34;file&#34; id=&#34;pictures&#34; name=&#34;pictures&#34; accept=&#34;image/*&#34; multiple required /&gt;
-		&lt;/label&gt;
-        &lt;br /&gt;
-	    &lt;label&gt;Videos:
-          &lt;input type=&#34;file&#34; id=&#34;videos&#34; name=&#34;videos&#34; accept=&#34;video/*&#34; multiple required /&gt;
-		&lt;/label&gt;
-	  &lt;/fieldset&gt;
-
-	  &lt;fieldset&gt;
-	    &lt;legend&gt;Identifiers and number of visible persons they identify&lt;/legend&gt;
-	    &lt;table&gt;
-		 &lt;thead&gt;
-		  &lt;tr&gt;
-		   &lt;th&gt;Phone number&lt;br /&gt; or email address&lt;/th&gt;
-		   &lt;th&gt;Number of visible persons&lt;/th&gt;
-		   &lt;th&gt;&lt;/th&gt;
-		  &lt;/tr&gt;
-		 &lt;/thead&gt;
-		 &lt;tbody id=&#34;identifiers&#34;&gt;
-		  &lt;tr&gt;
-		   &lt;td&gt;&lt;input type=&#34;text&#34; name=&#34;identifier&#34; required /&gt;&lt;/td&gt;
-		   &lt;td&gt;&lt;input type=&#34;number&#34; name=&#34;persons&#34; value=&#34;1&#34; required /&gt;&lt;/td&gt;
-		   &lt;td&gt;&lt;input type=&#34;button&#34; id=&#34;del-row&#34; value=&#34;Remove&#34; hidden&gt;&lt;/td&gt;
-		  &lt;/tr&gt;
-		 &lt;/tbody&gt;
-		 &lt;tfoot&gt;
-		  &lt;tr&gt;
-		   &lt;td colspan=&#34;3&#34;&gt;&lt;input type=&#34;button&#34; id=&#34;add-row&#34; name=&#34;add-row&#34; value=&#34;Add an identifier&#34; /&gt;&lt;/td&gt;
-          &lt;/tr&gt;
-		 &lt;/tfoot&gt;
-		&lt;/table&gt;
-	  &lt;/fieldset&gt;
-
-      &lt;input type=&#34;hidden&#34; id=&#34;token&#34; required value=&#34;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGI5OTViOTI1MjI2NmY5ZjZkOUJmQzk2MjEwMkQ1ODg1MjdkOTMyOUIiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODg0ODc2NzQwMTIsIm5hbWUiOiIyMDIzLTA3LTA0X3B1dC1maWxlcyJ9.QLpvshXTB7HHF6CeZPivkUToPd7H1pMRrVNIYCXW1Q0&#34;/&gt;
-
-	  &lt;input type=&#34;submit&#34; value=&#34;Upload&#34;&gt;
-    &lt;/form&gt;
-    &lt;div id=&#34;output&#34;&gt;&lt;/div&gt;
-  &lt;script type=&#34;module&#34; src=&#34;https://terracommuni.org/new_ceremony.js&#34;&gt;&lt;/script&gt;
-&lt;/div&gt;
-
-</description>
-      
+    <item>
+      <title>Au sujet de TerraCommuni</title>
+      <link>https://terracommuni.org/fr/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/fr/page/about/</guid>
+      <description>TerraCommuni est une initiative de données libres et en source ouverte portée par l&amp;rsquo;Agence Française de Développement (AFD). Elle est conduite et maintenue par Jean Millerat au nom de l&amp;rsquo;AFD.</description>
     </item>
     
   </channel>

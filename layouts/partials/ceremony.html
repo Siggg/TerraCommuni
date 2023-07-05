@@ -8,7 +8,7 @@
 <div>Latitude, longitude = <a href="#popup_{{ .datetime }}@{{ float .latitude }},{{ float .longitude }}">{{ float .latitude }}, {{ float .longitude }}</a></div>
 <div>Videos<br />
 {{ range .videos }}
-  <video height="240" controls><source src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video>
+  <video height="240" style="max-height:240px; max-width:240px; height:auto; width:auto;" controls><source src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video>
   <video hidden height="240" controls><source src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video>
 {{ end }}
 </div>
