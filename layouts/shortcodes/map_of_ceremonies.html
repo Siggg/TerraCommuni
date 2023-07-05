@@ -5,7 +5,7 @@
   let markers = [];
   {{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
     {{ range $ceremony_CIDs }}
-      {{ $ceremony := getJSON "https://ipns.co/" . "/ceremony.json" }} 
+      {{ $ceremony := getJSON "https://ipfs.io/ipfs/" . "/ceremony.json" }} 
 	  {{ with $ceremony }}
         markers.push( {
 		  "latitude": parseFloat({{ .latitude }}),

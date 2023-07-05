@@ -1,7 +1,6 @@
 <div>
 {{ $ceremony_CID := . }}
 {{ $ceremony := getJSON "https://ipfs.io/ipfs/" . "/ceremony.json" }}
-{{ $ceremony2 := getJSON "https://ipns.co/" . "/ceremony.json" }}
 {{ with $ceremony }}
 <div>
 <div><h4 id="{{ .datetime }}@{{ float .latitude }},{{ float .longitude }}">Local date and time = {{ .datetime }}</h4></div>
