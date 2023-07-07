@@ -11,6 +11,4 @@ subtitle:
 
 {{< latest_ceremonies >}}
 
-# Add a ceremony
-
-{{< new_ceremony >}}
+# [Add a new ceremony](/page/ceremony_new)

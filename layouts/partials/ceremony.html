@@ -9,28 +9,27 @@
   <div><a href="https://ipns.co/{{ $ceremony_CID }}">Full IPFS directory</a></div>
 
 <div class="media-gallery">
-  <div>Videos<br />
+  <div>Videos and pictures<br />
   {{ range .videos }}
     <video height="240" style="max-height:240px; height:auto; width:auto; vertical-align:top;" controls><source src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video>
     <video hidden controls><source src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}"> Your browser does not support the video tag</video>
   {{ end }}
-  </div>
-  <div>Pictures<br />
   {{ range .pictures }}
-    <img height="240" src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"  style="max-height:240px; height:auto; width:auto; vertical-align:top;" />
+    <img height="240" src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
     <img hidden loading="lazy" src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}" />
   {{ end }}
   </div>
 </div>
 
-<div id="lightbox" style="display: none;">
-  <span id="close" style="cursor: pointer;">X</span>
-  <span id="previous" style="cursor: pointer;"><<</span>
-  <span id="next" style="cursor: pointer;">>></span>
-  <img id="lightbox-img" src="">
-  <video id="lightbox-video" controls></video>
+<div id="lightbox">
+  <span id="lightbox-close">&#x2715;</span> <!-- This is for × -->
+  <span id="lightbox-previous">&#x00AB;</span> <!-- This is for « -->
+  <span id="lightbox-next">&#x00BB;</span> <!-- This is for » -->
+  <img id="lightbox-img" src="" class="lightbox-media">
+  <video id="lightbox-video"  class="lightbox-media" controls></video>
 </div>
 
-<hr>
+<link rel="stylesheet" type="text/css" href="css/ceremony_lightbox.css">
+<script src="js/ceremony_lightbox.js"></script>
 </div>
 {{ end }}

@@ -154,6 +154,6 @@ Il faut :
 
 -   Remercier les participants. La cérémonie est terminée. Les participants recevront peut-être des messages TerraCommuni sur leur téléphone ou leur adresse email. Mais attention au risque d'arnaques.
 
--   Le plus rapidement possible (cf. critère 3, l'unité de temps et critère 23, une cérémonie publiée rapidement), se connecter à ce formurlaire Google [https://docs.google.com/forms/d/1wTrvYzrWpPAs9NPWHz8275aVBcfyb05J8dytuXCcHHE/](https://docs.google.com/forms/d/1wTrvYzrWpPAs9NPWHz8275aVBcfyb05J8dytuXCcHHE/edit) et y publier immédiatement les vidéos et photos de la cérémonie (cf. critère 1, les preuves vidéos et photographiques).
+-   Le plus rapidement possible (cf. critère 3, l'unité de temps et critère 23, une cérémonie publiée rapidement), aller au formulaire [Ajouter une cérémonie](page/ceremony_new) et le remplir avec vos photos et vidéos (cf. critère 1, les preuves vidéos et photographiques) et avec les informations telles qu'on peut les lire sur la feuille de cérémonie.
 
--   Dès que l'organisateur le peut (voir immédiatement si c'est possible), il fournit également, dans le formulaire, toutes les données de la cérémonie (cf. critère 24, des données complétées ultérieurement par l'organisateur).
+-   Dès que l'organisateur le peut (voir immédiatement si c'est possible), il fournit également la liste des identifiants et nombre de participants visibles dans les photos et vidéos de la cérémonie (cf. critère 24, des données complétées ultérieurement par l'organisateur).

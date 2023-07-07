@@ -54,17 +54,30 @@
                 href="https://terracommuni.org/"
                 />
   </url><url>
-    <loc>https://terracommuni.org/post/ceremonies/</loc>
+    <loc>https://terracommuni.org/page/ceremonies/</loc>
     <lastmod>2023-06-28T16:33:11+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://terracommuni.org/fr/post/ceremonies/"
+                href="https://terracommuni.org/fr/page/ceremonies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://terracommuni.org/post/ceremonies/"
+                href="https://terracommuni.org/page/ceremonies/"
+                />
+  </url><url>
+    <loc>https://terracommuni.org/page/</loc>
+    <lastmod>2023-06-28T16:33:11+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/page/"
                 />
   </url><url>
     <loc>https://terracommuni.org/page/about/</loc>
@@ -79,6 +92,18 @@
                 href="https://terracommuni.org/page/about/"
                 />
   </url><url>
+    <loc>https://terracommuni.org/page/ceremony_new/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://terracommuni.org/fr/page/ceremony_new/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://terracommuni.org/page/ceremony_new/"
+                />
+  </url><url>
     <loc>https://terracommuni.org/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -89,18 +114,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://terracommuni.org/categories/"
-                />
-  </url><url>
-    <loc>https://terracommuni.org/page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://terracommuni.org/fr/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://terracommuni.org/page/"
                 />
   </url><url>
     <loc>https://terracommuni.org/tags/</loc>

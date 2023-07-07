@@ -70,6 +70,12 @@
         
           
             <li>
+              <a title="Ceremonies" href="/fr/page/ceremonies">Ceremonies</a>
+            </li>
+          
+        
+          
+            <li>
               <a title="Contribute" href="/fr/post/howto">Contribute</a>
             </li>
           
@@ -77,12 +83,6 @@
           
             <li>
               <a title="Protocol" href="/fr/post/guide">Protocol</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Blog" href="/fr/">Blog</a>
             </li>
           
         
@@ -215,6 +215,135 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
         <div class="posts-list">
+          
+            <article class="post-preview">
+    <a href="https://terracommuni.org/fr/page/ceremonies/">
+        <h2 class="post-title">Cérémonies récentes</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Publié le 2023-06-28
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;108&nbsp;mots
+  
+  
+  &nbsp;&bull;&nbsp;Traductions : <a href="https://terracommuni.org/page/ceremonies/" lang="en">English</a>
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        Dernières cérémonies Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Organizer's identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures
+Your browser does not support the video tagYour browser does not support the video tag&#x2715; &#x00AB; &#x00BB; IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Organizer's identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures
+        <a href="https://terracommuni.org/fr/page/ceremonies/" class="post-read-more">[Lire]</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://terracommuni.org/fr/page/ceremony_new/">
+        <h2 class="post-title">Ajouter une cérémonie</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Publié le 0001-01-01
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;49&nbsp;mots
+  
+  
+  &nbsp;&bull;&nbsp;Traductions : <a href="https://terracommuni.org/page/ceremony_new/" lang="en">English</a>
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <div>
+    <em>Copy the handwritten information from the ceremony papersheet.</em>
+    <form id="ceremony-form">
+
+	  <fieldset>
+        <label>Date and local time from the ceremony sheet
+        <input type="datetime-local" id="datetime" name="datetime" required></label>
+	  </fieldset>
+
+	  <fieldset>
+        <label>Identifier of the organizer from the ceremony sheet
+        <input type="text" id="organizer_identifier" name="organizer_identifier" required></label>
+	  </fieldset>
+
+	  <fieldset>
+        <legend>Location from the ceremony sheet</legend>
+	    <label>Latitude:
+          <input type="number" step="0.0001" id="latitude" name="latitude" min="-180" max="180" required>
+		</label>
+	    <label>Longitude:
+          <input type="number" step="0.0001" id="longitude" name="longitude" min="-180" max="180" required>
+		</label>
+	  </fieldset>
+
+	  <fieldset>
+	    <legend>Ethereum block from the ceremony sheet</legend>
+	    <label>Block number:
+          <input type="number" id="block_height" name="block_height" min="0" required>
+		</label>
+	    <label>Block hash:
+          <input type="text" id="block_hash" name="block_hash" value="0x" required>
+		</label>
+	  </fieldset>
+	  
+	  <fieldset>
+	    <legend>Pictures and videos from the ceremony</legend>
+	    <label>Pictures:
+          <input type="file" id="pictures" name="pictures" accept="image/*" multiple required />
+		</label>
+        <br />
+	    <label>Videos:
+          <input type="file" id="videos" name="videos" accept="video/*" multiple required />
+		</label>
+	  </fieldset>
+
+      <input type="hidden" id="token" required value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGI5OTViOTI1MjI2NmY5ZjZkOUJmQzk2MjEwMkQ1ODg1MjdkOTMyOUIiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODg0ODc2NzQwMTIsIm5hbWUiOiIyMDIzLTA3LTA0X3B1dC1maWxlcyJ9.QLpvshXTB7HHF6CeZPivkUToPd7H1pMRrVNIYCXW1Q0"/>
+
+	  <input type="submit" value="Upload">
+    </form>
+    <div id="output"></div>
+  
+  
+  <script type="module">import{Web3Storage}from"https://cdn.jsdelivr.net/npm/web3.storage/dist/bundle.esm.min.js";const form=document.querySelector("#ceremony-form"),datetimeInput=document.querySelector("#datetime"),organizerInput=document.querySelector("#organizer_identifer"),latitudeInput=document.querySelector("#latitude"),longitudeInput=document.querySelector("#longitude"),block_heightInput=document.querySelector("#block_height"),block_hashInput=document.querySelector("#block_hash"),picturesInput=document.querySelector("#pictures"),videosInput=document.querySelector("#videos"),tokenInput=document.querySelector("#token"),addRowButton=document.querySelector("#add-row"),output=document.querySelector("#output");let now=new Date,dateTime=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,"0")}-${String(now.getDate()).padStart(2,"0")}T${String(now.getHours()).padStart(2,"0")}:${String(now.getMinutes()).padStart(2,"0")}`;datetimeInput.value=dateTime,navigator.geolocation?navigator.geolocation.getCurrentPosition(e=>{latitudeInput.value=e.coords.latitude,longitudeInput.value=e.coords.longitude}):alert("Geolocation is not supported by this browser."),fetch("https://api.etherscan.io/api?module=proxy&action=eth_blockNumber&apikey=E6FW5YGBWRTQ51D6KJMIZCQNJ2AP5X7866").then(e=>e.json()).then(e=>{let t=parseInt(e.result,16);return block_heightInput.value=t,fetch(`https://api.etherscan.io/api?module=proxy&action=eth_getBlockByNumber&tag=${e.result}&boolean=true&apikey=E6FW5YGBWRTQ51D6KJMIZCQNJ2AP5X7866`)}).then(e=>e.json()).then(e=>block_hashInput.value=e.result.hash.substring(0,8)),showMessage("> ⁂ waiting for form submission..."),form.addEventListener("submit",async function(e){e.preventDefault();const a=datetimeInput.value+"@"+latitudeInput.value+"@"+longitudeInput.value,n={datetime:datetimeInput.value,organizer_identifier:organizerInput.value,latitude:latitudeInput.value,longitude:longitudeInput.value,block_height:block_heightInput.value,block_hash:block_hashInput.value,pictures:[],videos:[]},t=new DataTransfer;for(const e of picturesInput.files)t.items.add(e),n.pictures.push(e.name);for(const e of videosInput.files)t.items.add(e),n.videos.push(e.name);const r=JSON.stringify(n);t.items.add(new File([r],"ceremony.json")),showMessage("> 📦 creating web3.storage client");const c=tokenInput.value,l=new Web3Storage({token:c});showMessage("> 🤖 chunking and hashing the files (in your browser!) to calculate the Content ID");const s=t.files,d=Array.from(s).map(e=>e.size).reduce((e,t)=>e+t,0);let o=0;const u=e=>{o+=e;const t=100*(o/d);showMessage(`> 🛰 uploaded ${e.toLocaleString()} more bytes to web3.storage, ${t.toFixed(2)}% complete`)},i=await l.put(s,{name:a,onRootCidReady:e=>{showMessage(`> 🔑 locally calculated Content ID: ${e} `),showMessage("> 📡 sending files to web3.storage, please wait ")},onStoredChunk:u});showMessage(`> ✅ web3.storage now hosting ${i}`),showLink(`https://dweb.link/ipfs/${i}`)},!1);function showMessage(e){const t=document.createElement("div");t.innerText=e,output.appendChild(t)}function showLink(e){const t=document.createElement("a");t.href=e,t.innerText=`> 🔗 ${e}`,output.appendChild(t)}</script>
+</div>
+
+
+        
+    </div>
+
+    
+
+</article>
           
             <article class="post-preview">
     <a href="https://terracommuni.org/fr/page/about/">

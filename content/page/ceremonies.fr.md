@@ -1,5 +1,5 @@
 ---
-title: "Cérémonies"
+title: "Cérémonies récentes"
 date: 2023-06-28T16:33:11+02:00
 toc: true
 ---
@@ -10,6 +10,6 @@ toc: true
 
 {{< latest_ceremonies >}}
 
-## Ajouter une cérémonie
+<hr>
 
-{{< ceremony_new >}}
+## [Ajouter une nouvelle cérémonie](/page/ceremony_new)

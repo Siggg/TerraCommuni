@@ -10,6 +10,4 @@ subtitle:
 
 {{< latest_ceremonies >}}
 
-# Ajouter une cérémonie
-
-{{< new_ceremony >}}
+# [Ajouter une cérémonie](/page/ceremony_new)

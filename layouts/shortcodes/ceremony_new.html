@@ -1,19 +1,19 @@
 <div>
-    <strong>Copy the exact handwritten information from the ceremony papersheet</strong>
+    <em>Copy the handwritten information from the ceremony papersheet.</em>
     <form id="ceremony-form">
 
 	  <fieldset>
-        <legend>Date and local time of the ceremony</legend>
-        <input type="datetime-local" id="datetime" name="datetime" required>
+        <label>Date and local time from the ceremony sheet
+        <input type="datetime-local" id="datetime" name="datetime" required></label>
 	  </fieldset>
 
 	  <fieldset>
-        <legend>Identifier of the organizer of the ceremony</legend>
-        <input type="text" id="organizer_identifier" name="organizer_identifier" required>
+        <label>Identifier of the organizer from the ceremony sheet
+        <input type="text" id="organizer_identifier" name="organizer_identifier" required></label>
 	  </fieldset>
 
 	  <fieldset>
-        <legend>Location of the ceremony</legend>
+        <legend>Location from the ceremony sheet</legend>
 	    <label>Latitude:
           <input type="number" step="0.0001" id="latitude" name="latitude" min="-180" max="180" required>
 		</label>
@@ -23,7 +23,7 @@
 	  </fieldset>
 
 	  <fieldset>
-	    <legend>Ethereum block of the ceremony</legend>
+	    <legend>Ethereum block from the ceremony sheet</legend>
 	    <label>Block number:
           <input type="number" id="block_height" name="block_height" min="0" required>
 		</label>
@@ -43,10 +43,12 @@
 		</label>
 	  </fieldset>
 
-      <input type="hidden" id="token" required value="{{ web3_storage_JWT }}"/>
+      <input type="hidden" id="token" required value="{{ $.Site.Params.web3_storage_JWT }}"/>
 
 	  <input type="submit" value="Upload">
     </form>
     <div id="output"></div>
-  <script type="module" src="/js/ceremony_new.js"></script>
+  {{ $path := "js/ceremony_new.js" }}
+  {{ $js := resources.Get $path | resources.ExecuteAsTemplate $path . | minify }}
+  <script type="module">{{ $js.Content | safeJS }}</script>
 </div>

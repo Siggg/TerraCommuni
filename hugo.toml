@@ -33,6 +33,8 @@ publishDir = "docs"
   showRelatedPosts = true
   hideAuthor = true
   selfhosted = true
+  etherscan_API_key = "E6FW5YGBWRTQ51D6KJMIZCQNJ2AP5X7866"
+  web3_storage_JWT = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGI5OTViOTI1MjI2NmY5ZjZkOUJmQzk2MjEwMkQ1ODg1MjdkOTMyOUIiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODg0ODc2NzQwMTIsIm5hbWUiOiIyMDIzLTA3LTA0X3B1dC1maWxlcyJ9.QLpvshXTB7HHF6CeZPivkUToPd7H1pMRrVNIYCXW1Q0"				
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 #  disclaimerText = "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
 
@@ -83,6 +85,11 @@ publishDir = "docs"
   # strava = "userid"
 
 [[menu.main]]
+    name = "Ceremonies"
+    url = "page/ceremonies"
+    weight = 1
+
+[[menu.main]]
     name = "Contribute"
     url = "post/howto"
     weight = 10
@@ -92,11 +99,6 @@ publishDir = "docs"
     url = "post/guide"
     weight = 20
 	
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 30
-
 [[menu.main]]
     name = "About"
     url = "page/about/"

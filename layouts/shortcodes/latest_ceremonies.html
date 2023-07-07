@@ -1,8 +1,9 @@
 <div>
 {{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
   {{ range $ceremony_CIDs }}
+	<hr>
     {{ partial "ceremony.html" . }}
-    {{ partial "identifiers.html" . }}
+    {{ partial "ceremony_identifiers.html" . }}
   {{ end }}
 {{ end }}
 </div>

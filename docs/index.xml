@@ -30,15 +30,13 @@ Choosing the ceremony venue Participants can be welcomed in a first location (e.
     </item>
     
     <item>
-      <title>Ceremonies</title>
-      <link>https://terracommuni.org/post/ceremonies/</link>
+      <title>Latest ceremonies</title>
+      <link>https://terracommuni.org/page/ceremonies/</link>
       <pubDate>Wed, 28 Jun 2023 16:33:11 +0200</pubDate>
       <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
-      <guid>https://terracommuni.org/post/ceremonies/</guid>
-      <description>Latest ceremonies Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Videos
-Your browser does not support the video tagYour browser does not support the video tagPictures
-IdentifierParticipant(s)test1Ethereum block height and hash = 1, 0xOrganizer&#39;s identifier = Full IPFS directoryLocal date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Videos
-Your browser does not support the video tagYour browser does not support the video tagPictures</description>
+      <guid>https://terracommuni.org/page/ceremonies/</guid>
+      <description>Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures
+Your browser does not support the video tagYour browser does not support the video tag&amp;#x2715; &amp;#x00AB; &amp;#x00BB; IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures</description>
     </item>
     
     <item>
@@ -48,6 +46,15 @@ Your browser does not support the video tagYour browser does not support the vi
       <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
       <guid>https://terracommuni.org/page/about/</guid>
       <description>TerraCommuni is a free and open source data initiative by the Agence Francaise de Developpement (AFD). It is lead and maintained by Jean Millerat on behalf of the AFD.</description>
+    </item>
+    
+    <item>
+      <title>Add a new ceremony</title>
+      <link>https://terracommuni.org/page/ceremony_new/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <guid>https://terracommuni.org/page/ceremony_new/</guid>
+      <description>Copy the handwritten information from the ceremony papersheet.Date and local time from the ceremony sheetIdentifier of the organizer from the ceremony sheetLocation from the ceremony sheetLatitude:Longitude:Ethereum block from the ceremony sheetBlock number:Block hash:Pictures and videos from the ceremonyPictures:Videos:</description>
     </item>
     
   </channel>

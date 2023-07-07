@@ -1,0 +1,52 @@
+#lightbox {
+  position: fixed; /* Fixes position relative to the screen */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  display: none; /* Hidden by default */
+  justify-content: center; /* Horizontally centered */
+  align-items: center; /* Vertically centered */
+  z-index: 9999; /* Bring to the forefront */
+}
+
+#lightbox.open {
+  display: flex;
+}
+
+body.lightbox-open {
+  overflow: hidden;
+}
+
+.lightbox-media {
+  max-width: 90%; /* Leave some margin */
+  max-height: 80%; /* Leave some margin */
+  object-fit: contain;
+}
+
+/* Position of controls */
+
+#lightbox-close, #lightbox-previous, #lightbox-next {
+  position: absolute;
+  background: white; /* Ensure controls are visible against the lightbox background */
+  padding: 10px;
+  cursor: pointer;
+}
+
+#lightbox-close {
+  top: 10px;
+  right: 10px;
+}
+
+#lightbox-previous {
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%); /* Vertically centered */
+}
+
+#lightbox-next {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%); /* Vertically centered */
+}

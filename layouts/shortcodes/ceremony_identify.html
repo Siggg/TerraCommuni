@@ -1,6 +1,6 @@
 <div>
   <strong>Copy the phone number or email address from the sheet held by the participants, verify the associated number of visible participants by counting them on the pictures or videos</strong>
-  {{ ceremony }}
+  {{ partial "ceremony.html" . }}
   <form id="identifiers-form">
 
 	<fieldset>
@@ -28,7 +28,7 @@
 		</table>
 	  </fieldset>
 
-      <input type="hidden" id="token" required value="{{ web3_storage_JWT }}"/>
+      <input type="hidden" id="token" required value="{{ partial "web3_storage_JWT" . }}"/>
 
 	  <input type="submit" value="Upload">
     </form>

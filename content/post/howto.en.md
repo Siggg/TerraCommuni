@@ -154,6 +154,6 @@ You'll need to :
 
 -   Thank the participants. The ceremony is over. Participants may receive TerraCommuni messages on their phone or e-mail address. But beware of scams.
 
--   As quickly as possible (see Criterion 3, the unit of time and Criterion 23, a quickly published ceremony), log on to this Google form <https://docs.google.com/forms/d/1wTrvYzrWpPAs9NPWHz8275aVBcfyb05J8dytuXCcHHE/> and immediately publish videos and photos of the ceremony (see Criterion 1, video and photo evidence).
+-   As quickly as possible (see Criterion 3, the unit of time and Criterion 23, a quickly published ceremony), go to the [Add a new ceremony](/page/ceremony_new) form and fill it with your pictures, videos (see Criterion 1, video and photo evidence) and with the information as it is displayed on the ceremony paper sheets.
 
--   As soon as the organizer is able to do so (or immediately if possible), he/she also provides all the ceremony data in the form (cf. criterion 24, data completed later by the organizer).
+-   As soon as the organizer is able to do so (or immediately if possible), he/she also provides also provide the list of identifiers and number of participants visible in the ceremony pictures and video (cf. criterion 24, data completed later by the organizer).

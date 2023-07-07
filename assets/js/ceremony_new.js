@@ -19,16 +19,6 @@ let now = new Date();
 let dateTime = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}T${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
 datetimeInput.value = dateTime;
     
-fetch('https://api.etherscan.io/api?module=proxy&action=eth_blockNumber&apikey={{ etherscan_API_token }}')
-  .then(response => response.json())
-  .then(data => {
-    let blockNumber = parseInt(data.result, 16);
-    block_heightInput.value = blockNumber;
-    return fetch(`https://api.etherscan.io/api?module=proxy&action=eth_getBlockByNumber&tag=${data.result}&boolean=true&apikey={{ etherscan_API_token }}`);
-  })
-  .then(response => response.json())
-  .then(data => block_hashInput.value = data.result.hash.substring(0, 6));
-
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(position => {
     latitudeInput.value = position.coords.latitude;
@@ -37,6 +27,19 @@ if (navigator.geolocation) {
 } else {
   alert("Geolocation is not supported by this browser.");
 }
+
+fetch('https://api.etherscan.io/api?module=proxy&action=eth_blockNumber&apikey={{ $.Site.Params.etherscan_API_key }}')
+  .then(response => response.json())
+  .then(data => {
+    let blockNumber = parseInt(data.result, 16);
+    block_heightInput.value = blockNumber;
+    return fetch(`https://api.etherscan.io/api?module=proxy&action=eth_getBlockByNumber&tag=${data.result}&boolean=true&apikey={{ $.Site.Params.etherscan_API_key }}`);
+  })
+  .then(response => response.json())
+  .then(
+    data => block_hashInput.value = data.result.hash.substring(0, 8)
+  );
+
 
 showMessage('> ⁂ waiting for form submission...')
 
