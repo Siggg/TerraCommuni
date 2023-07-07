@@ -1,0 +1,27 @@
+<div>
+{{ $ceremony_CID := . }}
+{{ $ceremony := getJSON "https://ipfs.io/ipfs/" . "/ceremony.json" }}
+{{ with $ceremony }}
+<div>
+
+<div>
+ <table>
+  <thead>
+   <tr>
+    <th>Identifier</th>
+    <th>Participant(s)</th>
+   </tr>
+  </thead>
+  <tbody>
+{{ range $identifier, $participants := .identifiers }}
+   <tr>
+    <td><code>{{ $identifier }}</code></td>
+	<td>{{ $participants }}</td>
+   </tr>
+{{ end }}
+  </tbody>
+ </table>
+</div>
+
+{{ end }}
+</div>

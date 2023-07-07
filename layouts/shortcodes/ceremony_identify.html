@@ -1,0 +1,37 @@
+<div>
+  <strong>Copy the phone number or email address from the sheet held by the participants, verify the associated number of visible participants by counting them on the pictures or videos</strong>
+  {{ ceremony }}
+  <form id="identifiers-form">
+
+	<fieldset>
+	  <legend>Identifiers and number of visible persons they identify</legend>
+	    <table draggable="false">
+		 <thead>
+		  <tr>
+		   <th>Phone number<br /> or email address</th>
+		   <th>Number of visible persons</th>
+		   <th></th>
+		  </tr>
+		 </thead>
+		 <tbody id="identifiers">
+		  <tr>
+		   <td><input type="text" name="identifier" required /></td>
+		   <td><input type="number" name="persons" value="1" required /></td>
+		   <td><input type="button" id="del-row" value="Remove" hidden></td>
+		  </tr>
+		 </tbody>
+		 <tfoot>
+		  <tr>
+		   <td colspan="3"><input type="button" id="add-row" name="add-row" value="Add an identifier" /></td>
+          </tr>
+		 </tfoot>
+		</table>
+	  </fieldset>
+
+      <input type="hidden" id="token" required value="{{ web3_storage_JWT }}"/>
+
+	  <input type="submit" value="Upload">
+    </form>
+    <div id="output"></div>
+  <script type="module" src="/js/ceremony_identify.js"></script>
+</div>

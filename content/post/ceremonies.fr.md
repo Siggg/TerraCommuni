@@ -12,4 +12,4 @@ toc: true
 
 ## Ajouter une cérémonie
 
-{{< new_ceremony >}}
+{{< ceremony_new >}}

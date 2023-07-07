@@ -1,0 +1,52 @@
+<div>
+    <strong>Copy the exact handwritten information from the ceremony papersheet</strong>
+    <form id="ceremony-form">
+
+	  <fieldset>
+        <legend>Date and local time of the ceremony</legend>
+        <input type="datetime-local" id="datetime" name="datetime" required>
+	  </fieldset>
+
+	  <fieldset>
+        <legend>Identifier of the organizer of the ceremony</legend>
+        <input type="text" id="organizer_identifier" name="organizer_identifier" required>
+	  </fieldset>
+
+	  <fieldset>
+        <legend>Location of the ceremony</legend>
+	    <label>Latitude:
+          <input type="number" step="0.0001" id="latitude" name="latitude" min="-180" max="180" required>
+		</label>
+	    <label>Longitude:
+          <input type="number" step="0.0001" id="longitude" name="longitude" min="-180" max="180" required>
+		</label>
+	  </fieldset>
+
+	  <fieldset>
+	    <legend>Ethereum block of the ceremony</legend>
+	    <label>Block number:
+          <input type="number" id="block_height" name="block_height" min="0" required>
+		</label>
+	    <label>Block hash:
+          <input type="text" id="block_hash" name="block_hash" value="0x" required>
+		</label>
+	  </fieldset>
+	  
+	  <fieldset>
+	    <legend>Pictures and videos from the ceremony</legend>
+	    <label>Pictures:
+          <input type="file" id="pictures" name="pictures" accept="image/*" multiple required />
+		</label>
+        <br />
+	    <label>Videos:
+          <input type="file" id="videos" name="videos" accept="video/*" multiple required />
+		</label>
+	  </fieldset>
+
+      <input type="hidden" id="token" required value="{{ web3_storage_JWT }}"/>
+
+	  <input type="submit" value="Upload">
+    </form>
+    <div id="output"></div>
+  <script type="module" src="/js/ceremony_new.js"></script>
+</div>
