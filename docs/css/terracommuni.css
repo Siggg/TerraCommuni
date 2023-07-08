@@ -59,8 +59,14 @@ body.lightbox-open {
     input[type="number"],
     input[type="datetime-local"],
     input[type="password"],
+    input[type="submit"],
     textarea {
         color: #000000; /* or any color you prefer */
         background-color: #ffffff; /* or any color you prefer */
     }
+    legend {
+      color: lightgray;
+    }
 }
+
+@media (prefers-color-scheme: dark)
