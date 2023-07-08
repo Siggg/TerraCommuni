@@ -3,7 +3,7 @@ import { Web3Storage } from 'https://cdn.jsdelivr.net/npm/web3.storage/dist/bund
 // select input elements
 const form = document.querySelector('#ceremony-form')
 const datetimeInput = document.querySelector('#datetime')
-const organizerInput = document.querySelector('#organizer_identifer')
+const organizerInput = document.querySelector('#organizer_identifier')
 const latitudeInput = document.querySelector('#latitude')
 const longitudeInput = document.querySelector('#longitude')
 const block_heightInput = document.querySelector('#block_height')
@@ -94,7 +94,7 @@ form.addEventListener('submit', async function (event) {
     name: ceremonyName,
     onRootCidReady: (localCid) => {
       showMessage(`> 🔑 locally calculated Content ID: ${localCid} `)
-      showMessage('> 📡 sending files to web3.storage, please wait ')
+      showMessage('> 📡 sending files to web3.storage, <strong>please wait</strong> ')
     },
     onStoredChunk: onStoredChunk
   })

@@ -1,7 +1,8 @@
 <div class="ceremony_identifiers">
-{{ $ceremony_CID := . }}
-{{ $ceremony := getJSON "https://ipfs.io/ipfs/" . "/ceremony.json" }}
-{{ with $ceremony }}
+{{ $ceremony_CID := .ceremony_CID }}
+{{ $IPFS_gateway := .Site.Params.IPFS_gateway }}
+{{ $identifiers := getJSON $IPFS_gateway . "/identifiers.json" }}
+{{ with $identifiers }}
 
 <div class="identifiers_table">
  <table>
@@ -12,7 +13,7 @@
    </tr>
   </thead>
   <tbody>
-{{ range $identifier, $participants := .identifiers }}
+{{ range $identifier, $participants := . }}
    <tr>
     <td><code>{{ $identifier }}</code></td>
 	<td>{{ $participants }}</td>

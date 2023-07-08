@@ -15,10 +15,10 @@
 	  <fieldset>
         <legend>Location from the ceremony sheet</legend>
 	    <label>Latitude:
-          <input type="number" step="0.0001" id="latitude" name="latitude" min="-180" max="180" required>
+          <input type="number" step="0.00000000001" id="latitude" name="latitude" min="-180" max="180" required>
 		</label>
 	    <label>Longitude:
-          <input type="number" step="0.0001" id="longitude" name="longitude" min="-180" max="180" required>
+          <input type="number" step="0.00000000001" id="longitude" name="longitude" min="-180" max="180" required>
 		</label>
 	  </fieldset>
 
@@ -49,6 +49,7 @@
     </form>
     <div id="output"></div>
   {{ $path := "js/ceremony_new.js" }}
-  {{ $js := resources.Get $path | resources.ExecuteAsTemplate $path . | minify }}
+  {{ $js := resources.Get $path | resources.ExecuteAsTemplate $path . }}
+  <!-- was $js := resources.Get $path | resources.ExecuteAsTemplate $path . | minify -->
   <script type="module">{{ $js.Content | safeJS }}</script>
 </div>

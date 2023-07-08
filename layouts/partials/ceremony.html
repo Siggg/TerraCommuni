@@ -1,6 +1,8 @@
-{{ $ceremony_CID := . }}
-{{ $ceremony := getJSON "https://ipfs.io/ipfs/" . "/ceremony.json" }}
+{{ $ceremony_CID := .ceremony_CID }}
+{{ $IPFS_gateway := .Site.Params.IPFS_gateway }}
+{{ $ceremony := getJSON $IPFS_gateway $ceremony_CID "/ceremony.json" }}
 {{ with $ceremony }}
+
 <div class="ceremony">
   <div class="ceremony_datetime"><h4 id="{{ .datetime }}@{{ float .latitude }},{{ float .longitude }}">Local date and time = {{ .datetime }}</h4></div>
   <div class="ceremony_location">Latitude, longitude = <a href="#popup_{{ .datetime }}@{{ float .latitude }},{{ float .longitude }}">{{ float .latitude }}, {{ float .longitude }}</a></div>
@@ -11,12 +13,12 @@
   <div class="ceremony_gallery">Videos and pictures<br />
     <div class="visible-media">
     {{ range .videos }}
-      <video height="240" class="lightboxable-media" style="max-height:240px; height:auto; width:auto; vertical-align:top;" src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}" controls>
-	    Your browser does not support the video tag but <a href="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}">you can download this video.</a>
+      <video height="240" class="lightboxable-media" style="max-height:240px; height:auto; width:auto; vertical-align:top;" src="{{ $IPFS_gateway }}{{ $ceremony_CID }}/{{ . }}" controls>
+	    Your browser does not support the video tag but <a href="{{ $IPFS_gateway }}{{$ceremony_CID }}/{{ . }}">you can download this video.</a>
 	  </video>
     {{ end }}
     {{ range .pictures }}
-      <img height="240" class="lightboxable-media" src="https://ipfs.io/ipfs/{{ $ceremony_CID }}/{{ . }}"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
+      <img height="240" class="lightboxable-media" src="{{ $IPFS_gateway }}{{ $ceremony_CID }}/{{ . }}"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
 	{{ end }}
 	</div>
 	<div class="hidden-media">
