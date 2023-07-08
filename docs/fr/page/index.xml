@@ -6,25 +6,25 @@
     <description>Recent content in Pages on TerraCommuni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <managingEditor>jean.terracommuni@wecena.com (Jean Millerat)</managingEditor>
-    <webMaster>jean.terracommuni@wecena.com (Jean Millerat)</webMaster>
+    <managingEditor>jean.terracommuni@wecena.com (Jean Millerat, Agence Française de Développement)</managingEditor>
+    <webMaster>jean.terracommuni@wecena.com (Jean Millerat, Agence Française de Développement)</webMaster>
     <copyright>© 2023 Jean Millerat, Agence Française de Développement</copyright>
     <lastBuildDate>Wed, 28 Jun 2023 16:33:11 +0200</lastBuildDate><atom:link href="https://terracommuni.org/fr/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cérémonies récentes</title>
       <link>https://terracommuni.org/fr/page/ceremonies/</link>
       <pubDate>Wed, 28 Jun 2023 16:33:11 +0200</pubDate>
-      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <author>jean.terracommuni@wecena.com (Jean Millerat, Agence Française de Développement)</author>
       <guid>https://terracommuni.org/fr/page/ceremonies/</guid>
       <description>Dernières cérémonies Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures
-Your browser does not support the video tagYour browser does not support the video tag&amp;#x2715; &amp;#x00AB; &amp;#x00BB; IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures</description>
+Your browser does not support the video tag but you can download this video.&amp;#x2715; &amp;#x00AB; &amp;#x00BB; Your browser does not support the video tag.IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.</description>
     </item>
     
     <item>
       <title>Ajouter une cérémonie</title>
       <link>https://terracommuni.org/fr/page/ceremony_new/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <author>jean.terracommuni@wecena.com (Jean Millerat, Agence Française de Développement)</author>
       <guid>https://terracommuni.org/fr/page/ceremony_new/</guid>
       <description>Copy the handwritten information from the ceremony papersheet.Date and local time from the ceremony sheetIdentifier of the organizer from the ceremony sheetLocation from the ceremony sheetLatitude:Longitude:Ethereum block from the ceremony sheetBlock number:Block hash:Pictures and videos from the ceremonyPictures:Videos:</description>
     </item>
@@ -33,7 +33,7 @@ Your browser does not support the video tagYour browser does not support the vi
       <title>Au sujet de TerraCommuni</title>
       <link>https://terracommuni.org/fr/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>jean.terracommuni@wecena.com (Jean Millerat)</author>
+      <author>jean.terracommuni@wecena.com (Jean Millerat, Agence Française de Développement)</author>
       <guid>https://terracommuni.org/fr/page/about/</guid>
       <description>TerraCommuni est une initiative de données libres et en source ouverte portée par l&amp;rsquo;Agence Française de Développement (AFD). Elle est conduite et maintenue par Jean Millerat au nom de l&amp;rsquo;AFD.</description>
     </item>

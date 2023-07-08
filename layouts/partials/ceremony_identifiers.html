@@ -1,10 +1,9 @@
-<div>
+<div class="ceremony_identifiers">
 {{ $ceremony_CID := . }}
 {{ $ceremony := getJSON "https://ipfs.io/ipfs/" . "/ceremony.json" }}
 {{ with $ceremony }}
-<div>
 
-<div>
+<div class="identifiers_table">
  <table>
   <thead>
    <tr>

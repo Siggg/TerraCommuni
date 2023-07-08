@@ -1,23 +1,26 @@
-var lightbox = document.getElementById('lightbox');
-var lightboxImg = document.getElementById('lightbox-img');
-var lightboxVideo = document.getElementById('lightbox-video');
-// var draggableInput = document.getElementById('draggable-input');
-var mediaElements = Array.from(document.querySelectorAll('.media-gallery img:not([hidden]), .media-gallery video:not([hidden])'));
-var currentMediaIndex;
-
-// Add event listeners to media elements
-mediaElements.forEach((media, index) => {
-  media.addEventListener('click', () => {
-	// open the lightbox and load the media
-    currentMediaIndex = index;
+document.addEventListener("DOMContentLoaded", function() {
+// make lightboxable media clickable
+var mediaElements = Array.from(document.querySelectorAll('.lightboxable-media'));
+mediaElements.forEach((media, media_index) => {
+  media.addEventListener('click', function (event) {
+    // select the proper lightbox containers
+    var media = event.target;
+    var gallery = media.parentNode.parentNode;
+    var lightbox = gallery.querySelector('.lightbox');
+    lightbox.style.pointerEvents = 'auto';
+    var lightboxImage = lightbox.querySelector('.lightbox-image');
+    var lightboxVideo = lightbox.querySelector('.lightbox-video');
+    // open the lightbox and load the media
     if (media.tagName === 'IMG') {
-      lightboxImg.src = media.src;
-      lightboxImg.style.display = '';
+      lightboxImage.src = media.src;
+      lightboxImage.style.display = '';
       lightboxVideo.style.display = 'none';
+      lightboxVideo.src="";
     } else {  // VIDEO
-      lightboxVideo.src = media.src;
+      lightboxVideo.src = media.currentSrc;
       lightboxVideo.style.display = '';
-      lightboxImg.style.display = 'none';
+      lightboxImage.style.display = 'none';
+      lightboxImage.src = "";
     }
     lightbox.classList.add('open');
     document.body.classList.add('lightbox-open');
@@ -25,19 +28,49 @@ mediaElements.forEach((media, index) => {
 });
 
 // Add event listeners to close, next and previous buttons
-document.getElementById('lightbox-close').addEventListener('click', () => {
-  lightbox.classList.remove('open');
-  document.body.classList.remove('lightbox-open'); 
+document.querySelectorAll('.lightbox-close').forEach(function(element) {
+  element.addEventListener('click', function (event) {
+    var lightbox=event.target.parentNode;
+    lightbox.classList.remove('open');
+    document.body.classList.remove('lightbox-open'); 
+    lightbox.style.pointerEvents = 'none';
+  });
 });
 
-document.getElementById('lightbox-next').addEventListener('click', () => {
-  currentMediaIndex = (currentMediaIndex + 1) % mediaElements.length;
-  mediaElements[currentMediaIndex].click();
+document.querySelectorAll('.lightbox-next').forEach(function(element) {
+  element.addEventListener('click', function (event) {
+    // What's the gallery media currently displayed in the lightbox?
+    var lightbox = event.target.parentNode;
+    var lightboxMediaSrc = lightbox.querySelector(".lightbox-image").src;
+    var gallery = lightbox.parentNode;
+    var currentMediaElement = gallery.querySelector('.lightboxable-media[src="'+lightboxMediaSrc+'"]');
+    if (!currentMediaElement) {
+      lightboxMediaSrc = lightbox.querySelector(".lightbox-video").src;
+      currentMediaElement = gallery.querySelector('.lightboxable-media[src="'+lightboxMediaSrc+'"]');
+    }
+    // What's the next element in the gallery after the element with that src ?
+    var nextMediaElement = currentMediaElement.nextElementSibling;
+    if (!nextMediaElement) { nextMediaElement = currentMediaElement.parentNode.firstElementChild }
+    nextMediaElement.click();
+  });
 });
 
-document.getElementById('lightbox-previous').addEventListener('click', () => {
-  currentMediaIndex = (currentMediaIndex - 1 + mediaElements.length) % mediaElements.length;
-  mediaElements[currentMediaIndex].click();
+document.querySelectorAll('.lightbox-previous').forEach(function(element) {
+  element.addEventListener('click', function (event) {
+    // What's the gallery media currently displayed in the lightbox?
+    var lightbox = event.target.parentNode;
+    var lightboxMediaSrc = lightbox.querySelector(".lightbox-image").src;
+    var gallery = lightbox.parentNode;
+    var currentMediaElement = gallery.querySelector('.lightboxable-media[src="'+lightboxMediaSrc+'"]');
+    if (!currentMediaElement) {
+      lightboxMediaSrc = lightbox.querySelector(".lightbox-video").src;
+      currentMediaElement = gallery.querySelector('.lightboxable-media[src="'+lightboxMediaSrc+'"]');
+    }
+    // What's the previous element in the gallery after the element with that src ?
+    var previousMediaElement = currentMediaElement.previousElementSibling;
+    if (!previousMediaElement) { previousMediaElement = currentMediaElement.parentNode.lastElementChild }
+    previousMediaElement.click();
+  });
 });
 
 // manage identifiers from the lightbox
@@ -65,3 +98,4 @@ document.getElementById('lightbox').addEventListener('close', function() {
   document.getElementById('identifiers').setAttribute('style', originalStyle);
 });
 */
+});

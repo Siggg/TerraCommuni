@@ -12,8 +12,8 @@
 
   
   <meta name="description" content="Latest ceremonies Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures
-Your browser does not support the video tagYour browser does not support the video tag&#x2715; &#x00AB; &#x00BB; IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures">
-  <meta name="author" content="Jean Millerat"/><script type="application/ld+json">
+Your browser does not support the video tag but you can download this video.&#x2715; &#x00AB; &#x00BB; Your browser does not support the video tag.IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.">
+  <meta name="author" content="Jean Millerat, Agence Française de Développement"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -36,7 +36,7 @@ Your browser does not support the video tagYour browser does not support the vi
 
 <meta property="og:title" content="Welcome" />
 <meta property="og:description" content="Latest ceremonies Local date and time = 1901-01-01T00:01Latitude, longitude = -12.2574, 27.97Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures
-Your browser does not support the video tagYour browser does not support the video tag&#x2715; &#x00AB; &#x00BB; IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.9686Organizer&#39;s identifier = Ethereum block height and hash = 1, 0xFull IPFS directoryVideos and pictures">
+Your browser does not support the video tag but you can download this video.&#x2715; &#x00AB; &#x00BB; Your browser does not support the video tag.IdentifierParticipant(s)test1Local date and time = 2022-02-02T02:02Latitude, longitude = -12.2599, 27.">
 <meta property="og:image" content="https://terracommuni.org/img/logo.png" />
 <meta property="og:url" content="https://terracommuni.org/" />
 <meta property="og:type" content="website" />
@@ -54,6 +54,9 @@ Your browser does not support the video tagYour browser does not support the vi
   <link rel="stylesheet" href="https://terracommuni.org/css/highlight.min.css" /><link rel="stylesheet" href="https://terracommuni.org/css/codeblock.css" /><link rel="stylesheet" href="https://terracommuni.org/css/photoswipe.min.css" />
   <link rel="stylesheet" href="https://terracommuni.org/css/photoswipe.default-skin.min.css" />
 
+
+<link rel="stylesheet" type="text/css" href="/css/ceremony_lightbox.css">
+<script defer src="/js/ceremony_lightbox.js"></script>
 
   </head>
   <body>
@@ -262,53 +265,59 @@ Your browser does not support the video tagYour browser does not support the vi
 </div>
 
 <h1 id="latest-ceremonies">Latest ceremonies</h1>
-<div>
+<div class="latest-ceremonies">
 
   
 	<hr>
     
 
 
-<div>
-  <div><h4 id="1901-01-01T00:01@-12.2574,27.97">Local date and time = 1901-01-01T00:01</h4></div>
-  <div>Latitude, longitude = <a href="#popup_1901-01-01T00%3a01@-12.2574,27.97">-12.2574, 27.97</a></div>
-  <div>Organizer's identifier = </div>
-  <div>Ethereum block height and hash = 1, 0x</div>
-  <div><a href="https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla">Full IPFS directory</a></div>
+<div class="ceremony">
+  <div class="ceremony_datetime"><h4 id="1901-01-01T00:01@-12.2574,27.97">Local date and time = 1901-01-01T00:01</h4></div>
+  <div class="ceremony_location">Latitude, longitude = <a href="#popup_1901-01-01T00%3a01@-12.2574,27.97">-12.2574, 27.97</a></div>
+  <div class="ceremony_organizer">Organizer's identifier = </div>
+  <div class="ceremony_block">Ethereum block height and hash = 1, 0x</div>
+  <div class="ceremony_IPFS"><a href="https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla">Full IPFS directory</a></div>
 
-<div class="media-gallery">
-  <div>Videos and pictures<br />
-  
-    <video height="240" style="max-height:240px; height:auto; width:auto; vertical-align:top;" controls><source src="https://ipfs.io/ipfs/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-16%20Terra%20zawadi_360p.mp4"> Your browser does not support the video tag</video>
-    <video hidden controls><source src="https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-16%20Terra%20zawadi_360p.mp4"> Your browser does not support the video tag</video>
-  
-  
-    <img height="240" src="https://ipfs.io/ipfs/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-06_355479255_1899560887095793_5103100342700944130_n.jpg"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
-    <img hidden loading="lazy" src="https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-06_355479255_1899560887095793_5103100342700944130_n.jpg" />
+  <div class="ceremony_gallery">Videos and pictures<br />
+    <div class="visible-media">
+    
+      <video height="240" class="lightboxable-media" style="max-height:240px; height:auto; width:auto; vertical-align:top;" src="https://ipfs.io/ipfs/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-16%20Terra%20zawadi_360p.mp4" controls>
+	    Your browser does not support the video tag but <a href="https://ipfs.io/ipfs/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-16%20Terra%20zawadi_360p.mp4">you can download this video.</a>
+	  </video>
+    
+    
+      <img height="240" class="lightboxable-media" src="https://ipfs.io/ipfs/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-06_355479255_1899560887095793_5103100342700944130_n.jpg"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
+	
+	</div>
+	<div class="hidden-media">
+    
+      <video hidden controls><source src="https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-16%20Terra%20zawadi_360p.mp4"></video>
+	
+	
+      <img hidden loading="lazy" src="https://ipns.co/bafybeifxkad4ftg6liivjfegvxdpxmvcib53kr4ctcv6lnhnft5wr2bsla/2023-06-20_15-06_355479255_1899560887095793_5103100342700944130_n.jpg" />
+	
+	</div>
+    <div class="lightbox">
+	  <span class="lightbox-close">&#x2715;</span> 
+	  <span class="lightbox-previous">&#x00AB;</span> 
+	  <span class="lightbox-next">&#x00BB;</span> 
+	  <img class="lightbox-image lightbox-media" src="" />
+	  <video class="lightbox-video lightbox-media" src="" controls>
+	    Your browser does not support the video tag.</a>
+	  </video>
+	</div>
   
   </div>
 </div>
 
-<div id="lightbox">
-  <span id="lightbox-close">&#x2715;</span> 
-  <span id="lightbox-previous">&#x00AB;</span> 
-  <span id="lightbox-next">&#x00BB;</span> 
-  <img id="lightbox-img" src="" class="lightbox-media">
-  <video id="lightbox-video"  class="lightbox-media" controls></video>
-</div>
 
-<link rel="stylesheet" type="text/css" href="css/ceremony_lightbox.css">
-<script src="js/ceremony_lightbox.js"></script>
-</div>
-
-
-    <div>
+    <div class="ceremony_identifiers">
 
 
 
-<div>
 
-<div>
+<div class="identifiers_table">
  <table>
   <thead>
    <tr>
@@ -334,46 +343,52 @@ Your browser does not support the video tagYour browser does not support the vi
     
 
 
-<div>
-  <div><h4 id="2022-02-02T02:02@-12.2599,27.9686">Local date and time = 2022-02-02T02:02</h4></div>
-  <div>Latitude, longitude = <a href="#popup_2022-02-02T02%3a02@-12.2599,27.9686">-12.2599, 27.9686</a></div>
-  <div>Organizer's identifier = </div>
-  <div>Ethereum block height and hash = 1, 0x</div>
-  <div><a href="https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry">Full IPFS directory</a></div>
+<div class="ceremony">
+  <div class="ceremony_datetime"><h4 id="2022-02-02T02:02@-12.2599,27.9686">Local date and time = 2022-02-02T02:02</h4></div>
+  <div class="ceremony_location">Latitude, longitude = <a href="#popup_2022-02-02T02%3a02@-12.2599,27.9686">-12.2599, 27.9686</a></div>
+  <div class="ceremony_organizer">Organizer's identifier = </div>
+  <div class="ceremony_block">Ethereum block height and hash = 1, 0x</div>
+  <div class="ceremony_IPFS"><a href="https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry">Full IPFS directory</a></div>
 
-<div class="media-gallery">
-  <div>Videos and pictures<br />
-  
-    <video height="240" style="max-height:240px; height:auto; width:auto; vertical-align:top;" controls><source src="https://ipfs.io/ipfs/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/mira%20Terra%20communi_360p.mp4"> Your browser does not support the video tag</video>
-    <video hidden controls><source src="https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/mira%20Terra%20communi_360p.mp4"> Your browser does not support the video tag</video>
-  
-  
-    <img height="240" src="https://ipfs.io/ipfs/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/2023-06-20_15-44_355863566_1899543787097503_5657048151014444017_n.jpg"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
-    <img hidden loading="lazy" src="https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/2023-06-20_15-44_355863566_1899543787097503_5657048151014444017_n.jpg" />
+  <div class="ceremony_gallery">Videos and pictures<br />
+    <div class="visible-media">
+    
+      <video height="240" class="lightboxable-media" style="max-height:240px; height:auto; width:auto; vertical-align:top;" src="https://ipfs.io/ipfs/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/mira%20Terra%20communi_360p.mp4" controls>
+	    Your browser does not support the video tag but <a href="https://ipfs.io/ipfs/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/mira%20Terra%20communi_360p.mp4">you can download this video.</a>
+	  </video>
+    
+    
+      <img height="240" class="lightboxable-media" src="https://ipfs.io/ipfs/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/2023-06-20_15-44_355863566_1899543787097503_5657048151014444017_n.jpg"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
+	
+	</div>
+	<div class="hidden-media">
+    
+      <video hidden controls><source src="https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/mira%20Terra%20communi_360p.mp4"></video>
+	
+	
+      <img hidden loading="lazy" src="https://ipns.co/bafybeiduxodmsn2vwzxfz3rv7gclkrlhh77zcuqop7fjw4pudo5akr4qry/2023-06-20_15-44_355863566_1899543787097503_5657048151014444017_n.jpg" />
+	
+	</div>
+    <div class="lightbox">
+	  <span class="lightbox-close">&#x2715;</span> 
+	  <span class="lightbox-previous">&#x00AB;</span> 
+	  <span class="lightbox-next">&#x00BB;</span> 
+	  <img class="lightbox-image lightbox-media" src="" />
+	  <video class="lightbox-video lightbox-media" src="" controls>
+	    Your browser does not support the video tag.</a>
+	  </video>
+	</div>
   
   </div>
 </div>
 
-<div id="lightbox">
-  <span id="lightbox-close">&#x2715;</span> 
-  <span id="lightbox-previous">&#x00AB;</span> 
-  <span id="lightbox-next">&#x00BB;</span> 
-  <img id="lightbox-img" src="" class="lightbox-media">
-  <video id="lightbox-video"  class="lightbox-media" controls></video>
-</div>
 
-<link rel="stylesheet" type="text/css" href="css/ceremony_lightbox.css">
-<script src="js/ceremony_lightbox.js"></script>
-</div>
-
-
-    <div>
+    <div class="ceremony_identifiers">
 
 
 
-<div>
 
-<div>
+<div class="identifiers_table">
  <table>
   <thead>
    <tr>
@@ -557,7 +572,7 @@ Choosing the ceremony venue Participants can be welcomed in a first location (e.
         <p class="credits copyright text-muted">
           
             
-              <a href="akasig.org">Jean Millerat</a>
+              <a href="https://www.afd.fr/">Jean Millerat, Agence Française de Développement</a>
             
           
 
@@ -589,6 +604,7 @@ Choosing the ceremony venue Participants can be welcomed in a first location (e.
 <script> hljs.initHighlightingOnLoad(); </script>
 <script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://terracommuni.org/js/photoswipe.min.js"></script>
 <script src="https://terracommuni.org/js/photoswipe-ui-default.min.js"></script><script src="https://terracommuni.org/js/load-photoswipe.js"></script>
+
 
 
 

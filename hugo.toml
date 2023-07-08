@@ -52,8 +52,8 @@ publishDir = "docs"
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Jean Millerat"
-  website = "akasig.org"
+  name = "Jean Millerat, Agence Française de Développement"
+  website = "https://www.afd.fr/"
   email = "jean.terracommuni@wecena.com"
   # facebook = "jean.millerat"
   github = "siggg"

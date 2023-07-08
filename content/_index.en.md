@@ -2,7 +2,6 @@
 title: Welcome
 subtitle: 
 ---
-
 ##
 
 {{< map_of_ceremonies >}}
