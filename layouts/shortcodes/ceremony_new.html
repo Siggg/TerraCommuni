@@ -46,7 +46,10 @@
 
       <input type="hidden" id="token" required value="{{ $.Site.Params.web3_storage_JWT }}"/>
 
-	  <input type="submit" value="Upload">
+	  <fieldset>
+	    <legend>Verify the ceremony papersheet then add ceremony and wait for complete upload.</legend>
+        <input type="submit" value="Add new ceremony">
+	  </fieldset>
     </form>
     <div id="output"></div>
   {{ $path := "js/ceremony_new.js" }}

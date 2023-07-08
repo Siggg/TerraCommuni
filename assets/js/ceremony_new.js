@@ -94,12 +94,13 @@ form.addEventListener('submit', async function (event) {
     name: ceremonyName,
     onRootCidReady: (localCid) => {
       showMessage(`> 🔑 locally calculated Content ID: ${localCid} `)
-      showMessage('> 📡 sending files to web3.storage, <strong>please wait</strong> ')
+      showMessage('> 📡 sending files to web3.storage, <strong>PLEASE WAIT</strong> ')
     },
     onStoredChunk: onStoredChunk
   })
   showMessage(`> ✅ web3.storage now hosting ${cid}`)
   showLink(`https://dweb.link/ipfs/${cid}`)
+  showMessage(`> UPLOAD COMPLETE. Ceremony added.`)
   },
   false
 )
