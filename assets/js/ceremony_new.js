@@ -79,7 +79,7 @@ form.addEventListener('submit', async function (event) {
   const token = tokenInput.value
   const client = new Web3Storage({ token })
 
-  showMessage('> 🤖 chunking and hashing the files (in your browser!) to calculate the Content ID')
+  showMessage('> 🤖 chunking and hashing the files to calculate the Content ID')
   const files = dataTransfer.files
 		
   // when each chunk is stored, update the percentage complete and display
@@ -88,19 +88,19 @@ form.addEventListener('submit', async function (event) {
   const onStoredChunk = size => {
     uploaded += size
     const pct = 100 * (uploaded / totalSize)
-    showMessage(`> 🛰 uploaded ${size.toLocaleString()} more bytes to web3.storage, ${pct.toFixed(2)}% complete`)
+    showMessage(`> 🛰 uploaded ${size.toLocaleString()} more bytes to web3.storage, ${pct.toFixed(0)}% complete`)
   }
   const cid = await client.put(files, {
     name: ceremonyName,
     onRootCidReady: (localCid) => {
       showMessage(`> 🔑 locally calculated Content ID: ${localCid} `)
-      showMessage('> 📡 sending files to web3.storage, <strong>PLEASE WAIT</strong> ')
+      showMessage('> 📡 sending files to web3.storage, PLEASE WAIT ')
     },
     onStoredChunk: onStoredChunk
   })
-  showMessage(`> ✅ web3.storage now hosting ${cid}`)
-  showLink(`https://dweb.link/ipfs/${cid}`)
-  showMessage(`> UPLOAD COMPLETE. Ceremony added.`)
+  showLink(`https://ipfs.io/ipfs/${cid}`)
+  showMessage(`> ✅ New ceremony added. FINISHED.`)
+  form.reset();
   },
   false
 )
