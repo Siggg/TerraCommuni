@@ -60,7 +60,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./docs
+          path: ./public
 
   # Deployment job
   deploy:
@@ -105,7 +105,7 @@ jobs:
         id: aquiladev
         uses: aquiladev/ipfs-action@master
         with:
-          path: ./docs
+          path: ./public
           service: filebase
           filebaseBucket: ${{ secrets.FILEBASE_BUCKET }}
           filebaseKey: ${{ secrets.FILEBASE_KEY }}
@@ -122,14 +122,14 @@ jobs:
       #    PINATA_API_KEY: ${{ secrets.PINATA_API_KEY }}
       #    PINATA_SECRET_KEY: ${{ secrets.PINATA_SECRET_API_KEY }}
       #    PIN_ALIAS: staging
-      #    BUILD_LOCATION: './docs'
+      #    BUILD_LOCATION: './public'
       #    CID_VERSION: 1
       # upload to ipfs with alexanderschau
       - name: alexanderschau
         id: alexanderschau
         uses: alexanderschau/ipfs-pinning-action@v1.0.0
         with:
-          path_to_add: './docs' #Required
+          path_to_add: './public' #Required
           endpoint: ${{ secrets.IPFS_ENDPOINT }} #Required
           access_token: ${{ secrets.ACCESS_TOKEN }} #Required
           pin_name: 'github-actions-test' #Optional
