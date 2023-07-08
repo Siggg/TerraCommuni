@@ -14,7 +14,7 @@ copyright = '© 2023 Jean Millerat, Agence Française de Développement'
 #googleAnalytics = "XXX"
 
 # canonifyURLs = true
-publishDir = "docs"
+publishDir = "public"
 
 [Params]
   # subtitle = "Build a beautiful and simple website in minutes"
