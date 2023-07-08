@@ -51,3 +51,16 @@ body.lightbox-open {
   right: 10px;
   transform: translateY(-50%); /* Vertically centered */
 }
+
+/* Change form input text color in dark mode */
+@media (prefers-color-scheme: dark) {
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="datetime-local"],
+    input[type="password"],
+    textarea {
+        color: #000000; /* or any color you prefer */
+        background-color: #ffffff; /* or any color you prefer */
+    }
+}
