@@ -1,16 +1,19 @@
 <div class="ceremony_new">
     <form id="ceremony-form">
 
-      <legend><em>Copy the handwritten information from the ceremony papersheet.</em></legend>
+      <legend><em>1. <a href="/post/howto">Prepare your ceremony</a></em></legend>
+      <legend><em>2. Prepare your <u>ceremony papersheet</u> by handwriting the information below onto a white papersheet with a thick marker</em></legend>
+      <legend><em>3. Take at least 1 picture and 1 video of your ceremony.</em></legend>
+      <legend><em>4. Fill the form below by replacing the default values with the handwritten information copied from the ceremony papersheet.</em></legend>
 	  
-	  <fieldset>
-        <label>Date and local time
-        <input type="datetime-local" id="datetime" name="datetime" required></label>
-	  </fieldset>
-
 	  <fieldset>
         <label>Identifier of the organizer
         <input type="text" id="organizer_identifier" name="organizer_identifier" required></label>
+	  </fieldset>
+
+	  <fieldset>
+        <label>Date and local time
+        <input type="datetime-local" id="datetime" name="datetime" required></label>
 	  </fieldset>
 
 	  <fieldset>
@@ -47,7 +50,7 @@
       <input type="hidden" id="token" required value="{{ $.Site.Params.web3_storage_JWT }}"/>
 
 	  <fieldset>
-	    <legend>Verify the papersheet, then click on "add ceremony" and wait.</legend>
+	    <legend>5. Verify the papersheet once again, then click on "Add ceremony" and wait.</legend>
         <input type="submit" value="Add ceremony">
 	  </fieldset>
     </form>

@@ -1,31 +1,37 @@
-document.addEventListener("DOMContentLoaded", function() {
 // make lightboxable media clickable
-var mediaElements = Array.from(document.querySelectorAll('.lightboxable-media'));
-mediaElements.forEach((media, media_index) => {
-  media.addEventListener('click', function (event) {
-    // select the proper lightbox containers
-    var media = event.target;
-    var gallery = media.parentNode.parentNode;
-    var lightbox = gallery.querySelector('.lightbox');
-    lightbox.style.pointerEvents = 'auto';
-    var lightboxImage = lightbox.querySelector('.lightbox-image');
-    var lightboxVideo = lightbox.querySelector('.lightbox-video');
-    // open the lightbox and load the media
-    if (media.tagName === 'IMG') {
-      lightboxImage.src = media.src;
-      lightboxImage.style.display = '';
-      lightboxVideo.style.display = 'none';
-      lightboxVideo.src="";
-    } else {  // VIDEO
-      lightboxVideo.src = media.currentSrc;
-      lightboxVideo.style.display = '';
-      lightboxImage.style.display = 'none';
-      lightboxImage.src = "";
-    }
-    lightbox.classList.add('open');
-    document.body.classList.add('lightbox-open');
+function makeLightboxable () {
+  var mediaElements = Array.from(document.querySelectorAll('.lightboxable-media'));
+  mediaElements.forEach((media, media_index) => {
+    media.addEventListener('click', function (event) {
+      // select the proper lightbox containers
+      var media = event.target;
+      var gallery = media.parentNode.parentNode;
+      var lightbox = gallery.querySelector('.lightbox');
+      lightbox.style.pointerEvents = 'auto';
+      var lightboxImage = lightbox.querySelector('.lightbox-image');
+      var lightboxVideo = lightbox.querySelector('.lightbox-video');
+      // open the lightbox and load the media
+      if (media.tagName === 'IMG') {
+        lightboxImage.src = media.src;
+        lightboxImage.style.display = '';
+        lightboxVideo.style.display = 'none';
+        lightboxVideo.src="";
+      } else {  // VIDEO
+        lightboxVideo.src = media.currentSrc;
+        lightboxVideo.style.display = '';
+        lightboxImage.style.display = 'none';
+        lightboxImage.src = "";
+      }
+      lightbox.classList.add('open');
+      document.body.classList.add('lightbox-open');
+    });
   });
-});
+  console.log("Lightboxabled");
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+
+makeLightboxable();
 
 // Add event listeners to close, next and previous buttons
 document.querySelectorAll('.lightbox-close').forEach(function(element) {

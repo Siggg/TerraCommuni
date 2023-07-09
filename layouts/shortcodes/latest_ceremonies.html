@@ -2,7 +2,7 @@
 {{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
   {{ range $ceremony_CIDs }}
 	<hr>
-	{{ partial "ceremony.html" (dict "ceremony_CID" . "Site" $.Site) }}
+	{{ partial "ceremony.html" (dict "ceremony_CID" . "IPFS_gateway" $.Site.Params.IPFS_gateway) }}
     <!--{ partial "ceremony_identifiers.html" . }-->
   {{ end }}
 {{ end }}

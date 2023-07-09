@@ -88,7 +88,7 @@ form.addEventListener('submit', async function (event) {
   const onStoredChunk = size => {
     uploaded += size
     const pct = 100 * (uploaded / totalSize)
-    showMessage(`> 🛰 uploaded ${size.toLocaleString()} more bytes to web3.storage, ${pct.toFixed(0)}% complete`)
+    showMessage(`> 🛰 uploaded ${size.toLocaleString()} more bytes to web3.storage, ${pct.toFixed(0)}% complete, PLEASE WAIT`)
   }
   const cid = await client.put(files, {
     name: ceremonyName,
@@ -99,7 +99,9 @@ form.addEventListener('submit', async function (event) {
     onStoredChunk: onStoredChunk
   })
   showLink(`https://ipfs.io/ipfs/${cid}`)
-  showMessage(`> ✅ New ceremony added. FINISHED.`)
+  showMessage(`> ✅ New ceremony added here:`)
+  showLink(`/page/ceremony?ceremony_CID=${cid}`)
+  showMessage(`> ✅ FINISHED.`)
   form.reset();
   },
   false

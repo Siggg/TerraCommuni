@@ -1,0 +1,7 @@
+---
+title: Une cérémonie
+---
+
+##
+
+{{< ceremony >}}

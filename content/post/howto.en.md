@@ -62,7 +62,7 @@ Handwrite with large and clearly legible words (see Criterion 17, the ceremony s
 
 -   the assistant's identifier (phone number or email address) so that it can be counted;
 
--   the longitude and latitude of the ceremony location (with at least 4 digits after the decimal point);
+-   the longitude and latitude of the ceremony location (with at least 4 digits after the decimal point); this information is displayed by your smartphone in the [Add new ceremony](/page/ceremony_new) form if you are physically at the location of the ceremony ; if you are not there yet, you can look for that place on [OpenStreetMap](https://www.osm.org/) or Google Maps to get its exact latitude and longitude.
 
 -   the date of the ceremony (but not yet the exact time).
 
@@ -78,7 +78,7 @@ You'll need to :
 
 -   ask everyone to write their telephone number or e-mail address large and clearly on their sheet of paper (cf. criterion 9, identifiers and criterion 11, one paper per identifier);
 
--   ask everyone to also write down the number of participants represented by this telephone number or e-mail address (a participant is not allowed to be represented by several telephone numbers or e-mail addresses at the ceremony); for example, if a mother has come with her 5 children, then she writes "6 people" under her telephone number and no other mother can count these 5 children (cf. criteria 12, shareable identifiers, 13, several participants per identifier and 14, only one participant per identifier).
+-   ask everyone to also write down the number of participants represented by this telephone number or e-mail address (a participant is not allowed to be represented by several telephone numbers or e-mail addresses at the ceremony); for example, if a mother has come with her 5 children, then she writes "6 people" (or "x 6" with the multiplication sign) under her telephone number and no other mother can count these 5 children (cf. criteria 12, shareable identifiers, 13, several participants per identifier and 14, only one participant per identifier).
 
 When all the sheets have been filled in, you still need to :
 
@@ -88,17 +88,15 @@ When all the sheets have been filled in, you still need to :
 
 ### Completing the ceremony sheet
 
-Everything's ready, and the ceremony is about to begin. You need to complete the ceremony sheet (see criterion 17, the ceremony sheet):
+Everything's ready, and the ceremony is about to begin. You need to complete the ceremony sheet (see criterion 17, the ceremony sheet) by taking additional information from the [Add new ceremony](/page/ceremony_new) form:
 
 -   add the local time (the time at which the first video or photo will be taken) ;
 
--   connect to the Internet and open this page [https://www.blockchain.com/en/explorer/blocks/eth](https://www.blockchain.com/fr/explorer/blocks/eth)
+-   copy onto the sheet the "block number" that appears in the form; for example "number 17564209" ;
 
--   copy onto the sheet the number that appears in the first row and first column ("number" column) of the table (this is the number of the last block added to the Ethereum blockchain); for example "number 17564209" ;
+-   copy onto the sheet the "block hash" code that appears in the forme; for example "hash 0x89-2ba1".
 
--   copy onto the sheet the hash code that appears on the same line but in the second column ("hash" column) of this table; for example "hash 0x89-2ba1".
-
-If the ceremony organizer doesn't have access to the Internet, he can phone a friend with whom he has agreed in advance to provide this information at the last moment (to make sure he has the number and hash of the latest block added to the Ethereum blockchain).
+If the ceremony organizer doesn't have access to the Internet, he can phone a friend with whom he has agreed in advance to provide this information at the last moment (to make sure he has the number and hash of the latest block added to the Ethereum blockchain, using the [Add new ceremony](/page/ceremony_new) form).
 
 ### Setting up participants
 
@@ -112,7 +110,7 @@ You need to explain to the participants that:
 
 -   finally, the organizer will say when the ceremony is over.
 
-The whole group should be set up in the ceremony area, close to the large vertical object, but without hiding its shadow on the ground (cf. criterion 18, the shadow on the ground of a vertical object, criterion 19, an azimuth that can be located by satellite). Ideally, the shadow should be in front of the group.
+The whole group should be set up in the ceremony area, close to the large vertical object, but without hiding its shadow on the ground (cf. criterion 18, the shadow on the ground of a vertical object, criterion 19, an azimuth that can be located by satellite). Ideally, the shadow should be in front of the group so that we can clearly see its direction on the ground.
 
 ### Filming the shadow on the ground and the entire group answering
 
@@ -126,7 +124,7 @@ In a single video:
 
 -   then, without interrupting the video, show the organizer's assistant, who is holding the vertical wire and the ceremonial sheet;
 
--   finally, show the entire group and ask them the question aloud: "We are together in Paris, France, on Wednesday, May 24, 2023 at 1:53 p.m. for a TerraCommuni ceremony. If you agree, repeat after me "YES, WE ARE TOGETHER! " and the participants repeat "YES, WE ARE TOGETHER!" (see criteria 4, unity of action and 7, visibly real and alive).
+-   finally, show the entire group and ask them the question aloud: "We are together in Paris, France, on Wednesday, May 24, 2023 at 1:53 p.m. for a TerraCommuni ceremony. If you agree, repeat after me "YES, WE ARE TOGETHER! " and the participants repeat "YES, WE ARE TOGETHER!" (see criteria 4, unity of action and 7, visibly real and alive). (You say the correct place, date and time of course, this is just an example).
 
 ### Taking 3 photos of the whole group
 
@@ -154,6 +152,6 @@ You'll need to :
 
 -   Thank the participants. The ceremony is over. Participants may receive TerraCommuni messages on their phone or e-mail address. But beware of scams.
 
--   As quickly as possible (see Criterion 3, the unit of time and Criterion 23, a quickly published ceremony), go to the [Add a new ceremony](/page/ceremony_new) form and fill it with your pictures, videos (see Criterion 1, video and photo evidence) and with the information as it is displayed on the ceremony paper sheets.
+-   As quickly as possible (see Criterion 3, the unit of time and Criterion 23, a quickly published ceremony), go to the [Add a new ceremony](/page/ceremony_new) form and fill it with your pictures, videos (see Criterion 1, video and photo evidence) and with the information as it is handwritten on the ceremony paper sheets. Do not leave the default value in the form fields. The information in the form should be exactly the same as the one seen on the picture and video of the ceremony papersheet. Submit your ceremony by clicking on the "Add ceremony" button and wait for the submission and uploading or your pictures and videos to be completed.
 
 -   As soon as the organizer is able to do so (or immediately if possible), he/she also provides also provide the list of identifiers and number of participants visible in the ceremony pictures and video (cf. criterion 24, data completed later by the organizer).

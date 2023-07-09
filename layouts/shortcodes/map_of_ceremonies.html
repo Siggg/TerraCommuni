@@ -1,6 +1,6 @@
 <div id="map">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin=""/>
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"  integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M" crossorigin="anonymous"></script>
 <script>
   let markers = [];
   {{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
@@ -24,6 +24,6 @@
   }
 </style>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX-At78f8sWF9CMSnQGr06TKlpXXobkPo" async defer></script>
-<script src="https://unpkg.com/leaflet.gridlayer.googlemutant@latest/dist/Leaflet.GoogleMutant.js"></script>
+<script src="https://unpkg.com/leaflet.gridlayer.googlemutant@0.14.0/dist/Leaflet.GoogleMutant.js" integrity="sha384-KjtN2k5BmItwm/9RNbodjINlsn1Z6ylCyF1JfHLtZIwhfNmZuxCn8pGJOXGReEJr" crossorigin="anonymous"></script>
 <script src="/js/map.js"></script>
 </div>

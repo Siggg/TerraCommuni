@@ -62,7 +62,7 @@ Il faut inscrire à la main, en gros et de manière très clairement lisible (cf
 
 -   L'identifiant de l'assistant (son numéro de téléphone ou adresse email) pour qu'il puisse être compté ;
 
--   La longitude et la latitude du lieu de la cérémonie (avec au moins 4 chiffres après la virgule) ;
+-   La longitude et la latitude du lieu de la cérémonie (avec au moins 4 chiffres après la virgule) ; vous pouvez lire cette information depuis votre smartphone, si vous êtes sur le lieu de la cérémonie, en allant voir le formulaire [Ajouter une nouvelle cérémonie](/page/ceremony_new) ; si vous n'êtes pas encore sur le lieu de la cérémonie, vous pouvez consulter un service comme [OpenStreetMap](https://www.osm.org/) ou Google Maps pour connaître la latitude et la longitude du lieu que vous avez choisi pour votre cérémonie ;
 
 -   La date de la cérémonie (mais pas encore l'heure exacte).
 
@@ -98,7 +98,7 @@ Il faut expliquer aux participants que:
 
 -   enfin l'organisateur dira quand la cérémonie est terminée.
 
-Il faut installer le groupe complet dans le lieu de la cérémonie, à proximité du grand objet vertical mais sans cacher son ombre au sol (cf. critère 18, l'ombre au sol d'un objet vertical, critère 19, un azimut repérable par satellite). Idéalement, l'ombre au sol se situe devant le groupe.
+Il faut installer le groupe complet dans le lieu de la cérémonie, à proximité du grand objet vertical mais sans cacher son ombre au sol (cf. critère 18, l'ombre au sol d'un objet vertical, critère 19, un azimut repérable par satellite). Idéalement, l'ombre au sol se situe devant le groupe pour que l'on voie clairement sa direction vers un repère reconnaissable par satellite.
 
 ### Compléter la feuille de la cérémonie
 
@@ -106,13 +106,11 @@ Tout est prêt, la cérémonie va bientôt pouvoir commencer. Il faut compléter
 
 -   ajouter l'heure locale (l'heure à laquelle va être prise la première vidéo ou photo, dans un court instant) ;
 
--   se connecter à Internet et ouvrir cette page <https://www.blockchain.com/fr/explorer/blocks/eth> ;
+-   recopier le numéro du dernier bloc ajouté à la blockchain Ethereum) ; par exemple "17564209" ; le numéro correct s'affiche en tant que "Block number" dans le [formulaire d'ajout d'une nouvelle cérémonie](/page/ceremony_new) ;
 
--   recopier sur la feuille le numéro qui apparaît à la première ligne et première colonne (colonne "numéro") du tableau (c'est le numéro du dernier bloc ajouté à la blockchain Ethereum) ; par exemple "numéro 17564209" ;
+-   recopier les 8 premiers caractères du code de hachage de ce bloc ; par exemple "0x89...2ba1" ; ce code s'affiche en tant que "Block hash" dans le [formulaire d'ajout d'une nouvelle cérémonie](/page/ceremony_new) ;
 
--   recopier sur la feuille le code hachage qui apparaît sur la même ligne mais à la deuxième colonne (colonne "hachage") de ce tableau ; par exemple "hachage 0x89-2ba1".
-
-Si l'organisateur de cérémonie n'a pas accès à Internet, il peut téléphoner à un ami avec qui il a convenu à l'avance de lui fournir ces informations au dernier moment (pour être sûr d'avoir le numéro et le hachage du tout dernier bloc ajouté à la blockchain Ethereum).
+Si l'organisateur de cérémonie n'a pas accès à Internet pour lire ces informations sur le formulaire, il peut téléphoner à un ami avec qui il a convenu à l'avance de lui fournir ces informations au dernier moment (pour être sûr d'avoir le numéro et le hachage du tout dernier bloc ajouté à la blockchain Ethereum).
 
 ### Filmer l'ombre au sol et le groupe complet qui répond
 
@@ -126,7 +124,7 @@ Il faut, dans une seule vidéo, :
 
 -   puis, toujours sans interrompre la vidéo, montrer l'assistant de l'organisateur, qui tient le fil vertical et la feuille de cérémonie
 
--   Enfin montrer le groupe complet et lui poser la question à haute voix : « Nous sommes ensemble à Paris, en France, le mercredi 24 mai 2023 à 13 heures 53 pour une cérémonie TerraCommuni. Si vous êtes d'accord, répétez après-moi " OUI, NOUS SOMMES ENSEMBLE ! " » et les participants répètent «  OUI, NOUS SOMMES ENSEMBLE ! » (cf. critère 4, l'unité d'action et critère 7, visiblement réels et vivants).
+-   Enfin montrer le groupe complet et lui poser la question à haute voix : « Nous sommes ensemble à Paris, en France, le mercredi 24 mai 2023 à 13 heures 53 pour une cérémonie TerraCommuni. Si vous êtes d'accord, répétez après-moi " OUI, NOUS SOMMES ENSEMBLE ! " » et les participants répètent «  OUI, NOUS SOMMES ENSEMBLE ! » (cf. critère 4, l'unité d'action et critère 7, visiblement réels et vivants). Bien sûr, vous dites les véritables lieu, date et heure de votre cérémonie (ici ce n'est qu'un exemple) ; l'objectif est de prouver le consentement des participants et de rendre la fraude plus difficile ;
 
 ### Prendre 3 photos du groupe complet
 
@@ -144,7 +142,7 @@ Prendre le groupe complet en photo sous 3 angles différents de manière à :
 
 -   Si les participants sont moins d'une centaine ou si l'espace est suffisamment grand, ils peuvent se disposer en formant un très grand cercle autour de l'organisateur. Sinon ils peuvent se disposer par petits groupes les uns à côté des autres et les uns derrière les autres, comme sur un damier.
 
--   La première feuille que l'organisateur vient filmer ou photographier, c'est la feuille de cérémonie, tenue par son assistant (cf. critère 17, la feuille de cérémonie). Sur la feuille de cérémonie, on doit voir l'ombre de l'index et du pouce de l'assistant (cf. critère 20, un fil suspendu et critère 21, l'ombre du pouce et de l'index). Pour bien s'orienter par rapport au soleil, l'organisateur doit imaginer un arc-en-ciel qui commence à sa gauche, passe au-dessus de sa tête et finit à sa droite. Le soleil doit se situer quelque part sur cet arc-en-ciel et donc ni en avant ni en arrière de l'organisateur. L'assistant et l'organisateur doivent donc tourner l'un en face de l'autre jusqu'à ce que le soleil soit quelque part exactement sur cet arc-en-ciel imaginaire au-dessus d'eux (cf. critère 22, à même distance du fil et de l'ombre du fil).
+-   La première feuille que l'organisateur vient filmer ou photographier, c'est la *feuille de cérémonie*, tenue par son assistant (cf. critère 17, la feuille de cérémonie). Sur la feuille de cérémonie, on doit voir l'ombre de l'index et du pouce de l'assistant (cf. critère 20, un fil suspendu et critère 21, l'ombre du pouce et de l'index). Pour bien s'orienter par rapport au soleil, l'organisateur doit imaginer un arc-en-ciel qui commence à sa gauche, passe au-dessus de sa tête et finit à sa droite. Le soleil doit se situer quelque part sur cet arc-en-ciel et donc ni en avant ni en arrière de l'organisateur. L'assistant et l'organisateur doivent donc tourner l'un en face de l'autre jusqu'à ce que le soleil soit quelque part exactement sur cet arc-en-ciel imaginaire au-dessus d'eux (cf. critère 22, à même distance du fil et de l'ombre du fil).
 
 -   L'organisateur passe ensuite systématiquement de groupe en groupe pour filmer ou photographier de près la feuille et les participants de chaque groupe. On doit pouvoir compter sans se tromper le nombre de participants de chaque groupe (si besoin, demander aux plus petits de se mettre devant et aux plus grands derrière, par exemple). On doit pouvoir lire facilement les inscriptions de toutes leurs feuilles de papier (cf. critère 16, des identifiants et nombres bien lisibles).
 
@@ -154,6 +152,6 @@ Il faut :
 
 -   Remercier les participants. La cérémonie est terminée. Les participants recevront peut-être des messages TerraCommuni sur leur téléphone ou leur adresse email. Mais attention au risque d'arnaques.
 
--   Le plus rapidement possible (cf. critère 3, l'unité de temps et critère 23, une cérémonie publiée rapidement), aller au formulaire [Ajouter une cérémonie](page/ceremony_new) et le remplir avec vos photos et vidéos (cf. critère 1, les preuves vidéos et photographiques) et avec les informations telles qu'on peut les lire sur la feuille de cérémonie.
+-   Le plus rapidement possible (cf. critère 3, l'unité de temps et critère 23, une cérémonie publiée rapidement), aller au formulaire [Ajouter une nouvelle cérémonie](page/ceremony_new) et le remplir avec vos photos et vidéos (cf. critère 1, les preuves vidéos et photographiques) et avec les informations telles qu'on peut les lire sur la feuille de cérémonie ; attention, il ne faut pas laisser les valeurs par défaut qui s'affichent dans le formulaire mais saisir au contraire les informations exactes que vous avez manuscrites sur votre feuille de cérémonie. Validez ensuite le formulaire et attendez que toutes vos images et vidéos soient téléversées sur Internet avant de quitter le formulaire.
 
 -   Dès que l'organisateur le peut (voir immédiatement si c'est possible), il fournit également la liste des identifiants et nombre de participants visibles dans les photos et vidéos de la cérémonie (cf. critère 24, des données complétées ultérieurement par l'organisateur).
