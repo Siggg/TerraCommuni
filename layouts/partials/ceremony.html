@@ -21,10 +21,10 @@
 	{{ end }}
 	</div>
 	<div class="hidden-media">
-    {{ range .videos }}
+    {{ range first 1 .videos }}
       <video class="ceremony_video" hidden controls><source src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}"></video>
 	{{ end }}
-	{{ range.pictures }}
+	{{ range first 3 .pictures }}
       <img class="ceremony_picture" hidden loading="lazy" src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}" />
 	{{end}}
 	</div>
