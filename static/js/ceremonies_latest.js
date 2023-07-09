@@ -12,4 +12,5 @@ async function listUploads () {
   }
 }
 
+console.log("listUploads");
 listUploads()

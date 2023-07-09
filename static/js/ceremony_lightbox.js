@@ -26,7 +26,6 @@ function makeLightboxable () {
       document.body.classList.add('lightbox-open');
     });
   });
-  console.log("Lightboxabled");
 }
 
 document.addEventListener("DOMContentLoaded", function() {
