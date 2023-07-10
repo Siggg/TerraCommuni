@@ -1,10 +1,19 @@
 <div class="latest-ceremonies">
-{{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
-  {{ range $ceremony_CIDs }}
-	<hr>
-	{{ partial "ceremony.html" (dict "ceremony_CID" . "IPFS_gateway" $.Site.Params.IPFS_gateway) }}
-    <!--{ partial "ceremony_identifiers.html" . }-->
+{{ $authorization := printf "%s %s" "Bearer" $.Site.Params.web3_storage_JWT }}
+{{ with resources.GetRemote "https://api.web3.storage/user/uploads?before=2020-07-27T17%3A32%3A28Z&page=1&size=10" (dict "headers" (dict "accept" "application/json" "Authorization" $authorization)) }}
+  {{ with .Err }}
+    {{ warnf "%s" . }}
+  {{ else }}
+	{{ $trucs := . | transform.Unmarshal }}
+	{{ range $trucs }}
+	  <hr>
+	  {{ partial "ceremony.html" (dict "ceremony_CID" .cid "IPFS_gateway" $.Site.Params.IPFS_gateway) }}
+      <!--{ partial "ceremony_identifiers.html" . }-->
+	{{ end }}
   {{ end }}
 {{ end }}
 </div>
-<script src="/js/ceremonies_latest.js"></script>
+<!--{{ $path := "js/ceremonies_latest.js" }}
+{{ $js := resources.Get $path | resources.ExecuteAsTemplate $path . }}
+<script type="module">{{ $js.Content | safeJS }}</script>-->
+
