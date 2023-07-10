@@ -3,18 +3,24 @@
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"  integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M" crossorigin="anonymous"></script>
 <script>
   let markers = [];
-  {{ range $key, $ceremony_CIDs := .Site.Data.ceremonies }}
-    {{ range $ceremony_CIDs }}
-      {{ $ceremony := getJSON $.Site.Params.IPFS_gateway . "/ceremony.json" }} 
-	  {{ with $ceremony }}
-        markers.push( {
-		  "latitude": parseFloat({{ .latitude }}),
-		  "longitude": parseFloat({{ .longitude }}),
-		  "datetime": {{ .datetime }},
-		  "organizer_identifier": {{ .organizer_identifier }}
-		});
-		// console.log({{ .organizer_identifier }});
-      {{ end }}
+  {{ $authorization := printf "%s %s" "Bearer" $.Site.Params.web3_storage_JWT }}
+  {{ with resources.GetRemote "https://api.web3.storage/user/uploads?before=2020-07-27T17%3A32%3A28Z&page=1&size=10" (dict "headers" (dict "accept" "application/json" "Authorization" $authorization)) }}
+    {{ with .Err }}
+      {{ warnf "%s" . }}
+    {{ else }}
+      {{ $uploads := . | transform.Unmarshal }}
+	  {{ range $uploads }}
+        {{ $ceremony := getJSON $.Site.Params.IPFS_gateway .cid "/ceremony.json" }} 
+	    {{ with $ceremony }}
+          markers.push( {
+		    "latitude": parseFloat({{ .latitude }}),
+		    "longitude": parseFloat({{ .longitude }}),
+		    "datetime": {{ .datetime }},
+		    "organizer_identifier": {{ .organizer_identifier }}
+		  });
+		  // console.log({{ .organizer_identifier }});
+        {{ end }}
+	  {{ end }}
     {{ end }}
   {{ end }}
 </script>

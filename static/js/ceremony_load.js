@@ -36,3 +36,21 @@ if (ceremony_CID) {
       console.error('Erreur en récupérant le JSON : ', error);
     });
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  var videos = document.querySelectorAll('video');
+  for (video of videos) {
+    var videoUrl = video.src;
+	console.log("videoUrl:" + videoUrl);
+	video.addEventListener('error', function(event) {
+      console.log("Une erreur");
+	  console.error("Error at:" + videoUrl);
+      var errorMessage = document.createElement('div');
+      errorMessage.innerHTML = `
+            <p>Une erreur est survenue lors de la lecture de cette vidéo. Il est possible que le format de la vidéo ne soit pas supporté par votre navigateur.</p>
+            <p><a href="${videoUrl}" download>Cliquez ici pour télécharger la vidéo.</a></p>
+        `;
+      video.replaceWith(errorMessage);
+    }, true);
+  }
+});

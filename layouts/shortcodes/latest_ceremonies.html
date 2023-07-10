@@ -4,8 +4,8 @@
   {{ with .Err }}
     {{ warnf "%s" . }}
   {{ else }}
-	{{ $trucs := . | transform.Unmarshal }}
-	{{ range $trucs }}
+	{{ $uploads := . | transform.Unmarshal }}
+	{{ range $uploads }}
 	  <hr>
 	  {{ partial "ceremony.html" (dict "ceremony_CID" .cid "IPFS_gateway" $.Site.Params.IPFS_gateway) }}
       <!--{ partial "ceremony_identifiers.html" . }-->
@@ -13,7 +13,3 @@
   {{ end }}
 {{ end }}
 </div>
-<!--{{ $path := "js/ceremonies_latest.js" }}
-{{ $js := resources.Get $path | resources.ExecuteAsTemplate $path . }}
-<script type="module">{{ $js.Content | safeJS }}</script>-->
-
