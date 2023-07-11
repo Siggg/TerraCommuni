@@ -38,7 +38,7 @@ if (ceremony_CID) {
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
-  var videos = document.querySelectorAll('video');
+  var videos = document.querySelectorAll('.visible-media video');
   for (video of videos) {
     var videoUrl = video.src;
 	console.log("videoUrl:" + videoUrl);
