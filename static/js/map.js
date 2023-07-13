@@ -26,8 +26,8 @@ for (let i = 0; i < markers.length; i++ ) {
 	popup_link.setAttribute('id', 'popup_' + ceremony_id.replace(':','%3a'));
 	popup_link.appendChild(document.createTextNode(ceremony_name));
 	marker.bindPopup(popup_link);
-  bounds.push([markers[i].latitude-1, markers[i].longitude]-1);
-  bounds.push([markers[i].latitude+1, markers[i].longitude]+1);
+  bounds.push([markers[i].latitude, markers[i].longitude]);
+  bounds.push([markers[i].latitude, markers[i].longitude]);
 }
 
 map.fitBounds(bounds);
