@@ -20,13 +20,14 @@ let bounds = [];
 for (let i = 0; i < markers.length; i++ ) {
 	const ceremony_id = markers[i].datetime + "@" + markers[i].latitude + "," + markers[i].longitude;
 	const ceremony_name = markers[i].datetime + " by " + markers[i].organizer_identifier;
-    const marker = L.marker([markers[i].latitude, markers[i].longitude], { "title": ceremony_name }).addTo(map);
+  const marker = L.marker([markers[i].latitude, markers[i].longitude], { "title": ceremony_name }).addTo(map);
 	const popup_link = document.createElement('a');
 	popup_link.setAttribute('href', '#' + ceremony_id);
 	popup_link.setAttribute('id', 'popup_' + ceremony_id.replace(':','%3a'));
 	popup_link.appendChild(document.createTextNode(ceremony_name));
 	marker.bindPopup(popup_link);
-    bounds.push([markers[i].latitude, markers[i].longitude]);
+  bounds.push([markers[i].latitude-1, markers[i].longitude]-1);
+  bounds.push([markers[i].latitude+1, markers[i].longitude]+1);
 }
 
 map.fitBounds(bounds);
