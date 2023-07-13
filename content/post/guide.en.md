@@ -4,7 +4,7 @@ date: 2023-06-29T22:37:52+02:00
 toc: true
 ---
 
-# version 0.3, English translation
+# version 0.4, English translation
 
 ## Introduction
 
@@ -84,9 +84,9 @@ To comply with protocol, a ceremony must meet all the following conditions to th
 
 -   Criteria #22, equal distance from the wire and the wire's shadow: The fingers and the shadow of the participant's fingers must be at equal distance from the camera, i.e. the fingers must be neither in front of nor behind their shadow, in relation to the camera; to achieve this, the photographer must position himself so that the sun is neither in front of nor behind him, but exactly on his left, exactly above him, exactly on his right, or exactly on the curve that connects these three points in the sky ; this is the only way to measure the angle of elevation of the sun with sufficient precision (how many degrees from the zenith or horizon), and to verify the accuracy of the time and place of the ceremony by geodesic calculation.
 
--   Criteria #23, rapid publication of the ceremony: All videos and photos of the ceremony are published as quickly as possible on a website that stamps the publication with a reliable and unalterable indication of the date and time of publication; this website thus attests to the end time of the ceremony; for example, the ceremony is published on Facebook, Twitter or on a publication application on a decentralized file system such as IPFS, or on a Google form such as this one: <https://docs.google.com/forms/d/1wTrvYzrWpPAs9NPWHz8275aVBcfyb05J8dytuXCcHHE/>
+-   Criteria #23, rapid publication of the ceremony: All videos and photos and main data of the ceremony are published as quickly as possible on a website that stamps the publication with a reliable and unalterable indication of the date and time of publication; this website thus attests to the end time of the ceremony; for example, the ceremony is published on https://terracommuni.org/page/ceremony_new and timestamped by the site (or, even better, via an Ethereum transaction contained the IPFS hash of the ceremony files and data)  ; main data of the ceremony includes longitude, latitude, date, time, block number, block hash and identifier of the organizer and their assistant.
 
--   Criteria #24, data subsequently added by the organizer: Certain data can be filled in by the organizer within a reasonable time (a few hours to a few days) after publication; this data includes the version of the TerraCommuni protocol to which this ceremony claims to conform, the organizer's identifier, the longitude, latitude, date, local time, block number, the hash of this block, the identifiers of all participants and the number of participants identified by each identifier; only the organizer can complete this data; once completed, it can no longer be modified.
+-   Criteria #24, data subsequently added by the organizer: Certain data can be filled in by the organizer within a reasonable time (a few hours to a few days) after publication; this data includes the version of the TerraCommuni protocol to which this ceremony claims to conform and the identifiers of all participants and the number of participants identified by each identifier.
 
 
 ## Ongoing considerations

@@ -4,7 +4,7 @@ date: 2023-06-29T22:37:55+02:00
 toc: true
 ---
 
-# version 0.3
+# version 0.4
 
 ## Introduction
 
@@ -84,7 +84,7 @@ Pour être conforme au protocole, une cérémonie doit remplir du mieux possible
 
 -   Critère 22, à même distance du fil et de l'ombre du fil : Les doigts et l'ombre des doigts du participant doivent se trouver à égale distance de l'appareil photo, c'est-à-dire que les doigts ne doivent être ni en avant ni en retrait de leur ombre, par rapport à l'appareil photo ; pour cela, le photographe doit se positionner de manière à ce que le soleil ne soit ni en avant ni en arrière de lui mais au contraire sur un arc-en-ciel imaginaire qui commencerait exactement à sa gauche, passerait juste au-dessus de lui, et terminerait exactement à sa droite ; ce n'est qu'ainsi que l'on pourra mesurer avec suffisamment de précision l'angle d'élévation du soleil (à combien de degrés du zénith ou bien de l'horizon) puis vérifier par calcul géodésique l'exactitude du lieu et du moment de la cérémonie.
 
--   Critère 23, une cérémonie publiée rapidement : Toutes les vidéos et photos de la cérémonie sont publiés le plus vite possible sur un site Internet qui estampille cette publication avec une indication fiable et non modifiable de la date et l'heure de cette publication ; ce site Internet atteste ainsi de l'heure de fin de la cérémonie ; par exemple la cérémonie est publiée sur Facebook, Twitter ou sur une application de publication sur un système de fichier décentralisé tel qu'IPFS, ou sur un formulaire Google tel que celui-ci : [https://docs.google.com/forms/d/1wTrvYzrWpPAs9NPWHz8275aVBcfyb05J8dytuXCcHHE/](https://docs.google.com/forms/d/1wTrvYzrWpPAs9NPWHz8275aVBcfyb05J8dytuXCcHHE/edit)
+-   Critère 23, une cérémonie publiée rapidement : Toutes les vidéos et photos et données principales de la cérémonie sont publiés le plus vite possible sur un site Internet qui estampille cette publication avec une indication fiable et non modifiable de la date et l'heure de cette publication ; ce site Internet atteste ainsi de l'heure de fin de la cérémonie ; par exemple la cérémonie est publiée sur http://terracommuni.org/page/ceremony_new et ainsi estampillée par le site ou, mieux encore, par une transaction Ethereum qui contient le hash IPFS de la cérémonie.
 
 -   Critère 24, des données complétées ultérieurement par l'organisateur : Certaines données de la peuvent être renseignées par l'organisateur dans un délai raisonnable (quelques heures à quelques jours) après la publication ; ces données incluent la version du protocole TerraCommuni à laquelle cette cérémonie prétend se conformer, l'identifiant de l'organisateur, la longitude, la latitude, la date, l'heure locale, le numéro de bloc, le hash de ce bloc, les identifiants de tous les participants et le nombre de participants identifié par chaque identifiant ; seul l'organisateur peut compléter ces données ; une fois complétées, elles ne peuvent plus être modifiées.
 
