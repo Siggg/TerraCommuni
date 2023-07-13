@@ -12,38 +12,60 @@
   <div class="ceremony_gallery">Videos and pictures<br />
     <div class="visible-media">
     {{ range first 1 .videos }}
-      <video height="240" class="lightboxable-media" id="ceremony_video" style="max-height:240px; height:auto; width:auto; vertical-align:top;" src="{{ $IPFS_gateway }}{{ $ceremony_CID }}/{{ . }}" controls>
-	    Your browser does not support the video tag but <a href="{{ $IPFS_gateway }}{{$ceremony_CID }}/{{ . }}">you can download this video.</a>
+      {{/* Sometimes we fill this template at hugo execution time, typically for generating latest_ceremonies,
+      then we get $ceremony_CID.
+      But we also use it when displaying a ceremony at javascript execution time, typically for displaying a
+      freshly added ceremony.
+      In the latter case, hugo filled the template with data/ceremony.json which has 1 picture and 1 video
+      with an empty URL. */}}
+      {{ $url := "" }}
+      {{ if not (eq . "") }}
+        {{ $url = print "ipfs://" $ceremony_CID "/" . | safeURL}}
+      {{ end }}
+      <video height="240" class="lightboxable-media" id="ceremony_video" style="max-height:240px; height:auto; width:auto; vertical-align:top;" src="{{ $url }}" controls> 
+	    Your browser does not support the video tag but <a href="{{ $url }}">you can download this video.</a>
 	  </video>
     {{ end }}
-    {{ range first 3 .pictures }}
-      <img height="240" class="lightboxable-media" id="ceremony_picture" src="{{ $IPFS_gateway }}{{ $ceremony_CID }}/{{ . }}"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" />
-	{{ end }}
-	</div>
-	<div class="hidden-media">
+    {{ range first 2 .pictures }}
+      {{ $url := "" }}
+      {{ if not (eq . "") }}
+        {{ $url = print "ipfs://" $ceremony_CID "/"  . | safeURL }}
+      {{ end }}
+      <img height="240" class="lightboxable-media" id="ceremony_picture" src="{{ $url }}"  style="display:inline; max-height:240px; height:auto; width:auto; vertical-align:top;" /> 
+	  {{ end }}
+	  </div>
+	  <div class="hidden-media">
     {{ range first 1 .videos }}
-      <video class="ceremony_video" hidden controls><source src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}"></video>
-	{{ end }}
-	{{ range first 3 .pictures }}
-      <img class="ceremony_picture" hidden loading="lazy" src="https://ipns.co/{{ $ceremony_CID }}/{{ . }}" />
-	{{end}}
-	</div>
+      {{ $url := "" }}
+      {{ if not (eq . "") }}
+        {{ $url = print "https://ipns.co/" $ceremony_CID  "/" . }}
+      {{ end }}
+      <video class="ceremony_video" hidden controls><source src="{{ $url }}"></video>
+    {{ end }}
+	  {{ range first 3 .pictures }}
+      {{ $url := "" }}
+      {{ if not (eq . "") }}
+        {{ $url = print "https://ipns.co/" $ceremony_CID  "/" . }}
+      {{ end }}
+      <img class="ceremony_picture" hidden loading="lazy" src="{{ $url }}" />
+	  {{end}}
+	  </div>
     <div class="lightbox">
-	  <span class="lightbox-close">&#x2715;</span> <!-- This is for × -->
-	  <span class="lightbox-previous">&#x00AB;</span> <!-- This is for « -->
-	  <span class="lightbox-next">&#x00BB;</span> <!-- This is for » -->
-	  <img class="lightbox-image lightbox-media" src="" />
-	  <video class="lightbox-video lightbox-media" src="" controls>
-	    Your browser does not support the video tag.</a>
-	  </video>
-	</div>
+	    <span class="lightbox-close">&#x2715;</span> <!-- This is for × -->
+	    <span class="lightbox-previous">&#x00AB;</span> <!-- This is for « -->
+	    <span class="lightbox-next">&#x00BB;</span> <!-- This is for » -->
+	    <img class="lightbox-image lightbox-media" src="" />
+	    <video class="lightbox-video lightbox-media" src="" controls>
+  	    Your browser does not support the video tag.</a>
+	    </video>
+	  </div>
   <!-- the lightbox CSS and JS are in the head of the site -->
   </div>
-  <div><a href="/page/ceremony/?ceremony_CID={{ $ceremony_CID }}">See all videos and pictures</a></div>
-  <div class="ceremony_IPFS"><a id="IPFS_link" href="https://ipns.co/{{ $ceremony_CID }}">Full IPFS directory</a></div>
+  <div class="link-to-details"><a href="/page/ceremony/?ceremony_CID={{ $ceremony_CID }}">See all videos and pictures</a></div>
+  <div class="ceremony_IPFS"><a id="IPFS_link" href="ipfs://{{ $ceremony_CID }}">Full IPFS directory</a></div>
 </div>
 {{ end }}
 
 {{ if not (isset . "organizer_identifier") }}
-  <script defer src="/js/ceremony_load.js"></script>
+  <!-- script type="module" src="/js/ceremony_load.js"></script-->
 {{ end }}
