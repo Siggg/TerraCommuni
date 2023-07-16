@@ -4,6 +4,7 @@ let urlParams = new URLSearchParams(window.location.search);
 const ceremony_CID = urlParams.get('ceremony_CID');
 
 let load_ceremony = async function (ceremony_CID) {
+  // Loads ceremony data from a JSON file via IPFS
   console.log("Loading ceremony: " + ceremony_CID);
   let IPFS_prefix = await prefixIPFS();
   let ceremony_JSON_URL = IPFS_prefix + ceremony_CID + "/ceremony.json";
@@ -11,6 +12,7 @@ let load_ceremony = async function (ceremony_CID) {
   fetch(ceremony_JSON_URL)
     .then(response => response.json())
     .then(function(data) {
+      // Fills the web page with that data
       document.getElementById('organizer_identifier').innerText = data["organizer_identifier"];
       document.getElementById('datetime').innerText = data["datetime"];
       document.getElementById('latitude').innerText = data["latitude"];
