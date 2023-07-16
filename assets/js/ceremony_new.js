@@ -98,7 +98,7 @@ form.addEventListener('submit', async function (event) {
     },
     onStoredChunk: onStoredChunk
   })
-  showLink(`${IPFS_prefix}${cid}`)
+  showLink(`${IPFS_gateway}${cid}`)
   showMessage(`> ✅ New ceremony added here:`)
   showLink(`/page/ceremony?ceremony_CID=${cid}`)
   showMessage(`> ✅ FINISHED.`)
